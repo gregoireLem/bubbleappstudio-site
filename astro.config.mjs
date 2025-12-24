@@ -7,6 +7,7 @@ import tailwindcss from "@tailwindcss/vite";
 // https://astro.build/config
 export default defineConfig({
   output: "static",
+  base: "/bubbleappstudio-site/",
   integrations: [react()],
   vite: {
     plugins: [tailwindcss()]
