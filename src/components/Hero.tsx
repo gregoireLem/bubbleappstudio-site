@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import { useRef } from "react";
 
-const roles = [
-  { name: "Loup-garou", image: "/assets/roles/wolf.png" },
-  { name: "Voyante", image: "/assets/roles/seer.png" },
-  { name: "Petite Fille", image: "/assets/roles/little_girl.png" },
-  { name: "Villageois", image: "/assets/roles/villager.png" },
-  { name: "Sorciere", image: "/assets/roles/witch.png" },
-  { name: "Cupidon", image: "/assets/roles/cupid.png" },
-  { name: "Chasseur", image: "/assets/roles/hunter.png" }
+const roleData = [
+  { name: "Loup-garou", image: "assets/roles/wolf.png" },
+  { name: "Voyante", image: "assets/roles/seer.png" },
+  { name: "Petite Fille", image: "assets/roles/little_girl.png" },
+  { name: "Villageois", image: "assets/roles/villager.png" },
+  { name: "Sorciere", image: "assets/roles/witch.png" },
+  { name: "Cupidon", image: "assets/roles/cupid.png" },
+  { name: "Chasseur", image: "assets/roles/hunter.png" }
 ];
 
 
@@ -31,6 +31,11 @@ const item = {
 
 export default function Hero() {
   const carouselRef = useRef<HTMLDivElement | null>(null);
+  const baseUrl = import.meta.env.BASE_URL;
+  const roles = roleData.map((role) => ({
+    ...role,
+    image: `${baseUrl}${role.image}`
+  }));
 
   const scrollCarousel = (
     ref: { current: HTMLDivElement | null },
@@ -77,7 +82,7 @@ export default function Hero() {
                 transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut" }}
               >
                 <img
-                  src="/assets/wolfo.png"
+                  src={`${baseUrl}assets/wolfo.png`}
                   alt="Wolfo app icon"
                   className="h-28 w-28 rounded-[28px] object-cover"
                 />
