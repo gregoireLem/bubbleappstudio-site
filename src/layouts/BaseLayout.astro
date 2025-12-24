@@ -7,6 +7,13 @@ const {
 } = Astro.props;
 
 const baseUrl = import.meta.env.BASE_URL;
+const fontFaceCss = `@font-face {
+  font-family: "Amatic SC";
+  src: url("${baseUrl}fonts/AmaticSC-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}`;
 ---
 
 <!doctype html>
@@ -24,7 +31,8 @@ const baseUrl = import.meta.env.BASE_URL;
     <link rel="icon" type="image/png" href={`${baseUrl}assets/wolfo.png`} />
     <title>{title}</title>
   </head>
-  <body class="antialiased" style={`--asset-base: ${baseUrl}`}>
+  <body class="antialiased">
+    <style is:global set:html={fontFaceCss} />
     <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-6 focus:top-6 focus:z-50 focus:rounded-full focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:text-slate-900">
       Skip to content
     </a>
