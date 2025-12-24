@@ -1,0 +1,13 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero";
+
+const description =
+  "Loup Garou : Undercover, le jeu des Loups-Garous sans carte avec narration IA.";
+---
+
+<BaseLayout title="Bubble App Studio" description={description}>
+  <main id="main">
+    <Hero client:visible />
+  </main>
+</BaseLayout>

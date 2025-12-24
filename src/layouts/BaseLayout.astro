@@ -1,0 +1,31 @@
+---
+import "../styles/global.css";
+
+const {
+  title = "Bubble App Studio",
+  description = "Loup Garou : Undercover, le jeu des Loups-Garous sans carte."
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#130708" />
+    <meta name="color-scheme" content="dark" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="/assets/wolfo.png" />
+    <title>{title}</title>
+  </head>
+  <body class="antialiased">
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-6 focus:top-6 focus:z-50 focus:rounded-full focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:text-slate-900">
+      Skip to content
+    </a>
+    <slot />
+  </body>
+</html>
