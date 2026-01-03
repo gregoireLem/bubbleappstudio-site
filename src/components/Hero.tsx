@@ -118,9 +118,12 @@ export default function Hero() {
               variants={item}
               className="mt-4 text-sm leading-relaxed text-slate-400"
             >
-              Jeu de soiree party de bluff et de role pour la famille et les
-              amis, inspire de Thiercelieux et des jeux de mafia: le loup et le
-              garou se cachent dans le village, sans cartes, avec un narrateur.
+              Jeu de soirée convivial mêlant bluff et jeu de rôle,
+              idéal pour la famille et les amis. Inspiré du Loup-Garou
+              de Thiercelieux et des jeux de type Mafia,
+              il plonge les joueurs au cœur d’un village où le loup-garou se cache parmi les habitants.
+              Sans cartes, avec un narrateur,
+              chaque partie est unique et pleine de suspense.
             </motion.p>
 
             <motion.div variants={item} className="mt-8 flex justify-center">
