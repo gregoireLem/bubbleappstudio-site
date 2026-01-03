@@ -114,6 +114,14 @@ export default function Hero() {
                 narrateur. Bluff, strategie et fous rires garantis.
               </strong>
             </motion.p>
+            <motion.p
+              variants={item}
+              className="mt-4 text-sm leading-relaxed text-slate-400"
+            >
+              Jeu de soiree party de bluff et de role pour la famille et les
+              amis, inspire de Thiercelieux et des jeux de mafia: le loup et le
+              garou se cachent dans le village, sans cartes, avec un narrateur.
+            </motion.p>
 
             <motion.div variants={item} className="mt-8 flex justify-center">
               <motion.a

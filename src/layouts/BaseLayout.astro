@@ -7,6 +7,31 @@ const {
 } = Astro.props;
 
 const baseUrl = import.meta.env.BASE_URL;
+const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "https://www.bubbleappstudio.xyz";
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
+const ogImageUrl = `${siteUrl}/assets/wolfo.png`;
+const keywords =
+  "loups-garous,loup,garou,soiree,thiercelieux,bluff,role,famille,village,cartes,party,narrateur,mafia";
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  name: "Loup-garou Undercover",
+  applicationCategory: "Game",
+  operatingSystem: "iOS",
+  description,
+  url: "https://apps.apple.com/fr/app/loup-garou-undercover/id6740009341",
+  offers: {
+    "@type": "Offer",
+    price: "0",
+    priceCurrency: "EUR"
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Bubble App Studio",
+    url: siteUrl
+  }
+};
+const schemaJson = JSON.stringify(schemaData);
 const fontFaceCss = `@font-face {
   font-family: "Amatic SC";
   src: url("${baseUrl}fonts/AmaticSC-Bold.ttf") format("truetype");
@@ -22,17 +47,27 @@ const fontFaceCss = `@font-face {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <meta name="keywords" content={keywords} />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href={canonicalUrl} />
     <meta name="theme-color" content="#130708" />
     <meta name="color-scheme" content="dark" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:image" content={ogImageUrl} />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
     <link rel="icon" type="image/png" href={`${baseUrl}assets/wolfo.png`} />
     <title>{title}</title>
   </head>
   <body class="antialiased">
     <style is:global set:html={fontFaceCss} />
+    <script type="application/ld+json" set:html={schemaJson} />
     <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-6 focus:top-6 focus:z-50 focus:rounded-full focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:text-slate-900">
       Skip to content
     </a>
