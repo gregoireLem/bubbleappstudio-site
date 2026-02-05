@@ -1,0 +1,174 @@
+---
+import SimpleLayout from "../layouts/SimpleLayout.astro";
+
+const description = "Buzzer Battle, the multiplayer buzzer game.";
+const appStoreUrl = "https://apps.apple.com";
+---
+
+<SimpleLayout title="Buzzer Battle | Bubble App Studio" description={description} ogImage="/assets/buzzer-battle.png">
+  <main id="main" class="buzzer-page">
+    <section class="buzzer-hero" aria-labelledby="buzzer-title">
+      <div class="buzzer-content">
+        <img
+          class="buzzer-logo"
+          src="/assets/buzzer-battle.png"
+          alt="Logo Buzzer Battle"
+          width="512"
+          height="512"
+          loading="eager"
+        />
+        <h1 id="buzzer-title" class="buzzer-title">
+          <span class="buzzer-title-main">Buzzer</span>
+          <span class="buzzer-title-sub">Battle</span>
+        </h1>
+        <a class="btn btn-primary buzzer-cta" href={appStoreUrl} target="_blank" rel="noreferrer">
+          Download the app
+        </a>
+      </div>
+    </section>
+    <footer class="buzzer-footer">
+      <a href="/buzzer/cgu">Terms</a>
+      <span aria-hidden="true">•</span>
+      <a href="/buzzer/privacy">Privacy</a>
+    </footer>
+  </main>
+
+  <style>
+    :global(body) {
+      background:
+        radial-gradient(600px 400px at 50% 30%, rgba(251, 234, 78, 0.18), transparent 62%),
+        radial-gradient(900px 700px at 50% 100%, rgba(251, 234, 78, 0.12), transparent 70%),
+        #050505;
+    }
+
+    :global(body)::before {
+      opacity: 0.08;
+    }
+
+    .buzzer-page {
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      padding: clamp(28px, 6vw, 80px);
+    }
+
+    .buzzer-hero {
+      width: min(920px, 100%);
+      display: grid;
+      place-items: center;
+    }
+
+    .buzzer-content {
+      display: grid;
+      place-items: center;
+      gap: clamp(18px, 4vw, 32px);
+      text-align: center;
+      animation: fadeUp 0.9s ease forwards;
+    }
+
+    .buzzer-logo {
+      width: min(340px, 75vw);
+      height: auto;
+      border-radius: 28px;
+      box-shadow:
+        0 18px 50px rgba(0, 0, 0, 0.55),
+        0 10px 25px rgba(251, 234, 78, 0.22),
+        0 0 0 1px rgba(255, 255, 255, 0.08);
+      animation: float 8s ease-in-out infinite;
+    }
+
+    .buzzer-title {
+      font-family: "SF Pro Display", "SF Pro Text", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: clamp(48px, 10vw, 108px);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #f7ece7;
+      text-shadow:
+        0 0 18px rgba(251, 234, 78, 0.35),
+        0 10px 40px rgba(0, 0, 0, 0.6);
+      margin: 0;
+      display: grid;
+      gap: clamp(6px, 1.5vw, 14px);
+    }
+
+    .buzzer-title-main,
+    .buzzer-title-sub {
+      display: block;
+    }
+
+    .buzzer-title-sub {
+      font-size: 0.5em;
+      letter-spacing: 0.2em;
+    }
+
+    .buzzer-cta {
+      font-size: 0.9rem;
+      letter-spacing: 0.18em;
+      margin-top: clamp(6px, 1.8vw, 16px);
+      color: #1b1b1b;
+      background: linear-gradient(135deg, #fbea4e, #ffe56b, #f9d72a);
+      background-size: 200% 200%;
+      animation: buttonGlow 6s ease infinite;
+      box-shadow:
+        0 14px 40px rgba(0, 0, 0, 0.45),
+        0 12px 30px rgba(251, 234, 78, 0.25);
+    }
+
+    .buzzer-cta:hover {
+      box-shadow:
+        0 18px 48px rgba(0, 0, 0, 0.5),
+        0 16px 36px rgba(251, 234, 78, 0.35);
+    }
+
+    .buzzer-footer {
+      margin-top: clamp(24px, 6vw, 48px);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .buzzer-footer a {
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .buzzer-footer a:hover {
+      color: #fbea4e;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(16px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes float {
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .buzzer-content,
+      .buzzer-logo {
+        animation: none;
+      }
+    }
+  </style>
+</SimpleLayout>
