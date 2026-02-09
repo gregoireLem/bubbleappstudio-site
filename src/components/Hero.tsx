@@ -221,7 +221,16 @@ export default function Hero() {
             variants={item}
             className="mt-12 text-[10px] uppercase tracking-[0.18em] text-white"
           >
-            Copyright Bubble App Studio 2026. Made with love in Paris 🇫🇷
+            <p>Copyright Bubble App Studio 2026. Made with love in Paris 🇫🇷</p>
+            <div className="mt-3 flex flex-wrap items-center justify-center gap-3 text-white/70">
+              <a className="transition hover:text-[var(--accent-yellow)]" href="/terms">
+                Terms
+              </a>
+              <span aria-hidden="true">•</span>
+              <a className="transition hover:text-[var(--accent-yellow)]" href="/privacy">
+                Privacy
+              </a>
+            </div>
           </motion.footer>
         </motion.div>
       </div>
