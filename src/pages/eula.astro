@@ -1,0 +1,85 @@
+---
+import SimpleLayout from "../layouts/SimpleLayout.astro";
+
+const description = "End User License Agreement (EULA) for Loup-garou Undercover.";
+---
+
+<SimpleLayout title="EULA | Loup-garou Undercover" description={description} robots="index, follow">
+  <main id="main" class="legal-page">
+    <article class="legal-card">
+      <p class="legal-kicker">Loup-garou Undercover</p>
+      <h1>End User License Agreement (EULA)</h1>
+      <p class="legal-date">Last updated: February 10, 2026</p>
+
+      <p>
+        This app uses the standard Apple Terms of Use (EULA). You can read them here:
+      </p>
+      <p>
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noreferrer" target="_blank">
+          Apple Standard EULA
+        </a>
+      </p>
+    </article>
+  </main>
+
+  <style>
+    :global(body) {
+      background:
+        radial-gradient(700px 500px at 50% 0%, rgba(251, 234, 78, 0.12), transparent 65%),
+        #050505;
+    }
+
+    :global(body)::before {
+      opacity: 0.08;
+    }
+
+    .legal-page {
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      padding: clamp(28px, 6vw, 72px);
+    }
+
+    .legal-card {
+      width: min(860px, 100%);
+      background: rgba(10, 10, 10, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 24px;
+      padding: clamp(24px, 4vw, 48px);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+    }
+
+    .legal-kicker {
+      text-transform: uppercase;
+      letter-spacing: 0.32em;
+      font-size: 0.7rem;
+      color: rgba(255, 255, 255, 0.6);
+      margin: 0 0 12px;
+    }
+
+    .legal-date {
+      color: rgba(255, 255, 255, 0.6);
+      margin-top: 0;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: clamp(28px, 5vw, 44px);
+      margin: 0 0 12px;
+      font-family: "SF Pro Display", "SF Pro Text", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+    }
+
+    p,
+    li {
+      color: rgba(255, 255, 255, 0.78);
+      line-height: 1.6;
+    }
+
+    a {
+      color: #fbea4e;
+      text-underline-offset: 4px;
+    }
+  </style>
+</SimpleLayout>
