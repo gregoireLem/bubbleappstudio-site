@@ -29,6 +29,28 @@ const item = {
   }
 };
 
+function AppleBadgeIcon() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" className="store-badge-icon">
+      <path
+        fill="currentColor"
+        d="M15.19 12.92c.03 3.22 2.82 4.29 2.85 4.31-.02.08-.44 1.52-1.44 3.01-.87 1.29-1.77 2.58-3.19 2.61-1.39.03-1.84-.82-3.43-.82-1.59 0-2.08.79-3.4.85-1.37.05-2.41-1.37-3.29-2.65C1.51 17.63.15 12.9 1.99 9.71c.91-1.58 2.54-2.58 4.31-2.61 1.35-.03 2.62.91 3.43.91.81 0 2.33-1.13 3.92-.96.67.03 2.57.27 3.79 2.05-.1.06-2.26 1.32-2.25 3.82ZM12.74 4.98c.73-.88 1.22-2.11 1.09-3.33-1.05.04-2.32.7-3.07 1.58-.67.78-1.26 2.02-1.1 3.21 1.17.09 2.35-.6 3.08-1.46Z"
+      />
+    </svg>
+  );
+}
+
+function AndroidBadgeIcon() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" className="store-badge-icon">
+      <path
+        fill="currentColor"
+        d="M7.39 8.13 5.93 5.6a.5.5 0 1 1 .87-.5l1.5 2.59a10.07 10.07 0 0 1 7.4 0l1.5-2.59a.5.5 0 0 1 .87.5l-1.46 2.53A6.88 6.88 0 0 1 19.5 13v5.25a1.75 1.75 0 1 1-3.5 0V15h-1v6.25a2 2 0 1 1-4 0V15h-1v6.25a2 2 0 1 1-4 0V15H5v3.25a1.75 1.75 0 1 1-3.5 0V13c0-2.1.96-3.97 2.46-5.18ZM7 12.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm10 0a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM5.25 13.5h13.5c-.23-2.96-2.72-5.25-6.75-5.25s-6.52 2.29-6.75 5.25Z"
+      />
+    </svg>
+  );
+}
+
 export default function Hero() {
   const carouselRef = useRef<HTMLDivElement | null>(null);
   const baseUrl = import.meta.env.BASE_URL;
@@ -135,24 +157,38 @@ export default function Hero() {
               className="mt-8 flex flex-wrap justify-center gap-3"
             >
               <motion.a
-                className="btn btn-primary"
+                className="store-badge"
                 href={appStoreUrl}
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Télécharger sur l’App Store"
                 whileHover={{ scale: 1.03, y: -1 }}
                 whileTap={{ scale: 0.98 }}
               >
-                Télécharger sur iPhone
+                <span className="store-badge-logo">
+                  <AppleBadgeIcon />
+                </span>
+                <span className="store-badge-copy">
+                  <span className="store-badge-caption">Disponible sur</span>
+                  <span className="store-badge-title">App Store</span>
+                </span>
               </motion.a>
               <motion.a
-                className="btn btn-secondary"
+                className="store-badge"
                 href={playStoreUrl}
                 target="_blank"
                 rel="noreferrer"
+                aria-label="Télécharger sur Android"
                 whileHover={{ scale: 1.03, y: -1 }}
                 whileTap={{ scale: 0.98 }}
               >
-                Télécharger sur Android
+                <span className="store-badge-logo store-badge-logo-android">
+                  <AndroidBadgeIcon />
+                </span>
+                <span className="store-badge-copy">
+                  <span className="store-badge-caption">Télécharger sur</span>
+                  <span className="store-badge-title">Android</span>
+                </span>
               </motion.a>
             </motion.div>
 

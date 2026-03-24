@@ -99,9 +99,41 @@ a {
     animation: buttonGlow 6s ease infinite;
   }
 
-  .btn-secondary {
-    @apply border border-white/15 bg-white/6 text-white hover:border-white/30 hover:bg-white/10;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+  .store-badge {
+    @apply inline-flex min-w-[220px] items-center gap-3 rounded-[22px] border border-white/12 px-4 py-3 text-left text-white transition duration-200 hover:border-white/25;
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.04)),
+      rgba(10, 10, 10, 0.82);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.08),
+      0 12px 28px rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(10px);
+  }
+
+  .store-badge-logo {
+    @apply flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl text-white;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.06));
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
+
+  .store-badge-logo-android {
+    @apply text-[#7CFF74];
+  }
+
+  .store-badge-icon {
+    @apply h-7 w-7;
+  }
+
+  .store-badge-copy {
+    @apply flex min-w-0 flex-col;
+  }
+
+  .store-badge-caption {
+    @apply text-[0.64rem] uppercase tracking-[0.24em] text-white/60;
+  }
+
+  .store-badge-title {
+    @apply mt-1 text-lg font-semibold leading-none text-white;
   }
 
   .stat-card {
