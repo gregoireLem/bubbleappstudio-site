@@ -32,6 +32,10 @@ const item = {
 export default function Hero() {
   const carouselRef = useRef<HTMLDivElement | null>(null);
   const baseUrl = import.meta.env.BASE_URL;
+  const appStoreUrl =
+    "https://apps.apple.com/fr/app/loup-garou-undercover/id6740009341";
+  const playStoreUrl =
+    "https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover&pcampaignid=web_share";
   const roles = roleData.map((role) => ({
     ...role,
     image: `${baseUrl}${role.image}`
@@ -126,16 +130,29 @@ export default function Hero() {
               chaque partie est unique et pleine de suspense.
             </motion.p>
 
-            <motion.div variants={item} className="mt-8 flex justify-center">
+            <motion.div
+              variants={item}
+              className="mt-8 flex flex-wrap justify-center gap-3"
+            >
               <motion.a
                 className="btn btn-primary"
-                href="https://apps.apple.com/fr/app/loup-garou-undercover/id6740009341"
+                href={appStoreUrl}
                 target="_blank"
                 rel="noreferrer"
                 whileHover={{ scale: 1.03, y: -1 }}
                 whileTap={{ scale: 0.98 }}
               >
-                TÉLÉCHARGER L'APP
+                Télécharger sur iPhone
+              </motion.a>
+              <motion.a
+                className="btn btn-secondary"
+                href={playStoreUrl}
+                target="_blank"
+                rel="noreferrer"
+                whileHover={{ scale: 1.03, y: -1 }}
+                whileTap={{ scale: 0.98 }}
+              >
+                Télécharger sur Android
               </motion.a>
             </motion.div>
 

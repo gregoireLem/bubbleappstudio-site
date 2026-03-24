@@ -99,6 +99,11 @@ a {
     animation: buttonGlow 6s ease infinite;
   }
 
+  .btn-secondary {
+    @apply border border-white/15 bg-white/6 text-white hover:border-white/30 hover:bg-white/10;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+  }
+
   .stat-card {
     @apply rounded-3xl border border-white/10 bg-white/5 px-4 py-5;
   }
