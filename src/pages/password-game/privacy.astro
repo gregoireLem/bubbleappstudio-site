@@ -1,0 +1,150 @@
+---
+import SimpleLayout from "../../layouts/SimpleLayout.astro";
+
+const description = "Privacy Policy for Password Game : Duel.";
+---
+
+<SimpleLayout
+  title="Privacy Policy | Password Game : Duel"
+  description={description}
+  robots="index, follow"
+  themeColor="#12002b"
+>
+  <main id="main" class="legal-page">
+    <article class="legal-card">
+      <p class="legal-kicker">Password Game : Duel</p>
+      <h1>Privacy Policy</h1>
+      <p class="legal-date">Last updated: April 22, 2026</p>
+
+      <h2>1. Data controller</h2>
+      <p>Bubble App Studio — contact@bubbleappstudio.xyz</p>
+
+      <h2>2. Data we collect</h2>
+      <p>
+        The app does not require an account and Bubble App Studio does not operate servers
+        that store your gameplay videos or personal content.
+      </p>
+      <p>
+        Password Game : Duel may access the camera, microphone, and screen recording features
+        only to let you play, record a round, and export or share the result if you choose to.
+        Recordings stay on your device unless you decide to save or share them.
+      </p>
+
+      <h2>3. Analytics and attribution</h2>
+      <p>
+        We use AppsFlyer to measure basic app performance and acquisition attribution, such as
+        first launch, app launch, round started, round completed, and video export events.
+        We do not request App Tracking Transparency permission, we do not access the IDFA,
+        and we do not serve targeted advertising in the app.
+      </p>
+
+      <h2>4. Purchases</h2>
+      <p>
+        If the app is purchased through the App Store, the transaction is processed by Apple.
+        Bubble App Studio does not receive or store your payment card details.
+      </p>
+
+      <h2>5. How we use data</h2>
+      <ul>
+        <li>Provide the local gameplay and video export experience.</li>
+        <li>Understand whether the app launches and whether core gameplay works.</li>
+        <li>Measure marketing performance without selling your data.</li>
+      </ul>
+      <p>We do not sell your data.</p>
+
+      <h2>6. Retention</h2>
+      <p>
+        Gameplay recordings are controlled by you on your device. Analytics and attribution data
+        may be retained by AppsFlyer and Apple under their respective policies.
+      </p>
+
+      <h2>7. Your rights</h2>
+      <p>
+        For privacy questions or data requests, contact us at contact@bubbleappstudio.xyz.
+        For App Store purchase questions, refer to your Apple account and App Store settings.
+      </p>
+
+      <h2>8. Changes</h2>
+      <p>We may update this policy from time to time. The online version prevails.</p>
+    </article>
+  </main>
+
+  <style>
+    :global(body) {
+      background:
+        radial-gradient(760px 520px at 50% 0%, rgba(98, 0, 255, 0.3), transparent 64%),
+        radial-gradient(680px 460px at 85% 90%, rgba(216, 255, 0, 0.12), transparent 66%),
+        #070010;
+    }
+
+    :global(body)::before {
+      opacity: 0.08;
+    }
+
+    .legal-page {
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      padding: clamp(28px, 6vw, 72px);
+    }
+
+    .legal-card {
+      width: min(900px, 100%);
+      background: rgba(12, 0, 31, 0.72);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 28px;
+      padding: clamp(24px, 4vw, 48px);
+      box-shadow:
+        0 24px 70px rgba(0, 0, 0, 0.5),
+        0 0 48px rgba(98, 0, 255, 0.14);
+      backdrop-filter: blur(18px);
+    }
+
+    .legal-kicker {
+      text-transform: uppercase;
+      letter-spacing: 0.28em;
+      font-size: 0.72rem;
+      color: #d8ff00;
+      margin: 0 0 12px;
+    }
+
+    .legal-date {
+      color: rgba(255, 255, 255, 0.58);
+      margin-top: 0;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: clamp(34px, 5vw, 54px);
+      margin: 0 0 8px;
+      font-family: "SF Pro Rounded", "SF Pro Display", "SF Pro Text", -apple-system,
+        BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 900;
+      letter-spacing: -0.05em;
+    }
+
+    h2 {
+      margin-top: 28px;
+      margin-bottom: 8px;
+      font-size: 1.08rem;
+      color: #f5f0ff;
+    }
+
+    p,
+    li {
+      color: rgba(255, 255, 255, 0.78);
+      line-height: 1.65;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 8px;
+      margin-bottom: 16px;
+    }
+
+    a {
+      color: #d8ff00;
+      text-underline-offset: 4px;
+    }
+  </style>
+</SimpleLayout>
