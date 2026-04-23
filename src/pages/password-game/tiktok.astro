@@ -1,0 +1,27 @@
+---
+const tikTokUrl = "https://www.tiktok.com/@motdepasseduo";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="refresh" content={`0; url=${tikTokUrl}`} />
+    <link rel="canonical" href={tikTokUrl} />
+    <title>Redirecting to TikTok | Password Game : Duel</title>
+  </head>
+  <body>
+    <main>
+      <p>
+        Redirecting to TikTok.
+        <a href={tikTokUrl} rel="noreferrer">Open TikTok</a>
+      </p>
+    </main>
+
+    <script is:inline define:vars={{ tikTokUrl }}>
+      window.location.replace(tikTokUrl);
+    </script>
+  </body>
+</html>
