@@ -56,7 +56,7 @@ Expected result:
 HTTP/2 200
 ```
 
-For the Password Duo TikTok redirect:
+For the Password game : duel TikTok redirect:
 
 ```sh
 curl -L -I https://www.bubbleappstudio.xyz/password-game/tiktok/
