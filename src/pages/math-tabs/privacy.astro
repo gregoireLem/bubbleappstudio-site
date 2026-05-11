@@ -1,0 +1,145 @@
+---
+import SimpleLayout from "../../layouts/SimpleLayout.astro";
+
+const description = "Privacy Policy for Multiplication Tables: Oral Trainer.";
+---
+
+<SimpleLayout
+  title="Privacy Policy | Multiplication Tables: Oral Trainer"
+  description={description}
+  robots="index, follow"
+  themeColor="#4635B1"
+  ogImage="/assets/math-tabs/app-icon.png"
+  lang="en"
+  locale="en_US"
+  colorScheme="light"
+  icon="/assets/math-tabs/app-icon.png"
+>
+  <main id="main" class="legal-page">
+    <article class="legal-card">
+      <p class="legal-kicker">Multiplication Tables: Oral Trainer</p>
+      <h1>Privacy Policy</h1>
+      <p class="legal-date">Last updated: May 11, 2026</p>
+
+      <h2>1. Publisher</h2>
+      <p>Bubble App Studio — contact@bubbleappstudio.xyz</p>
+
+      <h2>2. What we do not collect</h2>
+      <p>
+        We do not create accounts for children. We do not collect names, school data, contacts,
+        photos, or location data.
+      </p>
+      <p>
+        We do not upload or store your child’s microphone audio, spoken answers, or voice recordings.
+        Voice practice is processed locally on the device so the app can react during the exercise.
+      </p>
+
+      <h2>3. Permissions used by the app</h2>
+      <p>
+        The app may ask for microphone access and speech recognition access. These permissions are used
+        only to let your child answer multiplication questions out loud and receive immediate correction.
+      </p>
+
+      <h2>4. Purchases and subscription validation</h2>
+      <p>
+        Payments are handled by Apple through the App Store. We do not receive payment card details.
+        To validate subscription status and restore purchases, the app uses RevenueCat.
+      </p>
+
+      <h2>5. Attribution and campaign measurement</h2>
+      <p>
+        The app also uses AppsFlyer in a privacy-restricted setup to measure aggregated campaign
+        performance and App Store attribution. The app does not ask for App Tracking Transparency
+        permission and does not access the IDFA.
+      </p>
+      <p>
+        This measurement is limited to technical purchase and attribution events. It is not used to
+        upload your child’s voice, answers, or learning content.
+      </p>
+
+      <h2>6. Advertising</h2>
+      <p>The app contains no in-app ads for children.</p>
+
+      <h2>7. Contact</h2>
+      <p>For privacy questions, contact us at contact@bubbleappstudio.xyz.</p>
+
+      <h2>8. Changes</h2>
+      <p>We may update this policy from time to time. The online version on this site is the current version.</p>
+    </article>
+  </main>
+
+  <style>
+    :global(body) {
+      background:
+        radial-gradient(760px 520px at 50% 0%, rgba(91, 77, 224, 0.24), transparent 64%),
+        radial-gradient(680px 460px at 85% 90%, rgba(174, 234, 148, 0.18), transparent 66%),
+        #faf8ff;
+      color: #171122;
+    }
+
+    :global(body)::before {
+      opacity: 0.08;
+      mix-blend-mode: multiply;
+    }
+
+    .legal-page {
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      padding: clamp(28px, 6vw, 72px);
+    }
+
+    .legal-card {
+      width: min(920px, 100%);
+      background: rgba(255, 255, 255, 0.88);
+      border: 1px solid rgba(70, 53, 177, 0.1);
+      border-radius: 28px;
+      padding: clamp(24px, 4vw, 48px);
+      box-shadow: 0 24px 70px rgba(70, 53, 177, 0.10);
+      backdrop-filter: blur(18px);
+    }
+
+    .legal-kicker {
+      text-transform: uppercase;
+      letter-spacing: 0.24em;
+      font-size: 0.74rem;
+      color: #4635b1;
+      margin: 0 0 12px;
+      font-weight: 900;
+    }
+
+    .legal-date {
+      color: rgba(23, 17, 34, 0.52);
+      margin-top: 0;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: clamp(34px, 5vw, 54px);
+      margin: 0 0 8px;
+      font-family: "SF Pro Rounded", "SF Pro Display", "SF Pro Text", -apple-system,
+        BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 900;
+      letter-spacing: -0.05em;
+      color: #171122;
+    }
+
+    h2 {
+      margin-top: 28px;
+      margin-bottom: 8px;
+      font-size: 1.08rem;
+      color: #4635b1;
+    }
+
+    p,
+    li {
+      color: rgba(23, 17, 34, 0.78);
+      line-height: 1.7;
+    }
+
+    a {
+      color: #4635b1;
+      text-underline-offset: 4px;
+    }
+  </style>
+</SimpleLayout>

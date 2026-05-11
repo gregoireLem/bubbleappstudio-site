@@ -1,0 +1,687 @@
+---
+import SimpleLayout from "../layouts/SimpleLayout.astro";
+
+const description = "Multiplication Tables: Oral Trainer helps kids learn times tables out loud with spoken questions, instant correction, and short focused practice.";
+const appStoreUrl = "https://apps.apple.com/app/id6768080564";
+
+const screenshots = [
+  {
+    src: "/assets/math-tabs/screenshot-01.png",
+    alt: "Multiplication Tables onboarding screen about learning by listening and speaking",
+    caption: "Built for oral practice"
+  },
+  {
+    src: "/assets/math-tabs/screenshot-02.png",
+    alt: "Multiplication Tables voice demo screen with a 2 x 2 exercise",
+    caption: "Try voice recognition right away"
+  },
+  {
+    src: "/assets/math-tabs/screenshot-03.png",
+    alt: "Multiplication Tables gameplay screen showing a spoken question and timer",
+    caption: "Short guided sessions"
+  },
+  {
+    src: "/assets/math-tabs/screenshot-04.png",
+    alt: "Multiplication Tables results screen showing missed multiplications to replay later",
+    caption: "Missed answers come back later"
+  }
+];
+
+const testimonials = [
+  {
+    title: "Finally, tables that stick",
+    body: "My son usually gives up after a few minutes, but saying the answers out loud changed everything. He is much more confident now.",
+    author: "Emma, mom of a 7-year-old"
+  },
+  {
+    title: "Five minutes after school",
+    body: "We use it for five minutes after school and it has become part of our routine. I like that missed answers come back later, so practice stays focused.",
+    author: "David, dad of an 8-year-old"
+  },
+  {
+    title: "Simple and reassuring",
+    body: "No ads, no account, no noise. My daughter listens, answers, and gets corrected right away when she needs help.",
+    author: "Chloe, mom of a 6-year-old"
+  }
+];
+---
+
+<SimpleLayout
+  title="Multiplication Tables: Oral Trainer | Bubble App Studio"
+  description={description}
+  themeColor="#4635B1"
+  ogImage="/assets/math-tabs/app-icon.png"
+  lang="en"
+  locale="en_US"
+  colorScheme="light"
+  icon="/assets/math-tabs/app-icon.png"
+>
+  <main id="main" class="math-tabs-page">
+    <section class="math-tabs-hero" aria-labelledby="math-tabs-title">
+      <div class="math-tabs-copy">
+        <p class="math-tabs-kicker">Bubble App Studio</p>
+        <h1 id="math-tabs-title">Multiplication Tables:<br />Oral Trainer</h1>
+        <p class="math-tabs-subtitle">The voice-first way to learn times tables by heart.</p>
+        <p class="math-tabs-description">
+          Kids listen to a multiplication, answer out loud, and get corrected right away if needed.
+          Short sessions, no ads, and practice that stays focused on what still needs work.
+        </p>
+
+        <div class="math-tabs-highlights" aria-label="App highlights">
+          <span>Questions read aloud</span>
+          <span>Instant voice checking</span>
+          <span>Wrong answers replayed later</span>
+          <span>No ads</span>
+        </div>
+
+        <div class="math-tabs-actions">
+          <a class="math-tabs-cta" href={appStoreUrl} target="_blank" rel="noreferrer">
+            View on the App Store
+          </a>
+          <a class="math-tabs-link" href="/math-tabs/privacy">Privacy</a>
+        </div>
+      </div>
+
+      <div class="math-tabs-device-stack" aria-label="App Store screenshots">
+        <div class="math-tabs-icon-shell">
+          <img
+            class="math-tabs-icon"
+            src="/assets/math-tabs/app-icon.png"
+            alt="Multiplication Tables app icon"
+            width="1024"
+            height="1024"
+            loading="eager"
+          />
+        </div>
+        <div class="math-tabs-device device-main">
+          <img
+            src={screenshots[2].src}
+            alt={screenshots[2].alt}
+            width="1242"
+            height="2688"
+            loading="eager"
+          />
+        </div>
+        <div class="math-tabs-device device-left" aria-hidden="true">
+          <img
+            src={screenshots[1].src}
+            alt=""
+            width="1242"
+            height="2688"
+            loading="lazy"
+          />
+        </div>
+        <div class="math-tabs-device device-right" aria-hidden="true">
+          <img
+            src={screenshots[3].src}
+            alt=""
+            width="1242"
+            height="2688"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="math-tabs-proof" aria-labelledby="math-tabs-proof-title">
+      <div class="math-tabs-proof-copy">
+        <p class="math-tabs-section-kicker">Why this app feels different</p>
+        <h2 id="math-tabs-proof-title">Built around listening, answering, and correcting.</h2>
+        <p>
+          Most apps stay in tap mode. This one trains oral recall: your child hears the question,
+          says the answer, and gets immediate feedback.
+        </p>
+      </div>
+
+      <div class="math-tabs-proof-grid">
+        <article>
+          <strong>Listen</strong>
+          <p>The multiplication is spoken out loud first.</p>
+        </article>
+        <article>
+          <strong>Answer</strong>
+          <p>Your child responds with their voice, not a keyboard.</p>
+        </article>
+        <article>
+          <strong>Correct</strong>
+          <p>If the answer is wrong, the app says the correction immediately.</p>
+        </article>
+        <article>
+          <strong>Repeat</strong>
+          <p>Missed multiplications return later until they are learned.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="math-tabs-gallery" aria-labelledby="math-tabs-gallery-title">
+      <div class="math-tabs-gallery-head">
+        <div>
+          <p class="math-tabs-section-kicker">App Store screens</p>
+          <h2 id="math-tabs-gallery-title">A simple product, built for daily repetition.</h2>
+        </div>
+        <p class="math-tabs-gallery-note">Swipe on mobile.</p>
+      </div>
+
+      <div class="math-tabs-gallery-grid">
+        {screenshots.map((shot) => (
+          <figure class="math-tabs-shot-card">
+            <img
+              class="math-tabs-shot"
+              src={shot.src}
+              alt={shot.alt}
+              width="1242"
+              height="2688"
+              loading="lazy"
+            />
+            <figcaption>{shot.caption}</figcaption>
+          </figure>
+        ))}
+      </div>
+    </section>
+
+    <section class="math-tabs-testimonials" aria-labelledby="math-tabs-testimonials-title">
+      <div class="math-tabs-gallery-head">
+        <div>
+          <p class="math-tabs-section-kicker">Parent feedback</p>
+          <h2 id="math-tabs-testimonials-title">Short sessions. Real repetition.</h2>
+        </div>
+      </div>
+
+      <div class="math-tabs-testimonial-grid">
+        {testimonials.map((quote) => (
+          <article class="math-tabs-testimonial-card">
+            <div class="math-tabs-stars" aria-hidden="true">★★★★★</div>
+            <h3>{quote.title}</h3>
+            <p>{quote.body}</p>
+            <span>{quote.author}</span>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="math-tabs-final-cta" aria-labelledby="math-tabs-final-title">
+      <div class="math-tabs-final-card">
+        <p class="math-tabs-section-kicker">Ready to try it</p>
+        <h2 id="math-tabs-final-title">Start with a short voice session.</h2>
+        <p>
+          Multiplication Tables: Oral Trainer is designed to make oral practice easy, calm, and repeatable.
+        </p>
+        <div class="math-tabs-actions math-tabs-actions-center">
+          <a class="math-tabs-cta" href={appStoreUrl} target="_blank" rel="noreferrer">
+            View on the App Store
+          </a>
+          <a class="math-tabs-link" href="/math-tabs/privacy">Privacy</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <style>
+    :global(body) {
+      background:
+        radial-gradient(860px 540px at 16% 16%, rgba(183, 113, 229, 0.22), transparent 62%),
+        radial-gradient(920px 580px at 88% 12%, rgba(70, 53, 177, 0.34), transparent 60%),
+        radial-gradient(760px 540px at 50% 100%, rgba(174, 234, 148, 0.14), transparent 64%),
+        linear-gradient(180deg, #faf8ff 0%, #f4f0ff 32%, #fff9e5 100%);
+      color: #171122;
+    }
+
+    :global(body)::before {
+      opacity: 0.08;
+      mix-blend-mode: multiply;
+    }
+
+    .math-tabs-page {
+      padding: clamp(24px, 4vw, 64px);
+    }
+
+    .math-tabs-hero,
+    .math-tabs-proof,
+    .math-tabs-gallery,
+    .math-tabs-testimonials,
+    .math-tabs-final-cta {
+      width: min(1180px, 100%);
+      margin: 0 auto;
+    }
+
+    .math-tabs-hero {
+      min-height: 100dvh;
+      display: grid;
+      grid-template-columns: minmax(0, 0.96fr) minmax(320px, 1.04fr);
+      align-items: center;
+      gap: clamp(32px, 5vw, 68px);
+      padding-block: clamp(32px, 6vw, 88px);
+    }
+
+    .math-tabs-copy {
+      animation: fadeUp 0.8s ease both;
+    }
+
+    .math-tabs-kicker,
+    .math-tabs-section-kicker {
+      width: fit-content;
+      margin: 0 0 18px;
+      border-radius: 999px;
+      padding: 9px 14px;
+      font-size: 0.74rem;
+      font-weight: 900;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #4635b1;
+      background: rgba(255, 255, 255, 0.76);
+      border: 1px solid rgba(70, 53, 177, 0.12);
+      box-shadow: 0 12px 30px rgba(70, 53, 177, 0.08);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(54px, 8.5vw, 104px);
+      font-weight: 900;
+      line-height: 0.92;
+      letter-spacing: -0.08em;
+      color: #171122;
+      text-wrap: balance;
+      font-family: "SF Pro Rounded", "SF Pro Display", "SF Pro Text", -apple-system,
+        BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .math-tabs-subtitle {
+      margin: 22px 0 0;
+      max-width: 560px;
+      font-size: clamp(1.3rem, 2.2vw, 2rem);
+      font-weight: 800;
+      line-height: 1.08;
+      letter-spacing: -0.04em;
+      color: #4635b1;
+    }
+
+    .math-tabs-description,
+    .math-tabs-proof-copy p,
+    .math-tabs-final-card p {
+      margin: 18px 0 0;
+      max-width: 620px;
+      font-size: 1.08rem;
+      line-height: 1.72;
+      color: rgba(23, 17, 34, 0.76);
+    }
+
+    .math-tabs-highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 28px;
+    }
+
+    .math-tabs-highlights span {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-size: 0.82rem;
+      font-weight: 900;
+      letter-spacing: 0.02em;
+      color: #4635b1;
+      background: rgba(255, 255, 255, 0.86);
+      border: 1px solid rgba(70, 53, 177, 0.12);
+      box-shadow: 0 10px 24px rgba(70, 53, 177, 0.06);
+    }
+
+    .math-tabs-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .math-tabs-actions-center {
+      justify-content: center;
+    }
+
+    .math-tabs-cta,
+    .math-tabs-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 54px;
+      border-radius: 999px;
+      padding: 0 22px;
+      text-decoration: none;
+      font-size: 0.84rem;
+      font-weight: 900;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+    }
+
+    .math-tabs-cta {
+      color: white;
+      background: linear-gradient(135deg, #4635b1, #5b4de0, #4a63ea);
+      box-shadow: 0 18px 38px rgba(70, 53, 177, 0.28);
+    }
+
+    .math-tabs-link {
+      color: #4635b1;
+      border: 1px solid rgba(70, 53, 177, 0.14);
+      background: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 14px 30px rgba(70, 53, 177, 0.06);
+    }
+
+    .math-tabs-cta:hover,
+    .math-tabs-link:hover {
+      transform: translateY(-2px);
+    }
+
+    .math-tabs-device-stack {
+      position: relative;
+      min-height: min(760px, 80vh);
+      display: grid;
+      place-items: center;
+      animation: fadeUp 0.8s 0.12s ease both;
+    }
+
+    .math-tabs-device-stack::before {
+      content: "";
+      position: absolute;
+      inset: 14% 10% auto;
+      height: 62%;
+      border-radius: 999px;
+      background:
+        radial-gradient(circle, rgba(70, 53, 177, 0.20), transparent 58%),
+        radial-gradient(circle, rgba(183, 113, 229, 0.18), transparent 68%);
+      filter: blur(18px);
+      z-index: 0;
+    }
+
+    .math-tabs-icon-shell {
+      position: absolute;
+      top: 2%;
+      right: 10%;
+      width: clamp(94px, 10vw, 132px);
+      padding: 12px;
+      border-radius: 30px;
+      background: rgba(255, 255, 255, 0.88);
+      box-shadow: 0 24px 60px rgba(70, 53, 177, 0.18);
+      z-index: 3;
+      transform: rotate(8deg);
+    }
+
+    .math-tabs-icon {
+      border-radius: 24px;
+      overflow: hidden;
+    }
+
+    .math-tabs-device {
+      position: absolute;
+      width: min(270px, 44vw);
+      border-radius: 38px;
+      overflow: hidden;
+      border: 10px solid rgba(23, 17, 34, 0.94);
+      background: #101010;
+      box-shadow: 0 28px 72px rgba(23, 17, 34, 0.28);
+    }
+
+    .math-tabs-device img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .device-main {
+      position: relative;
+      z-index: 2;
+      transform: translateY(12px);
+    }
+
+    .device-left {
+      left: 2%;
+      z-index: 1;
+      transform: rotate(-12deg) translateY(68px);
+      opacity: 0.88;
+    }
+
+    .device-right {
+      right: 2%;
+      z-index: 1;
+      transform: rotate(11deg) translateY(76px);
+      opacity: 0.88;
+    }
+
+    .math-tabs-proof,
+    .math-tabs-gallery,
+    .math-tabs-testimonials,
+    .math-tabs-final-cta {
+      padding-block: clamp(24px, 5vw, 72px);
+    }
+
+    .math-tabs-proof {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+      gap: 28px;
+      align-items: start;
+    }
+
+    .math-tabs-proof h2,
+    .math-tabs-gallery h2,
+    .math-tabs-testimonials h2,
+    .math-tabs-final-card h2 {
+      margin: 0;
+      font-size: clamp(32px, 4.2vw, 52px);
+      line-height: 0.98;
+      letter-spacing: -0.06em;
+      color: #171122;
+      text-wrap: balance;
+      font-family: "SF Pro Rounded", "SF Pro Display", "SF Pro Text", -apple-system,
+        BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .math-tabs-proof-grid,
+    .math-tabs-testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .math-tabs-proof-grid article,
+    .math-tabs-testimonial-card,
+    .math-tabs-final-card {
+      border-radius: 30px;
+      background: rgba(255, 255, 255, 0.84);
+      border: 1px solid rgba(70, 53, 177, 0.1);
+      box-shadow: 0 18px 40px rgba(70, 53, 177, 0.08);
+    }
+
+    .math-tabs-proof-grid article {
+      padding: 20px;
+    }
+
+    .math-tabs-proof-grid strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 1.04rem;
+      color: #4635b1;
+      letter-spacing: -0.03em;
+    }
+
+    .math-tabs-proof-grid p,
+    .math-tabs-testimonial-card p {
+      margin: 0;
+      color: rgba(23, 17, 34, 0.74);
+      line-height: 1.65;
+    }
+
+    .math-tabs-gallery-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 18px;
+      margin-bottom: 24px;
+    }
+
+    .math-tabs-gallery-note {
+      margin: 0;
+      font-size: 0.9rem;
+      color: rgba(23, 17, 34, 0.56);
+    }
+
+    .math-tabs-gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+      overflow-x: auto;
+      padding-bottom: 8px;
+      scrollbar-width: none;
+    }
+
+    .math-tabs-gallery-grid::-webkit-scrollbar {
+      display: none;
+    }
+
+    .math-tabs-shot-card {
+      min-width: 0;
+      margin: 0;
+      border-radius: 32px;
+      padding: 12px;
+      background: rgba(255, 255, 255, 0.84);
+      border: 1px solid rgba(70, 53, 177, 0.1);
+      box-shadow: 0 16px 38px rgba(70, 53, 177, 0.08);
+    }
+
+    .math-tabs-shot {
+      border-radius: 24px;
+      overflow: hidden;
+      border: 8px solid rgba(23, 17, 34, 0.94);
+      background: #101010;
+      box-shadow: 0 18px 32px rgba(23, 17, 34, 0.16);
+    }
+
+    .math-tabs-shot-card figcaption {
+      margin-top: 12px;
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: #4635b1;
+      text-align: center;
+    }
+
+    .math-tabs-testimonial-card {
+      padding: 22px;
+    }
+
+    .math-tabs-stars {
+      font-size: 1rem;
+      letter-spacing: 0.08em;
+      color: #ffb400;
+    }
+
+    .math-tabs-testimonial-card h3 {
+      margin: 10px 0 8px;
+      font-size: 1.2rem;
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+      color: #171122;
+    }
+
+    .math-tabs-testimonial-card span {
+      display: block;
+      margin-top: 14px;
+      font-size: 0.92rem;
+      font-weight: 800;
+      color: rgba(70, 53, 177, 0.72);
+    }
+
+    .math-tabs-final-card {
+      padding: clamp(26px, 4vw, 42px);
+      text-align: center;
+    }
+
+    @media (max-width: 1080px) {
+      .math-tabs-hero,
+      .math-tabs-proof {
+        grid-template-columns: 1fr;
+      }
+
+      .math-tabs-device-stack {
+        min-height: 680px;
+        order: -1;
+      }
+
+      .math-tabs-proof-grid,
+      .math-tabs-testimonial-grid,
+      .math-tabs-gallery-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 720px) {
+      .math-tabs-page {
+        padding-inline: 18px;
+      }
+
+      .math-tabs-hero {
+        min-height: auto;
+      }
+
+      .math-tabs-device-stack {
+        min-height: 540px;
+      }
+
+      .math-tabs-device {
+        width: min(210px, 58vw);
+        border-width: 8px;
+      }
+
+      .device-left {
+        left: 0;
+        transform: rotate(-10deg) translateY(84px);
+      }
+
+      .device-right {
+        right: 0;
+        transform: rotate(10deg) translateY(88px);
+      }
+
+      .math-tabs-proof-grid,
+      .math-tabs-testimonial-grid,
+      .math-tabs-gallery-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .math-tabs-gallery-grid {
+        display: flex;
+        gap: 14px;
+      }
+
+      .math-tabs-shot-card {
+        min-width: min(300px, 78vw);
+      }
+
+      .math-tabs-gallery-head {
+        flex-direction: column;
+        align-items: start;
+      }
+
+      .math-tabs-actions {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .math-tabs-cta,
+      .math-tabs-link {
+        width: 100%;
+      }
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(18px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</SimpleLayout>
