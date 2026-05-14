@@ -1,132 +1,55 @@
 ---
 import SimpleLayout from "../../layouts/SimpleLayout.astro";
-
-const description = "Privacy Policy for Undercover : Doodle.";
 ---
 
 <SimpleLayout
-  title="Privacy Policy | Undercover : Doodle"
-  description={description}
-  robots="index, follow"
+  title="Redirecting | Undercover : Doodle"
+  description="Redirecting to the Undercover : Doodle privacy policy."
+  robots="noindex, follow"
   themeColor="#090119"
-  icon="/assets/undercover-doddle/app-icon.png"
+  icon="/assets/undercover-doodle/app-icon.png"
   lang="en"
   locale="en_US"
 >
-  <main id="main" class="legal-page">
-    <article class="legal-card">
-      <p class="legal-kicker">Undercover : Doodle</p>
-      <h1>Privacy Policy</h1>
-      <p class="legal-date">Last updated: May 14, 2026</p>
-
-      <h2>1. Publisher</h2>
-      <p>Bubble App Studio — contact@bubbleappstudio.xyz</p>
-
-      <h2>2. Data stored on device</h2>
+  <main id="main" class="redirect-page">
+    <script is:inline>
+      window.location.replace("/undercover-doodle/privacy");
+    </script>
+    <section class="redirect-card">
+      <h1>Redirecting…</h1>
       <p>
-        Undercover : Doodle stores a limited amount of local data on your device to improve the game experience,
-        such as recent player names, whether the in-app review prompt was already shown, and basic local game settings.
+        The privacy policy is now available at
+        <a href="/undercover-doodle/privacy">/undercover-doodle/privacy</a>.
       </p>
-      <p>
-        This data stays on your device and is not uploaded to Bubble App Studio servers.
-      </p>
-
-      <h2>3. No account, no backend, no cloud upload</h2>
-      <p>
-        The app does not require an account. It does not create a user profile and does not upload player names,
-        drawings, votes, or game history to Bubble App Studio servers.
-      </p>
-
-      <h2>4. Permissions</h2>
-      <p>
-        Undercover : Doodle does not require access to the camera, microphone, photos, contacts, or location to function.
-      </p>
-
-      <h2>5. Tracking and advertising</h2>
-      <p>
-        The app does not request App Tracking Transparency permission, does not access the IDFA, and does not use
-        targeted advertising.
-      </p>
-
-      <h2>6. App Store review prompt</h2>
-      <p>
-        The app may ask Apple to display the standard in-app rating prompt after gameplay. This request is handled by
-        Apple and does not give Bubble App Studio access to your App Store account data.
-      </p>
-
-      <h2>7. Contact</h2>
-      <p>For privacy questions, contact us at contact@bubbleappstudio.xyz.</p>
-
-      <h2>8. Changes</h2>
-      <p>We may update this policy from time to time. The online version prevails.</p>
-    </article>
+    </section>
   </main>
 
   <style>
-    :global(body) {
-      background:
-        radial-gradient(760px 520px at 50% 0%, rgba(255, 230, 0, 0.14), transparent 64%),
-        radial-gradient(680px 460px at 85% 90%, rgba(90, 60, 255, 0.14), transparent 66%),
-        #070010;
-    }
-
-    :global(body)::before {
-      opacity: 0.08;
-    }
-
-    .legal-page {
+    .redirect-page {
       min-height: 100dvh;
       display: grid;
       place-items: center;
-      padding: clamp(28px, 6vw, 72px);
+      padding: 24px;
     }
 
-    .legal-card {
-      width: min(900px, 100%);
-      background: rgba(12, 0, 31, 0.72);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 28px;
-      padding: clamp(24px, 4vw, 48px);
-      box-shadow:
-        0 24px 70px rgba(0, 0, 0, 0.5),
-        0 0 48px rgba(255, 230, 0, 0.08);
-      backdrop-filter: blur(18px);
-    }
-
-    .legal-kicker {
-      text-transform: uppercase;
-      letter-spacing: 0.28em;
-      font-size: 0.72rem;
-      color: #ffe600;
-      margin: 0 0 12px;
-    }
-
-    .legal-date {
-      color: rgba(255, 255, 255, 0.58);
-      margin-top: 0;
-      margin-bottom: 24px;
+    .redirect-card {
+      width: min(640px, 100%);
+      border-radius: 24px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: rgba(10, 4, 24, 0.74);
+      padding: 32px;
+      text-align: center;
     }
 
     h1 {
-      font-size: clamp(34px, 5vw, 54px);
-      margin: 0 0 8px;
-      font-family: "SF Pro Rounded", "SF Pro Display", "SF Pro Text", -apple-system,
-        BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-weight: 900;
-      letter-spacing: -0.05em;
+      margin: 0 0 12px;
       color: #fff;
+      font-size: clamp(28px, 5vw, 42px);
     }
 
-    h2 {
-      margin-top: 28px;
-      margin-bottom: 8px;
-      font-size: 1.08rem;
-      color: #fff4a0;
-    }
-
-    p,
-    li {
-      color: rgba(255, 255, 255, 0.78);
+    p {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.76);
       line-height: 1.65;
     }
 
