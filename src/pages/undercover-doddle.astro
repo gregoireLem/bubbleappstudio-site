@@ -1,0 +1,407 @@
+---
+import SimpleLayout from "../layouts/SimpleLayout.astro";
+
+const description =
+  "Undercover : Doodle is the classic impostor party game, except every turn is a drawing instead of a word.";
+---
+
+<SimpleLayout
+  title="Undercover : Doodle | Bubble App Studio"
+  description={description}
+  themeColor="#090119"
+  ogImage="/assets/undercover-doddle/screenshot-01.png"
+  icon="/assets/undercover-doddle/app-icon.png"
+  lang="en"
+  locale="en_US"
+>
+  <main id="main" class="undercover-page">
+    <section class="hero" aria-labelledby="undercover-title">
+      <div class="copy">
+        <p class="eyebrow">Bubble App Studio</p>
+        <h1 id="undercover-title">Undercover : Doodle</h1>
+        <p class="subtitle">The classic Undercover party game, except you draw instead of saying a word.</p>
+        <p class="description">
+          Every player gets a secret word, except the impostor with a nearby word and Mister White with no word at all.
+          Each turn, players add 1 to 3 strokes to their own drawing, then the group debates and eliminates a suspect.
+        </p>
+
+        <div class="meta">
+          <span>3 to 12 players</span>
+          <span>One phone</span>
+          <span>Offline party game</span>
+        </div>
+
+        <div class="actions">
+          <a class="cta cta-primary" href="#screenshots">See screenshots</a>
+          <a class="cta cta-secondary" href="/undercover-doddle/privacy">Privacy policy</a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="icon-shell">
+          <img
+            src="/assets/undercover-doddle/app-icon.png"
+            alt=""
+            width="512"
+            height="512"
+            loading="eager"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="features" aria-labelledby="features-title">
+      <div class="section-head">
+        <p class="section-kicker">How it plays</p>
+        <h2 id="features-title">One drawing each. One debate every round.</h2>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>Private word reveal</h3>
+          <p>Pass the phone, reveal each role privately, and keep your word secret.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Draw to blend in</h3>
+          <p>Add up to 3 strokes per turn, switch colors freely, and build your own sketch across the whole game.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Vote, bluff, survive</h3>
+          <p>Compare the drawings, spot the impostor, and watch out for Mister White’s last chance guess.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="screenshots" class="screenshots" aria-labelledby="screenshots-title">
+      <div class="section-head">
+        <p class="section-kicker">App preview</p>
+        <h2 id="screenshots-title">Real screens from the app</h2>
+      </div>
+
+      <div class="shot-grid">
+        <figure class="shot-card">
+          <img
+            src="/assets/undercover-doddle/screenshot-01.png"
+            alt="Undercover : Doodle setup screen with player names and game options"
+            width="1290"
+            height="2796"
+            loading="eager"
+          />
+          <figcaption>Setup and player names</figcaption>
+        </figure>
+        <figure class="shot-card">
+          <img
+            src="/assets/undercover-doddle/screenshot-02.png"
+            alt="Undercover : Doodle drawing screen with a personal canvas and color picker"
+            width="1290"
+            height="2796"
+            loading="lazy"
+          />
+          <figcaption>Personal canvas and color picker</figcaption>
+        </figure>
+        <figure class="shot-card">
+          <img
+            src="/assets/undercover-doddle/screenshot-03.png"
+            alt="Undercover : Doodle voting screen showing all player drawings in a grid"
+            width="1290"
+            height="2796"
+            loading="lazy"
+          />
+          <figcaption>Debate and elimination grid</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="footer-card" aria-labelledby="footer-title">
+      <h2 id="footer-title">Need the legal page for App Store review?</h2>
+      <p>The privacy policy lives at the dedicated route below.</p>
+      <div class="footer-links">
+        <a href="/undercover-doddle/privacy">/undercover-doddle/privacy</a>
+        <a href="mailto:contact@bubbleappstudio.xyz">contact@bubbleappstudio.xyz</a>
+      </div>
+    </section>
+  </main>
+
+  <style>
+    :global(body) {
+      background:
+        radial-gradient(900px 680px at 20% 10%, rgba(255, 230, 0, 0.08), transparent 60%),
+        radial-gradient(760px 560px at 80% 30%, rgba(110, 74, 255, 0.18), transparent 65%),
+        linear-gradient(180deg, #060014 0%, #0b0120 56%, #070014 100%);
+    }
+
+    :global(body)::before {
+      opacity: 0.08;
+    }
+
+    .undercover-page {
+      width: min(1180px, 100%);
+      margin: 0 auto;
+      padding: clamp(24px, 4vw, 64px);
+      display: grid;
+      gap: clamp(40px, 6vw, 88px);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
+      align-items: center;
+      gap: clamp(28px, 5vw, 72px);
+      min-height: min(88dvh, 920px);
+    }
+
+    .copy {
+      max-width: 620px;
+    }
+
+    .eyebrow,
+    .section-kicker {
+      width: fit-content;
+      margin: 0 0 18px;
+      border: 1px solid rgba(255, 230, 0, 0.22);
+      border-radius: 999px;
+      padding: 8px 12px;
+      color: #ffe600;
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      background: rgba(255, 230, 0, 0.06);
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      font-family: "SF Pro Rounded", "SF Pro Display", "SF Pro Text", -apple-system,
+        BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: clamp(50px, 9vw, 104px);
+      font-weight: 900;
+      letter-spacing: -0.07em;
+      line-height: 0.9;
+      color: #fff;
+      text-wrap: balance;
+    }
+
+    .subtitle {
+      margin: 20px 0 0;
+      color: #f4efff;
+      font-size: clamp(1.3rem, 2.3vw, 2.05rem);
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      line-height: 1.08;
+      text-wrap: balance;
+    }
+
+    .description {
+      margin: 18px 0 0;
+      color: rgba(255, 255, 255, 0.74);
+      font-size: clamp(1rem, 1.35vw, 1.16rem);
+      line-height: 1.7;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    .meta span {
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.04);
+      padding: 10px 14px;
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    .actions,
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .cta,
+    .footer-links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 52px;
+      border-radius: 999px;
+      padding: 0 22px;
+      text-decoration: none;
+      transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .cta:hover,
+    .footer-links a:hover {
+      transform: translateY(-2px);
+    }
+
+    .cta-primary {
+      color: #120024;
+      background: linear-gradient(135deg, #ffe600, #fff24a);
+      box-shadow:
+        0 18px 46px rgba(0, 0, 0, 0.4),
+        0 16px 36px rgba(255, 230, 0, 0.2);
+      font-size: 0.82rem;
+      font-weight: 900;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .cta-secondary,
+    .footer-links a {
+      color: rgba(255, 255, 255, 0.88);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(14px);
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    .hero-art {
+      display: grid;
+      place-items: center;
+    }
+
+    .icon-shell {
+      width: min(420px, 74vw);
+      aspect-ratio: 1;
+      padding: clamp(18px, 3vw, 28px);
+      border-radius: 36px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.04)),
+        rgba(10, 4, 24, 0.74);
+      box-shadow:
+        0 28px 90px rgba(0, 0, 0, 0.46),
+        0 0 70px rgba(255, 230, 0, 0.1);
+    }
+
+    .icon-shell img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 28px;
+      box-shadow: 0 18px 48px rgba(0, 0, 0, 0.3);
+    }
+
+    .section-head {
+      max-width: 700px;
+      margin-bottom: 22px;
+    }
+
+    h2 {
+      font-size: clamp(34px, 5vw, 56px);
+      font-weight: 900;
+      letter-spacing: -0.06em;
+      line-height: 0.96;
+      color: #fff;
+      text-wrap: balance;
+    }
+
+    .feature-grid,
+    .shot-grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .feature-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .feature-card,
+    .shot-card,
+    .footer-card {
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 28px;
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04)),
+        rgba(10, 4, 24, 0.68);
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(16px);
+    }
+
+    .feature-card {
+      padding: 24px;
+    }
+
+    .feature-card h3 {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: #fff5b8;
+    }
+
+    .feature-card p,
+    .footer-card p {
+      margin: 12px 0 0;
+      color: rgba(255, 255, 255, 0.74);
+      line-height: 1.65;
+    }
+
+    .shot-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      align-items: start;
+    }
+
+    .shot-card {
+      overflow: hidden;
+      padding: 12px;
+    }
+
+    .shot-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 22px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    figcaption {
+      padding: 14px 6px 6px;
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 0.94rem;
+      font-weight: 700;
+    }
+
+    .footer-card {
+      padding: clamp(24px, 4vw, 34px);
+    }
+
+    .footer-card h2 {
+      font-size: clamp(28px, 4vw, 42px);
+    }
+
+    @media (max-width: 920px) {
+      .hero,
+      .feature-grid,
+      .shot-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        min-height: auto;
+        padding-top: 12px;
+      }
+
+      .copy {
+        max-width: none;
+      }
+
+      .hero-art {
+        order: -1;
+      }
+    }
+  </style>
+</SimpleLayout>
