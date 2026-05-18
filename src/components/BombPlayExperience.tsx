@@ -130,6 +130,30 @@ async function findCameraDeviceId(facing: "environment" | "user") {
   }
 }
 
+async function primeCameraPermission() {
+  if (!navigator.mediaDevices?.getUserMedia || !navigator.mediaDevices?.enumerateDevices) {
+    return;
+  }
+
+  try {
+    const devices = await navigator.mediaDevices.enumerateDevices();
+    const hasNamedCamera = devices.some(
+      (device) => device.kind === "videoinput" && device.label.trim().length > 0
+    );
+
+    if (hasNamedCamera) return;
+
+    const stream = await navigator.mediaDevices.getUserMedia({
+      video: true,
+      audio: false
+    });
+
+    stopStream(stream);
+  } catch {
+    // Ignore: the real request path below handles user-facing errors.
+  }
+}
+
 function FeedVideo({
   stream,
   mirrored,
@@ -557,7 +581,20 @@ export default function BombPlayExperience() {
 
     for (const attempt of attempts) {
       try {
-        return await requestVideoStream(attempt);
+        const stream = await requestVideoStream(attempt);
+        const track = stream.getVideoTracks()[0];
+        const settings = track?.getSettings();
+        const resolvedFacing = settings?.facingMode ?? "";
+        const resolvedDeviceId = settings?.deviceId ?? "";
+        const isMatchingFacing =
+          resolvedFacing === facing ||
+          (preferredDeviceId.length > 0 && resolvedDeviceId === preferredDeviceId);
+
+        if (isMatchingFacing || (!resolvedFacing && !preferredDeviceId)) {
+          return stream;
+        }
+
+        stopStream(stream);
       } catch {
         continue;
       }
@@ -601,6 +638,8 @@ export default function BombPlayExperience() {
     }));
 
     try {
+      await primeCameraPermission();
+
       let topStream: MediaStream | null = null;
       let bottomStream: MediaStream | null = null;
 
