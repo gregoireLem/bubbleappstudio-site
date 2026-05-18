@@ -103,6 +103,33 @@ function stopStream(stream: MediaStream | null) {
   stream?.getTracks().forEach((track) => track.stop());
 }
 
+function normalizeDeviceLabel(label: string) {
+  return label
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+async function findCameraDeviceId(facing: "environment" | "user") {
+  if (!navigator.mediaDevices?.enumerateDevices) return null;
+
+  const matchers =
+    facing === "environment"
+      ? [/back/, /rear/, /environment/, /world/, /arriere/]
+      : [/front/, /user/, /selfie/, /facetime/, /avant/];
+
+  try {
+    const devices = await navigator.mediaDevices.enumerateDevices();
+    const camera = devices
+      .filter((device) => device.kind === "videoinput")
+      .find((device) => matchers.some((matcher) => matcher.test(normalizeDeviceLabel(device.label))));
+
+    return camera?.deviceId ?? null;
+  } catch {
+    return null;
+  }
+}
+
 function FeedVideo({
   stream,
   mirrored,
@@ -517,6 +544,28 @@ export default function BombPlayExperience() {
     });
   };
 
+  const requestFacingStream = async (facing: "environment" | "user") => {
+    const preferredDeviceId = await findCameraDeviceId(facing);
+    const attempts: MediaTrackConstraints[] = [];
+
+    if (preferredDeviceId) {
+      attempts.push({ deviceId: { exact: preferredDeviceId } });
+    }
+
+    attempts.push({ facingMode: { exact: facing } });
+    attempts.push({ facingMode: { ideal: facing } });
+
+    for (const attempt of attempts) {
+      try {
+        return await requestVideoStream(attempt);
+      } catch {
+        continue;
+      }
+    }
+
+    return null;
+  };
+
   const ensureCameras = async () => {
     if (
       (cameraState.mode === "ready" || cameraState.mode === "fallback") &&
@@ -555,20 +604,11 @@ export default function BombPlayExperience() {
       let topStream: MediaStream | null = null;
       let bottomStream: MediaStream | null = null;
 
-      try {
-        topStream = await requestVideoStream({ facingMode: { ideal: "environment" } });
-      } catch {
-        topStream = null;
-      }
-
-      try {
-        bottomStream = await requestVideoStream({ facingMode: { ideal: "user" } });
-      } catch {
-        bottomStream = null;
-      }
+      topStream = await requestFacingStream("environment");
+      bottomStream = await requestFacingStream("user");
 
       if (!topStream && !bottomStream) {
-        topStream = await requestVideoStream({ facingMode: { ideal: "user" } });
+        topStream = await requestFacingStream("user");
       }
 
       if (!topStream && bottomStream) {
@@ -583,30 +623,47 @@ export default function BombPlayExperience() {
       const bottomTrack = bottomStream?.getVideoTracks()[0] ?? null;
       const topDeviceId = topTrack?.getSettings().deviceId ?? "";
       const bottomDeviceId = bottomTrack?.getSettings().deviceId ?? "";
+      const topFacing = topTrack?.getSettings().facingMode ?? "";
+      const bottomFacing = bottomTrack?.getSettings().facingMode ?? "";
       const usingDistinctCameras =
         Boolean(bottomStream) &&
         Boolean(bottomTrack) &&
         topStream.id !== bottomStream?.id &&
-        (!topDeviceId || !bottomDeviceId || topDeviceId !== bottomDeviceId);
+        ((Boolean(topDeviceId) && Boolean(bottomDeviceId) && topDeviceId !== bottomDeviceId) ||
+          (Boolean(topFacing) && Boolean(bottomFacing) && topFacing !== bottomFacing));
 
       if (!usingDistinctCameras) {
-        if (bottomStream && bottomStream.id !== topStream.id) {
+        const singleStream = (await requestFacingStream("environment")) ?? topStream ?? bottomStream;
+
+        if (!singleStream) {
+          throw new Error("Camera access failed");
+        }
+
+        if (topStream.id !== singleStream.id) {
+          stopStream(topStream);
+        }
+        if (bottomStream && bottomStream.id !== singleStream.id) {
           stopStream(bottomStream);
         }
 
-        bottomStream = topStream;
-        replaceOwnedStreams([topStream]);
+        const singleTrack = singleStream.getVideoTracks()[0];
+        const singleFacing = singleTrack?.getSettings().facingMode ?? "";
+        const singleIsUserFacing = singleFacing === "user";
+
+        replaceOwnedStreams([singleStream]);
 
         setCameraState({
           mode: "fallback",
           message:
-            "Your browser exposed one live camera feed. The layout stays split so it still feels like the app.",
-          topStream,
-          bottomStream,
-          topMirrored: false,
+            singleIsUserFacing
+              ? "Your browser exposes one live camera at a time. The front feed is live; the rear feed cannot run alongside it on iPhone web."
+              : "Your browser exposes one live camera at a time. The rear feed is live; the front feed cannot run alongside it on iPhone web.",
+          topStream: singleStream,
+          bottomStream: null,
+          topMirrored: singleIsUserFacing,
           bottomMirrored: true,
-          topLabel: "Upper feed",
-          bottomLabel: "Lower feed"
+          topLabel: singleIsUserFacing ? "Front feed" : "Rear feed",
+          bottomLabel: singleIsUserFacing ? "Rear feed unavailable" : "Front feed unavailable"
         });
       } else {
         replaceOwnedStreams([topStream, bottomStream!]);
