@@ -30,6 +30,9 @@ const {
         data-locale-switch={locale}
         class:list={["locale-chip", isCurrent && "is-active"]}
         aria-current={isCurrent ? "page" : undefined}
+        style={isCurrent
+          ? { color: "#221414", "font-weight": "700", "text-shadow": "none" }
+          : undefined}
       >
         {localeMeta[locale].label}
       </a>
