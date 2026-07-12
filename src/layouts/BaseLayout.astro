@@ -1,27 +1,32 @@
 ---
 import "../styles/global.css";
+import type { AlternateLink } from "../i18n/site";
 
 const {
   title = "Bubble App Studio",
-  description = "Loup Garou : Undercover, le jeu des Loups-Garous sans carte."
+  description = "Loup Garou : Undercover, le jeu des Loups-Garous sans carte.",
+  keywords = "loups-garous,loup,garou,soiree,thiercelieux,bluff,role,famille,village,cartes,party,narrateur,mafia",
+  lang = "fr",
+  locale = "fr_FR",
+  alternates = [],
+  skipLinkLabel = "Skip to content",
+  schemaData
 } = Astro.props;
 
 const baseUrl = import.meta.env.BASE_URL;
 const siteUrl = Astro.site?.toString().replace(/\/$/, "") ?? "https://www.bubbleappstudio.xyz";
 const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
 const ogImageUrl = `${siteUrl}/assets/wolfo.png`;
-const keywords =
-  "loups-garous,loup,garou,soiree,thiercelieux,bluff,role,famille,village,cartes,party,narrateur,mafia";
-const schemaData = {
+const resolvedSchemaData = schemaData ?? {
   "@context": "https://schema.org",
   "@type": "MobileApplication",
   name: "Loup-garou Undercover",
   applicationCategory: "Game",
   operatingSystem: "iOS, Android",
   description,
-  url: siteUrl,
+  url: canonicalUrl,
   sameAs: [
-    "https://apps.apple.com/fr/app/loup-garou-undercover/id6740009341",
+    "https://apps.apple.com/app/id6740009341",
     "https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover&pcampaignid=web_share"
   ],
   offers: {
@@ -35,7 +40,14 @@ const schemaData = {
     url: siteUrl
   }
 };
-const schemaJson = JSON.stringify(schemaData);
+const schemaJson = JSON.stringify(resolvedSchemaData);
+const alternateOgLocales = Array.from(
+  new Set(
+    (alternates as AlternateLink[])
+      .filter((alternate) => alternate.locale && alternate.locale !== locale)
+      .map((alternate) => alternate.locale as string)
+  )
+);
 const fontFaceCss = `@font-face {
   font-family: "Dela Gothic One";
   src: url("${baseUrl}fonts/DelaGothicOne-Regular.ttf") format("truetype");
@@ -46,7 +58,7 @@ const fontFaceCss = `@font-face {
 ---
 
 <!doctype html>
-<html lang="fr">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -54,13 +66,19 @@ const fontFaceCss = `@font-face {
     <meta name="keywords" content={keywords} />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href={canonicalUrl} />
+    {(alternates as AlternateLink[]).map((alternate) => (
+      <link rel="alternate" hreflang={alternate.hrefLang} href={alternate.href} />
+    ))}
     <meta name="theme-color" content="#130708" />
     <meta name="color-scheme" content="dark" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalUrl} />
-    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale" content={locale} />
+    {alternateOgLocales.map((alternateLocale) => (
+      <meta property="og:locale:alternate" content={alternateLocale} />
+    ))}
     <meta property="og:image" content={ogImageUrl} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
@@ -73,7 +91,7 @@ const fontFaceCss = `@font-face {
     <style is:global set:html={fontFaceCss} />
     <script type="application/ld+json" set:html={schemaJson} />
     <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-6 focus:top-6 focus:z-50 focus:rounded-full focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:text-slate-900">
-      Skip to content
+      {skipLinkLabel}
     </a>
     <slot />
   </body>

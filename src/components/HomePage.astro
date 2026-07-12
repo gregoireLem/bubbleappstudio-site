@@ -1,0 +1,79 @@
+---
+import Hero from "./Hero";
+import LocaleSwitcher from "./LocaleSwitcher.astro";
+import LocalePrompt from "./LocalePrompt.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import {
+  buildAlternateLinks,
+  defaultLocale,
+  getLocalizedPath,
+  homePageContent,
+  localeMeta,
+  type Locale
+} from "../i18n/site";
+
+const { locale } = Astro.props as { locale: Locale };
+const content = homePageContent[locale];
+const meta = localeMeta[locale];
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  name: "Loup-garou Undercover",
+  applicationCategory: "Game",
+  operatingSystem: "iOS, Android",
+  description: content.metaDescription,
+  url: new URL(getLocalizedPath(locale, "/"), "https://www.bubbleappstudio.xyz").toString(),
+  inLanguage: meta.lang,
+  sameAs: [
+    "https://apps.apple.com/app/id6740009341",
+    "https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover&pcampaignid=web_share"
+  ],
+  offers: {
+    "@type": "Offer",
+    price: "0",
+    priceCurrency: "EUR"
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Bubble App Studio",
+    url: "https://www.bubbleappstudio.xyz"
+  }
+};
+---
+
+<BaseLayout
+  title={content.metaTitle}
+  description={content.metaDescription}
+  keywords={content.keywords}
+  lang={meta.lang}
+  locale={meta.ogLocale}
+  alternates={buildAlternateLinks("/")}
+  skipLinkLabel={content.skipLinkLabel}
+  schemaData={schemaData}
+>
+  <main id="main" class="relative">
+    {locale === defaultLocale && (
+      <LocalePrompt
+        copy={{
+          ariaLabel: "Language suggestion",
+          messagePrefix: "This page is also available in",
+          openLabel: "Open",
+          dismissLabel: "Dismiss language suggestion"
+        }}
+      />
+    )}
+    <div class="absolute inset-x-0 top-0 z-20">
+      <div class="container-base flex justify-end pt-6 sm:pt-8">
+        <LocaleSwitcher currentLocale={locale} path="/" label={content.localeSwitcherLabel} />
+      </div>
+    </div>
+    <Hero
+      client:visible
+      content={content}
+      legalLinks={{
+        termsHref: getLocalizedPath(locale, "/terms"),
+        privacyHref: getLocalizedPath(locale, "/privacy")
+      }}
+    />
+  </main>
+</BaseLayout>

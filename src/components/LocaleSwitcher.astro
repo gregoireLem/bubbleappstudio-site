@@ -1,0 +1,54 @@
+---
+import {
+  getLocalizedPath,
+  localeMeta,
+  locales,
+  type Locale
+} from "../i18n/site";
+
+const {
+  currentLocale,
+  path = "/",
+  label = "Choose language"
+} = Astro.props as {
+  currentLocale: Locale;
+  path?: string;
+  label?: string;
+};
+---
+
+<nav class="locale-switcher" aria-label={label}>
+  {locales.map((locale) => {
+    const isCurrent = locale === currentLocale;
+
+    return (
+      <a
+        href={getLocalizedPath(locale, path)}
+        hreflang={localeMeta[locale].hrefLang}
+        lang={localeMeta[locale].lang}
+        title={localeMeta[locale].name}
+        data-locale-switch={locale}
+        class:list={["locale-chip", isCurrent && "is-active"]}
+        aria-current={isCurrent ? "page" : undefined}
+      >
+        {localeMeta[locale].label}
+      </a>
+    );
+  })}
+</nav>
+
+<script is:inline>
+  (() => {
+    const preferenceKey = "bubbleappstudio-preferred-locale";
+    const links = document.querySelectorAll("[data-locale-switch]");
+
+    links.forEach((link) => {
+      link.addEventListener("click", () => {
+        const locale = link.getAttribute("data-locale-switch");
+        if (locale) {
+          window.localStorage.setItem(preferenceKey, locale);
+        }
+      });
+    });
+  })();
+</script>

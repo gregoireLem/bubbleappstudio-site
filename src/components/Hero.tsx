@@ -1,15 +1,6 @@
 import { motion } from "framer-motion";
 import { useRef } from "react";
-
-const roleData = [
-  { name: "Loup-garou", image: "assets/roles/wolf.png" },
-  { name: "Voyante", image: "assets/roles/seer.png" },
-  { name: "Petite Fille", image: "assets/roles/little_girl.png" },
-  { name: "Villageois", image: "assets/roles/villager.png" },
-  { name: "Sorciere", image: "assets/roles/witch.png" },
-  { name: "Cupidon", image: "assets/roles/cupid.png" },
-  { name: "Chasseur", image: "assets/roles/hunter.png" }
-];
+import type { HomePageContent } from "../i18n/site";
 
 
 const container = {
@@ -51,14 +42,21 @@ function AndroidBadgeIcon() {
   );
 }
 
-export default function Hero() {
+type HeroProps = {
+  content: HomePageContent;
+  legalLinks: {
+    termsHref: string;
+    privacyHref: string;
+  };
+};
+
+export default function Hero({ content, legalLinks }: HeroProps) {
   const carouselRef = useRef<HTMLDivElement | null>(null);
   const baseUrl = import.meta.env.BASE_URL;
-  const appStoreUrl =
-    "https://apps.apple.com/fr/app/loup-garou-undercover/id6740009341";
+  const appStoreUrl = "https://apps.apple.com/app/id6740009341";
   const playStoreUrl =
     "https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover&pcampaignid=web_share";
-  const roles = roleData.map((role) => ({
+  const roles = content.roles.map((role) => ({
     ...role,
     image: `${baseUrl}${role.image}`
   }));
@@ -109,7 +107,7 @@ export default function Hero() {
               >
                 <img
                   src={`${baseUrl}assets/wolfo.png`}
-                  alt="Wolfo app icon"
+                  alt={content.iconAlt}
                   className="h-28 w-28 rounded-[28px] object-cover"
                 />
               </motion.div>
@@ -119,9 +117,9 @@ export default function Hero() {
               variants={item}
               className="title-glow font-accent mt-8 text-5xl uppercase tracking-[0.2em] text-white sm:text-6xl"
             >
-              Loup-garou
+              {content.titleLine1}
               <span className="mt-2 block text-[0.82em] text-[var(--accent-yellow)]">
-                Undercover
+                {content.titleLine2}
               </span>
             </motion.h1>
 
@@ -129,28 +127,28 @@ export default function Hero() {
               variants={item}
               className="mt-6 text-base text-slate-200 sm:text-lg"
             >
-              <strong>Le jeu des Loups-Garous, sans carte.</strong>
+              <strong>{content.tagline}</strong>
             </motion.p>
             <motion.p
               variants={item}
               className="mt-3 text-sm leading-relaxed text-slate-300 sm:text-base"
             >
-              <strong>
-                Rassemblez vos amis et laissez votre telephone jouer le role du
-                narrateur. Bluff, strategie et fous rires garantis.
-              </strong>
+              <strong>{content.intro}</strong>
             </motion.p>
             <motion.p
               variants={item}
               className="mt-4 text-sm leading-relaxed text-slate-400"
             >
-              Jeu de soirée convivial mêlant bluff et jeu de rôle,
-              idéal pour la famille et les amis. Inspiré du Loup-Garou
-              de Thiercelieux et des jeux de type Mafia,
-              il plonge les joueurs au cœur d’un village où le loup-garou se cache parmi les habitants.
-              Sans cartes, avec un narrateur,
-              chaque partie est unique et pleine de suspense.
+              {content.body}
             </motion.p>
+            {content.searchIntentParagraph && (
+              <motion.p
+                variants={item}
+                className="mt-4 text-sm leading-relaxed text-slate-400"
+              >
+                {content.searchIntentParagraph}
+              </motion.p>
+            )}
 
             <motion.div
               variants={item}
@@ -161,7 +159,7 @@ export default function Hero() {
                 href={appStoreUrl}
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Télécharger sur l’App Store"
+                aria-label={content.appStoreAriaLabel}
                 whileHover={{ scale: 1.03, y: -1 }}
                 whileTap={{ scale: 0.98 }}
               >
@@ -169,8 +167,8 @@ export default function Hero() {
                   <AppleBadgeIcon />
                 </span>
                 <span className="store-badge-copy">
-                  <span className="store-badge-caption">Disponible sur</span>
-                  <span className="store-badge-title">App Store</span>
+                  <span className="store-badge-caption">{content.appStoreCaption}</span>
+                  <span className="store-badge-title">{content.appStoreTitle}</span>
                 </span>
               </motion.a>
               <motion.a
@@ -178,7 +176,7 @@ export default function Hero() {
                 href={playStoreUrl}
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Télécharger sur Android"
+                aria-label={content.playStoreAriaLabel}
                 whileHover={{ scale: 1.03, y: -1 }}
                 whileTap={{ scale: 0.98 }}
               >
@@ -186,8 +184,8 @@ export default function Hero() {
                   <AndroidBadgeIcon />
                 </span>
                 <span className="store-badge-copy">
-                  <span className="store-badge-caption">Télécharger sur</span>
-                  <span className="store-badge-title">Android</span>
+                  <span className="store-badge-caption">{content.playStoreCaption}</span>
+                  <span className="store-badge-title">{content.playStoreTitle}</span>
                 </span>
               </motion.a>
             </motion.div>
@@ -196,31 +194,25 @@ export default function Hero() {
               variants={item}
               className="mt-10 grid gap-4 text-sm text-slate-300 sm:grid-cols-3"
             >
-              <div className="stat-card">
-                <p className="font-accent text-3xl text-white">4,7</p>
-                <p className="mt-1 text-xs uppercase tracking-[0.2em]">Note App Store</p>
-              </div>
-              <div className="stat-card">
-                <p className="font-accent text-3xl text-white">6-18</p>
-                <p className="mt-1 text-xs uppercase tracking-[0.2em]">Joueurs</p>
-              </div>
-              <div className="stat-card">
-                <p className="font-accent text-3xl text-white">Gratuit</p>
-                <p className="mt-1 text-xs uppercase tracking-[0.2em]">A telecharger</p>
-              </div>
+              {content.stats.map((stat) => (
+                <div key={stat.label} className="stat-card">
+                  <p className="font-accent text-3xl text-white">{stat.value}</p>
+                  <p className="mt-1 text-xs uppercase tracking-[0.2em]">{stat.label}</p>
+                </div>
+              ))}
             </motion.div>
           </div>
 
           <motion.div variants={item} className="mt-12 text-left">
             <div className="flex items-center justify-between gap-4">
               <p className="font-accent text-2xl uppercase tracking-[0.2em] text-white">
-                Decouvrir les roles
+                {content.rolesHeading}
               </p>
               <div className="flex items-center gap-2">
                 <button
                   type="button"
                   className="carousel-button"
-                  aria-label="Defiler a gauche"
+                  aria-label={content.carouselLeftLabel}
                   onClick={() => scrollCarousel(carouselRef, "left")}
                 >
                   &#8249;
@@ -228,7 +220,7 @@ export default function Hero() {
                 <button
                   type="button"
                   className="carousel-button"
-                  aria-label="Defiler a droite"
+                  aria-label={content.carouselRightLabel}
                   onClick={() => scrollCarousel(carouselRef, "right")}
                 >
                   &#8250;
@@ -258,14 +250,14 @@ export default function Hero() {
 
           <motion.div variants={item} className="mt-10 text-left">
             <p className="font-accent text-2xl uppercase tracking-[0.2em] text-white">
-              Contact
+              {content.contactHeading}
             </p>
             <div className="mt-4 flex flex-wrap items-center justify-between gap-4 rounded-3xl border border-white/10 bg-black/30 p-5">
               <span className="text-xs uppercase tracking-[0.2em] text-slate-400">
                 contact@bubbleappstudio.xyz
               </span>
               <a className="btn btn-primary" href="mailto:contact@bubbleappstudio.xyz">
-                Envoyer un email
+                {content.contactButton}
               </a>
             </div>
           </motion.div>
@@ -274,14 +266,17 @@ export default function Hero() {
             variants={item}
             className="mt-12 text-[10px] uppercase tracking-[0.18em] text-white"
           >
-            <p>Copyright Bubble App Studio 2026. Made with love in Paris 🇫🇷</p>
+            <p>{content.footerCopy}</p>
             <div className="mt-3 flex flex-wrap items-center justify-center gap-3 text-white/70">
-              <a className="transition hover:text-[var(--accent-yellow)]" href="/terms">
-                Terms
+              <a className="transition hover:text-[var(--accent-yellow)]" href={legalLinks.termsHref}>
+                {content.termsLabel}
               </a>
               <span aria-hidden="true">•</span>
-              <a className="transition hover:text-[var(--accent-yellow)]" href="/privacy">
-                Privacy
+              <a
+                className="transition hover:text-[var(--accent-yellow)]"
+                href={legalLinks.privacyHref}
+              >
+                {content.privacyLabel}
               </a>
             </div>
           </motion.footer>

@@ -1,0 +1,111 @@
+---
+import {
+  getLocalizedPath,
+  localeMeta,
+  locales,
+  defaultLocale,
+  type Locale
+} from "../i18n/site";
+
+type PromptCopy = {
+  ariaLabel: string;
+  messagePrefix: string;
+  openLabel: string;
+  dismissLabel: string;
+};
+
+const { copy } = Astro.props as { copy: PromptCopy };
+const supportedLocales = locales.filter((locale) => locale !== defaultLocale);
+const localeTargets = supportedLocales.map((locale) => ({
+  locale,
+  href: getLocalizedPath(locale, "/"),
+  name: localeMeta[locale].name
+}));
+---
+
+<aside
+  id="locale-prompt"
+  class="locale-prompt hidden"
+  aria-label={copy.ariaLabel}
+  hidden
+>
+  <div class="locale-prompt-copy">
+    <p id="locale-prompt-text" class="locale-prompt-text">{copy.messagePrefix}</p>
+  </div>
+  <div class="locale-prompt-actions">
+    <a id="locale-prompt-link" class="btn btn-primary locale-prompt-link" href="/">
+      {copy.openLabel}
+    </a>
+    <button
+      id="locale-prompt-dismiss"
+      type="button"
+      class="locale-prompt-dismiss"
+      aria-label={copy.dismissLabel}
+    >
+      ×
+    </button>
+  </div>
+</aside>
+
+<script
+  is:inline
+  define:vars={{
+    localeTargets,
+    defaultLocale,
+    messagePrefix: copy.messagePrefix
+  }}
+>
+  (() => {
+    const promptKey = "bubbleappstudio-locale-prompt-dismissed";
+    const preferenceKey = "bubbleappstudio-preferred-locale";
+    const prompt = document.getElementById("locale-prompt");
+    const promptText = document.getElementById("locale-prompt-text");
+    const promptLink = document.getElementById("locale-prompt-link");
+    const dismissButton = document.getElementById("locale-prompt-dismiss");
+
+    if (!prompt || !promptText || !promptLink || !dismissButton) {
+      return;
+    }
+
+    if (window.location.pathname !== "/") {
+      return;
+    }
+
+    const preferredLocale = window.localStorage.getItem(preferenceKey);
+    if (preferredLocale) {
+      return;
+    }
+
+    const dismissedLocale = window.localStorage.getItem(promptKey);
+    const browserLanguages = Array.isArray(navigator.languages) && navigator.languages.length > 0
+      ? navigator.languages
+      : [navigator.language];
+
+    const matchedTarget = localeTargets.find((target) =>
+      browserLanguages.some((language) => language.toLowerCase().startsWith(target.locale))
+    );
+
+    if (!matchedTarget || matchedTarget.locale === defaultLocale) {
+      return;
+    }
+
+    if (dismissedLocale === matchedTarget.locale) {
+      return;
+    }
+
+    promptText.textContent = `${messagePrefix} ${matchedTarget.name}.`;
+    promptLink.href = matchedTarget.href;
+    promptLink.addEventListener("click", () => {
+      window.localStorage.setItem(preferenceKey, matchedTarget.locale);
+    });
+
+    dismissButton.addEventListener("click", () => {
+      window.localStorage.setItem(promptKey, matchedTarget.locale);
+      prompt.hidden = true;
+      prompt.classList.add("hidden");
+    });
+
+    prompt.hidden = false;
+    prompt.classList.remove("hidden");
+  })();
+</script>

@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import type { AlternateLink } from "../i18n/site";
 
 const {
   title = "Bubble App Studio",
@@ -11,7 +12,9 @@ const {
   lang = "fr",
   locale = "fr_FR",
   colorScheme = "dark",
-  icon = "/assets/wolfo.png"
+  icon = "/assets/wolfo.png",
+  alternates = [],
+  skipLinkLabel = "Skip to content"
 } = Astro.props;
 
 const baseUrl = import.meta.env.BASE_URL;
@@ -20,6 +23,13 @@ const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
 const ogImageUrl = ogImage.startsWith("http")
   ? ogImage
   : `${siteUrl}${ogImage.startsWith("/") ? ogImage : `/${ogImage}`}`;
+const alternateOgLocales = Array.from(
+  new Set(
+    (alternates as AlternateLink[])
+      .filter((alternate) => alternate.locale && alternate.locale !== locale)
+      .map((alternate) => alternate.locale as string)
+  )
+);
 const fontFaceCss = `@font-face {
   font-family: "Dela Gothic One";
   src: url("${baseUrl}fonts/DelaGothicOne-Regular.ttf") format("truetype");
@@ -37,6 +47,9 @@ const fontFaceCss = `@font-face {
     <meta name="description" content={description} />
     <meta name="robots" content={robots} />
     <link rel="canonical" href={canonicalUrl} />
+    {(alternates as AlternateLink[]).map((alternate) => (
+      <link rel="alternate" hreflang={alternate.hrefLang} href={alternate.href} />
+    ))}
     <meta name="theme-color" content={themeColor} />
     <meta name="color-scheme" content={colorScheme} />
     <meta property="og:title" content={title} />
@@ -44,6 +57,9 @@ const fontFaceCss = `@font-face {
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:locale" content={locale} />
+    {alternateOgLocales.map((alternateLocale) => (
+      <meta property="og:locale:alternate" content={alternateLocale} />
+    ))}
     <meta property="og:image" content={ogImageUrl} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
@@ -55,7 +71,7 @@ const fontFaceCss = `@font-face {
   <body class={`antialiased ${bodyClass}`.trim()}>
     <style is:global set:html={fontFaceCss} />
     <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-6 focus:top-6 focus:z-50 focus:rounded-full focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:text-slate-900">
-      Skip to content
+      {skipLinkLabel}
     </a>
     <slot />
   </body>

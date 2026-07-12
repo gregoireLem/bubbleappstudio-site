@@ -1,0 +1,18 @@
+---
+import LegalPage from "../../components/LegalPage.astro";
+import {
+  defaultLocale,
+  locales,
+  termsPageContent
+} from "../../i18n/site";
+
+export function getStaticPaths() {
+  return locales
+    .filter((locale) => locale !== defaultLocale)
+    .map((locale) => ({ params: { locale }, props: { locale } }));
+}
+
+const { locale } = Astro.props;
+---
+
+<LegalPage locale={locale} path="/terms" content={termsPageContent[locale]} />
