@@ -1,0 +1,233 @@
+---
+import SimpleLayout from "../../layouts/SimpleLayout.astro";
+
+const description =
+  "Politique de confidentialité de Converso — Privacy Policy for Converso.";
+---
+
+<SimpleLayout
+  title="Politique de confidentialité | Converso"
+  description={description}
+  robots="index, follow"
+  themeColor="#25D366"
+  lang="fr"
+  locale="fr_FR"
+  colorScheme="light"
+>
+  <main id="main" class="legal-page">
+    <article class="legal-card">
+      <p class="legal-kicker">Converso</p>
+      <h1>Politique de confidentialité</h1>
+      <p class="legal-date">Dernière mise à jour : 29 juillet 2026</p>
+
+      <h2>1. Éditeur</h2>
+      <p>Bubble App Studio — contact@bubbleappstudio.xyz</p>
+
+      <h2>2. Données collectées</h2>
+      <p>
+        Converso ne collecte, ne transmet et ne vend aucune donnée personnelle.
+        L’app ne nécessite aucun compte, n’utilise aucun serveur et ne contient
+        aucun outil publicitaire, de suivi ou d’analyse.
+      </p>
+
+      <h2>3. Captures d’écran</h2>
+      <p>
+        Les captures choisies avec le sélecteur Photos d’Apple sont analysées
+        localement sur l’iPhone afin d’identifier les noms et numéros visibles.
+        Elles ne quittent jamais l’appareil, ne sont pas envoyées à Bubble App
+        Studio et ne sont pas conservées par Converso après l’analyse.
+      </p>
+
+      <h2>4. Contacts</h2>
+      <p>Avec votre autorisation, Converso utilise Contacts uniquement pour :</p>
+      <ul>
+        <li>retrouver localement un numéro lorsqu’une capture ne montre qu’un nom ;</li>
+        <li>créer de nouvelles fiches temporaires portant le préfixe « CONVERSO • » ;</li>
+        <li>supprimer ensuite uniquement les copies temporaires créées par Converso.</li>
+      </ul>
+      <p>
+        Converso ne renomme, ne modifie et ne supprime jamais une fiche Contact
+        existante. Les identifiants des copies temporaires sont conservés
+        uniquement sur l’appareil jusqu’à leur nettoyage.
+      </p>
+
+      <h2>5. Services tiers</h2>
+      <p>
+        WhatsApp peut être ouvert à la demande de l’utilisateur, mais aucune donnée
+        personnelle ne lui est transmise par Converso. L’app n’utilise aucune API
+        privée ni automatisation WhatsApp. Converso n’est ni affiliée à, ni
+        approuvée par WhatsApp LLC ou Meta Platforms, Inc.
+      </p>
+
+      <h2>6. Vos choix</h2>
+      <p>
+        Vous pouvez refuser ou retirer l’accès à Contacts dans les réglages iOS.
+        Vous pouvez également supprimer les copies temporaires depuis Converso
+        ou depuis l’app Contacts.
+      </p>
+
+      <h2>7. Contact</h2>
+      <p>
+        Pour toute question relative à la confidentialité :
+        <a href="mailto:contact@bubbleappstudio.xyz">contact@bubbleappstudio.xyz</a>.
+      </p>
+
+      <h2>8. Modifications</h2>
+      <p>
+        Cette politique peut être mise à jour. La version publiée sur cette page
+        est la version en vigueur.
+      </p>
+
+      <hr />
+
+      <p class="legal-kicker">Converso</p>
+      <h1 lang="en">Privacy Policy</h1>
+      <p class="legal-date" lang="en">Last updated: July 29, 2026</p>
+
+      <section lang="en">
+        <h2>1. Publisher</h2>
+        <p>Bubble App Studio — contact@bubbleappstudio.xyz</p>
+
+        <h2>2. Data collection</h2>
+        <p>
+          Converso does not collect, transmit, or sell personal data. The app
+          requires no account, operates no server, and contains no advertising,
+          tracking, or analytics tools.
+        </p>
+
+        <h2>3. Screenshots</h2>
+        <p>
+          Screenshots selected with Apple’s Photos picker are processed locally
+          on the iPhone to identify visible names and phone numbers. They never
+          leave the device, are not sent to Bubble App Studio, and are not retained
+          by Converso after processing.
+        </p>
+
+        <h2>4. Contacts</h2>
+        <p>With your permission, Converso accesses Contacts only to:</p>
+        <ul>
+          <li>find a phone number locally when a screenshot shows only a name;</li>
+          <li>create new temporary cards prefixed “CONVERSO •”;</li>
+          <li>later delete only the temporary copies created by Converso.</li>
+        </ul>
+        <p>
+          Converso never renames, edits, or deletes an existing contact. The
+          identifiers of temporary copies are stored only on the device until
+          cleanup.
+        </p>
+
+        <h2>5. Third-party services</h2>
+        <p>
+          WhatsApp may be opened at the user’s request, but Converso does not send
+          it personal data. The app uses no private WhatsApp API or automation.
+          Converso is not affiliated with or endorsed by WhatsApp LLC or Meta
+          Platforms, Inc.
+        </p>
+
+        <h2>6. Your choices</h2>
+        <p>
+          You can deny or revoke Contacts access in iOS Settings. You can also
+          remove temporary copies from Converso or from the Contacts app.
+        </p>
+
+        <h2>7. Contact</h2>
+        <p>
+          For privacy questions:
+          <a href="mailto:contact@bubbleappstudio.xyz">contact@bubbleappstudio.xyz</a>.
+        </p>
+
+        <h2>8. Changes</h2>
+        <p>
+          We may update this policy. The version published on this page is the
+          current version.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <style>
+    :global(body) {
+      background:
+        radial-gradient(760px 520px at 50% 0%, rgba(37, 211, 102, 0.18), transparent 64%),
+        radial-gradient(700px 520px at 88% 100%, rgba(18, 140, 126, 0.12), transparent 66%),
+        #f7fbf8;
+      color: #102019;
+    }
+
+    :global(body)::before {
+      opacity: 0.06;
+      mix-blend-mode: multiply;
+    }
+
+    .legal-page {
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      padding: clamp(28px, 6vw, 72px);
+    }
+
+    .legal-card {
+      width: min(920px, 100%);
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(18, 140, 126, 0.12);
+      border-radius: 28px;
+      padding: clamp(24px, 4vw, 48px);
+      box-shadow: 0 24px 70px rgba(18, 140, 126, 0.11);
+      backdrop-filter: blur(18px);
+    }
+
+    .legal-kicker {
+      margin: 0 0 12px;
+      color: #128c7e;
+      font-size: 0.74rem;
+      font-weight: 900;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+    }
+
+    .legal-date {
+      margin-top: 0;
+      margin-bottom: 24px;
+      color: rgba(16, 32, 25, 0.54);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      color: #102019;
+      font-family: "SF Pro Rounded", "SF Pro Display", "SF Pro Text", -apple-system,
+        BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: clamp(34px, 5vw, 54px);
+      font-weight: 900;
+      letter-spacing: -0.05em;
+    }
+
+    h2 {
+      margin-top: 28px;
+      margin-bottom: 8px;
+      color: #128c7e;
+      font-size: 1.08rem;
+    }
+
+    p,
+    li {
+      color: rgba(16, 32, 25, 0.78);
+      line-height: 1.7;
+    }
+
+    ul {
+      margin: 8px 0 16px;
+      padding-left: 22px;
+    }
+
+    a {
+      color: #087c6e;
+      text-underline-offset: 4px;
+    }
+
+    hr {
+      margin: clamp(44px, 8vw, 80px) 0;
+      border: 0;
+      border-top: 1px solid rgba(18, 140, 126, 0.18);
+    }
+  </style>
+</SimpleLayout>
