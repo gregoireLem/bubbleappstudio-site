@@ -169,7 +169,7 @@ export const homePageContent: Record<Locale, HomePageContent> = {
   fr: {
     metaTitle: "Loup-garou Undercover | Jeu de soiree sans cartes",
     metaDescription:
-      "Jeu de soiree de loups-garous inspire de Thiercelieux, entre village et mafia. Party game de bluff, role et narrateur pour la famille et les amis, sans cartes, de 6 a 18 joueurs.",
+      "Jeu de soiree de loups-garous inspire de Thiercelieux, entre village et mafia. Party game de bluff, role et narrateur pour la famille et les amis, sans cartes, de 5 a 18 joueurs.",
     keywords:
       "loups-garous,loup,garou,soiree,thiercelieux,bluff,role,famille,village,cartes,party,narrateur,mafia",
     skipLinkLabel: "Aller au contenu",
@@ -190,7 +190,7 @@ export const homePageContent: Record<Locale, HomePageContent> = {
     playStoreTitle: "Android",
     stats: [
       { value: "4,7", label: "Note App Store" },
-      { value: "6-18", label: "Joueurs" },
+      { value: "5-18", label: "Joueurs" },
       { value: "Gratuit", label: "À télécharger" }
     ],
     rolesHeading: "Découvrir les rôles",
@@ -206,7 +206,7 @@ export const homePageContent: Record<Locale, HomePageContent> = {
   en: {
     metaTitle: "Werewolf Game Without Cards | Werewolf Undercover",
     metaDescription:
-      "Looking for a werewolf game without cards or a Mafia game without cards? Werewolf Undercover is a card-free party game with hidden roles and a phone narrator for 6 to 18 players.",
+      "Looking for a werewolf game without cards or a Mafia game without cards? Werewolf Undercover is a card-free party game with hidden roles and a phone narrator for 5 to 18 players.",
     keywords:
       "werewolf game without cards,mafia game without cards,card-free werewolf game,card-free mafia game,hidden roles party game,phone narrator party game,werewolf undercover",
     skipLinkLabel: "Skip to content",
@@ -229,7 +229,7 @@ export const homePageContent: Record<Locale, HomePageContent> = {
     playStoreTitle: "Android",
     stats: [
       { value: "4.7", label: "App Store rating" },
-      { value: "6-18", label: "Players" },
+      { value: "5-18", label: "Players" },
       { value: "Free", label: "To download" }
     ],
     rolesHeading: "Discover the roles",
@@ -245,7 +245,7 @@ export const homePageContent: Record<Locale, HomePageContent> = {
   es: {
     metaTitle: "Hombre lobo Undercover | Juego social sin cartas",
     metaDescription:
-      "Juego de hombres lobo inspirado en Mafia y Los Hombres Lobo de Castronegro. Faroles, roles ocultos y narrador en el móvil para 6 a 18 jugadores, sin cartas.",
+      "Juego de hombres lobo inspirado en Mafia y Los Hombres Lobo de Castronegro. Faroles, roles ocultos y narrador en el móvil para 5 a 18 jugadores, sin cartas.",
     keywords:
       "juego de hombres lobo,juego de fiesta,mafia,roles ocultos,faroles,narrador en móvil,juego familiar,amigos,sin cartas,hombre lobo undercover",
     skipLinkLabel: "Ir al contenido",
@@ -266,7 +266,7 @@ export const homePageContent: Record<Locale, HomePageContent> = {
     playStoreTitle: "Android",
     stats: [
       { value: "4,7", label: "Nota App Store" },
-      { value: "6-18", label: "Jugadores" },
+      { value: "5-18", label: "Jugadores" },
       { value: "Gratis", label: "Para descargar" }
     ],
     rolesHeading: "Descubre los roles",
@@ -282,7 +282,7 @@ export const homePageContent: Record<Locale, HomePageContent> = {
   de: {
     metaTitle: "Werwolf Undercover | Partyspiel ohne Karten",
     metaDescription:
-      "Ein Werwolf-Partyspiel im Stil von Mafia und Werwolf. Bluff, geheime Rollen und ein Erzähler auf dem Smartphone für 6 bis 18 Spieler, ganz ohne Karten.",
+      "Ein Werwolf-Partyspiel im Stil von Mafia und Werwolf. Bluff, geheime Rollen und ein Erzähler auf dem Smartphone für 5 bis 18 Spieler, ganz ohne Karten.",
     keywords:
       "werwolf spiel,partyspiel,mafia spiel,geheime rollen,bluff spiel,erzähler am handy,familienspiel,freunde,ohne karten,werwolf undercover",
     skipLinkLabel: "Zum Inhalt springen",
@@ -303,7 +303,7 @@ export const homePageContent: Record<Locale, HomePageContent> = {
     playStoreTitle: "Android",
     stats: [
       { value: "4,7", label: "App Store Bewertung" },
-      { value: "6-18", label: "Spieler" },
+      { value: "5-18", label: "Spieler" },
       { value: "Kostenlos", label: "Zum Download" }
     ],
     rolesHeading: "Rollen entdecken",
