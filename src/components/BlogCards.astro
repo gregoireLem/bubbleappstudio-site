@@ -1,0 +1,19 @@
+---
+import { blogCopy, postPath, type Post } from '../lib/blog';
+import type { Locale } from '../i18n/site';
+const { posts, locale, heading = "h3" } = Astro.props as { posts: Post[]; locale: Locale; heading?: "h2" | "h3" };
+const Heading = heading;
+---
+<div class="blog-grid">
+  {posts.map(post => (
+    <a class="blog-card" href={postPath(post)}>
+      <div class="blog-card-art"><img src={post.frontmatter.image} alt="" width="240" height="240" loading="lazy" /></div>
+      <div class="blog-card-copy">
+        <p class="blog-eyebrow">{post.frontmatter.category}</p>
+        <Heading>{post.frontmatter.title}</Heading>
+        <p>{post.frontmatter.description}</p>
+        <span class="blog-read">{blogCopy[locale].read} <span aria-hidden="true">↗</span></span>
+      </div>
+    </a>
+  ))}
+</div>

@@ -3,6 +3,9 @@ import Hero from "./Hero";
 import LocaleSwitcher from "./LocaleSwitcher.astro";
 import LocalePrompt from "./LocalePrompt.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import BlogCards from "./BlogCards.astro";
+import { blogCopy, blogPaths, postsFor } from "../lib/blog";
+import "../styles/blog.css";
 import {
   buildAlternateLinks,
   defaultLocale,
@@ -63,17 +66,28 @@ const schemaData = {
       />
     )}
     <div class="absolute inset-x-0 top-0 z-20">
-      <div class="container-base flex justify-end pt-6 sm:pt-8">
+      <div class="container-base flex items-center justify-end gap-5 pt-6 sm:pt-8">
+        <a href={blogPaths[locale]} class="text-sm font-semibold hover:text-[var(--accent-yellow)]">Blog</a>
         <LocaleSwitcher currentLocale={locale} path="/" label={content.localeSwitcherLabel} />
       </div>
     </div>
     <Hero
       client:visible
       content={content}
-      legalLinks={{
-        termsHref: getLocalizedPath(locale, "/terms"),
-        privacyHref: getLocalizedPath(locale, "/privacy")
-      }}
     />
+    <section class="container-base blog-home-section" aria-labelledby="blog-heading">
+      <div class="blog-home-heading">
+        <div><p class="blog-eyebrow">{blogCopy[locale].label}</p><h2 id="blog-heading">{blogCopy[locale].title}</h2></div>
+        <a href={blogPaths[locale]}>{blogCopy[locale].all} <span aria-hidden="true">↗</span></a>
+      </div>
+      <BlogCards posts={postsFor(locale)} locale={locale} />
+    </section>
   </main>
+  <footer class="blog-footer container-base">
+    <p>{content.footerCopy}</p>
+    <nav aria-label={content.termsLabel}>
+      <a href={getLocalizedPath(locale, "/terms")}>{content.termsLabel}</a>
+      <a href={getLocalizedPath(locale, "/privacy")}>{content.privacyLabel}</a>
+    </nav>
+  </footer>
 </BaseLayout>

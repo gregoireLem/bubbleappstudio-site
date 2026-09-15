@@ -1,0 +1,14 @@
+---
+import type { Locale } from '../i18n/site';
+const { locale } = Astro.props as { locale: Locale };
+const labels = {
+  fr: ['Télécharger sur l’App Store', 'Télécharger sur Google Play'],
+  en: ['Download on the App Store', 'Get it on Google Play'],
+  es: ['Descargar en el App Store', 'Descargar en Google Play'],
+  de: ['Im App Store laden', 'Bei Google Play herunterladen']
+}[locale];
+---
+<div class="blog-downloads">
+  <a class="blog-button" href="https://apps.apple.com/app/id6740009341">{labels[0]} <span aria-hidden="true">↗</span></a>
+  <a class="blog-button blog-button-secondary" href="https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover&amp;pcampaignid=web_share">{labels[1]} <span aria-hidden="true">↗</span></a>
+</div>

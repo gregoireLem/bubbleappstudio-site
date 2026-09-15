@@ -41,3 +41,30 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Werewolf blog
+
+The blog lives at `/blog/` (French), `/en/blog/`, `/es/blog/` and `/de/blog/`.
+English copy uses American English. Each article has its own localized slug,
+self-referencing canonical, reciprocal language links, and BlogPosting markup.
+
+To add a guide, create one Markdown file per language under `src/data/blog/`.
+Use an existing article as the frontmatter template:
+
+- `translationKey`: shared identifier across the four translations.
+- `locale`: `fr`, `en`, `es` or `de`.
+- `slug`: unique URL slug in that language, without slashes.
+- `title`, `description`, `category`: localized editorial copy.
+- `image`: existing public asset path, starting with `/`.
+- `published`: actual publication date as a quoted `YYYY-MM-DD` string.
+
+Start article headings at H2; the page renders the H1 from `title`.
+Link to the localized version of related guides. The build validates translation
+coverage and generates article routes, contents lists, language switches and
+sitemap entries. `src/data/existing-sitemap.xml` retains the pre-blog URLs.
+Run `npm run build` before deploying using `DEPLOYMENT.md`.
+
+After publication, submit `/sitemap.xml` in Google Search Console and inspect an
+English article. Track US impressions, clicks and queries for `/en/blog/`;
+keyword targets are editorial hypotheses, not measured search-volume estimates.
+Reference: https://developers.google.com/search/docs/specialty/international/localized-versions

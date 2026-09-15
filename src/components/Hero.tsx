@@ -44,13 +44,9 @@ function AndroidBadgeIcon() {
 
 type HeroProps = {
   content: HomePageContent;
-  legalLinks: {
-    termsHref: string;
-    privacyHref: string;
-  };
 };
 
-export default function Hero({ content, legalLinks }: HeroProps) {
+export default function Hero({ content }: HeroProps) {
   const carouselRef = useRef<HTMLDivElement | null>(null);
   const baseUrl = import.meta.env.BASE_URL;
   const appStoreUrl = "https://apps.apple.com/app/id6740009341";
@@ -262,24 +258,7 @@ export default function Hero({ content, legalLinks }: HeroProps) {
             </div>
           </motion.div>
 
-          <motion.footer
-            variants={item}
-            className="mt-12 text-[10px] uppercase tracking-[0.18em] text-white"
-          >
-            <p>{content.footerCopy}</p>
-            <div className="mt-3 flex flex-wrap items-center justify-center gap-3 text-white/70">
-              <a className="transition hover:text-[var(--accent-yellow)]" href={legalLinks.termsHref}>
-                {content.termsLabel}
-              </a>
-              <span aria-hidden="true">•</span>
-              <a
-                className="transition hover:text-[var(--accent-yellow)]"
-                href={legalLinks.privacyHref}
-              >
-                {content.privacyLabel}
-              </a>
-            </div>
-          </motion.footer>
+
         </motion.div>
       </div>
     </section>

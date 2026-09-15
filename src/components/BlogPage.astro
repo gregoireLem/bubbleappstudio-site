@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LocaleSwitcher from './LocaleSwitcher.astro';
+import BlogCards from './BlogCards.astro';
+import DownloadLinks from './DownloadLinks.astro';
+import { blogCopy, blogPaths, blogAlternates, postsFor, postPath, translations, type Post } from '../lib/blog';
+import { homePageContent, getLocalizedPath, localeMeta, siteUrl, type Locale } from '../i18n/site';
+import '../styles/blog.css';
+const { locale, post } = Astro.props as { locale: Locale; post?: Post };
+const copy = blogCopy[locale];
+const home = homePageContent[locale];
+const meta = localeMeta[locale];
+const paths = post ? translations(post) : blogPaths;
+const url = new URL(paths[locale], siteUrl).href;
+const title = post?.frontmatter.title ?? copy.title;
+const description = post?.frontmatter.description ?? copy.description;
+const Content = post?.Content;
+const headings = post?.getHeadings().filter(h => h.depth === 2) ?? [];
+const publisher = { '@type': 'Organization', name: 'Bubble App Studio', url: siteUrl };
+const schemaData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    post ? {
+      '@type': 'BlogPosting', '@id': `${url}#article`, headline: title, description, url,
+      mainEntityOfPage: url, inLanguage: locale === 'en' ? 'en-US' : locale,
+      image: new URL(post.frontmatter.image, siteUrl).href,
+      datePublished: `${post.frontmatter.published}T09:00:00+02:00`, author: publisher, publisher,
+      articleSection: post.frontmatter.category
+    } : {
+      '@type': 'CollectionPage', name: title, description, url, inLanguage: locale,
+      mainEntity: { '@type': 'ItemList', itemListElement: postsFor(locale).map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.frontmatter.title, url: new URL(postPath(p), siteUrl).href })) }
+    },
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: home.titleLine1 + ' Undercover', item: new URL(getLocalizedPath(locale), siteUrl).href },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: new URL(blogPaths[locale], siteUrl).href },
+      ...(post ? [{ '@type': 'ListItem', position: 3, name: title, item: url }] : [])
+    ] }
+  ]
+};
+---
+<BaseLayout title={`${title} | ${home.titleLine1} Undercover`} description={description} keywords="" lang={locale === 'en' ? 'en-US' : locale} locale={meta.ogLocale} alternates={blogAlternates(paths)} skipLinkLabel={home.skipLinkLabel} schemaData={schemaData} ogType={post ? 'article' : 'website'} image={post?.frontmatter.image} publishedTime={post ? `${post.frontmatter.published}T09:00:00+02:00` : undefined}>
+  <header class="blog-nav container-base">
+    <a class="blog-brand" href={getLocalizedPath(locale)}><img src="/assets/wolfo.png" width="40" height="40" alt="" /><span>{home.titleLine1}<small>UNDERCOVER</small></span></a>
+    <div class="blog-nav-links"><a href={getLocalizedPath(locale)}>{copy.home}</a><a href={blogPaths[locale]} aria-current={!post ? 'page' : undefined}>Blog</a></div>
+    <LocaleSwitcher currentLocale={locale} paths={paths} label={home.localeSwitcherLabel} />
+  </header>
+  <main id="main" class="container-base blog-main">
+    {post ? (
+      <>
+        <a class="blog-back" href={blogPaths[locale]}>← {copy.all}</a>
+        <article>
+          <header class="blog-article-header">
+            <div><p class="blog-eyebrow">{post.frontmatter.category}</p><h1>{title}</h1><p class="blog-intro">{description}</p>
+              <p class="blog-byline"><a href={getLocalizedPath(locale)}>Bubble App Studio</a> · {copy.published} <time datetime={post.frontmatter.published}>{new Intl.DateTimeFormat(locale === 'en' ? 'en-US' : locale, { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(post.frontmatter.published))}</time></p>
+              <DownloadLinks locale={locale} />
+            </div>
+            <img class="blog-feature-art" src={post.frontmatter.image} alt="" width="280" height="280" />
+          </header>
+          <div class="blog-article-layout">
+            <aside><nav class="blog-toc" aria-label={copy.toc}><h2>{copy.toc}</h2><ol>{headings.map(h => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol></nav></aside>
+            <div class="blog-prose">{Content && <Content />}</div>
+          </div>
+        </article>
+      </>
+    ) : (
+      <>
+        <header class="blog-index-header"><p class="blog-eyebrow">{copy.label}</p><h1>{copy.title}</h1><p class="blog-intro">{copy.intro}</p><DownloadLinks locale={locale} /></header>
+        <section aria-label={copy.all}><BlogCards posts={postsFor(locale)} locale={locale} heading="h2" /></section>
+      </>
+    )}
+    <section class="blog-cta"><div><p class="blog-eyebrow">{home.titleLine1} Undercover</p><h2>{copy.cta}</h2><p>{copy.ctaBody}</p></div><DownloadLinks locale={locale} /></section>
+    {post && <section class="blog-related"><h2>{copy.related}</h2><BlogCards posts={postsFor(locale).filter(p => p !== post)} locale={locale} /></section>}
+  </main>
+  <footer class="blog-footer container-base"><p>© 2026 Bubble App Studio</p><nav aria-label={home.termsLabel}><a href={getLocalizedPath(locale, '/terms')}>{home.termsLabel}</a><a href={getLocalizedPath(locale, '/privacy')}>{home.privacyLabel}</a><a href="mailto:contact@bubbleappstudio.xyz">Contact</a></nav></footer>
+</BaseLayout>

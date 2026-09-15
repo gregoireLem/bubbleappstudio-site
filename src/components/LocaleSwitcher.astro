@@ -9,11 +9,13 @@ import {
 const {
   currentLocale,
   path = "/",
-  label = "Choose language"
+  label = "Choose language",
+  paths
 } = Astro.props as {
   currentLocale: Locale;
   path?: string;
   label?: string;
+  paths?: Record<Locale, string>;
 };
 ---
 
@@ -23,7 +25,7 @@ const {
 
     return (
       <a
-        href={getLocalizedPath(locale, path)}
+        href={paths?.[locale] ?? getLocalizedPath(locale, path)}
         hreflang={localeMeta[locale].hrefLang}
         lang={localeMeta[locale].lang}
         title={localeMeta[locale].name}

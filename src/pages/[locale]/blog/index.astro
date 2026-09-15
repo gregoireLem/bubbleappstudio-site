@@ -1,0 +1,9 @@
+---
+import BlogPage from '../../../components/BlogPage.astro';
+import { locales, defaultLocale } from '../../../i18n/site';
+export function getStaticPaths() {
+  return locales.filter(locale => locale !== defaultLocale).map(locale => ({ params: { locale }, props: { locale } }));
+}
+const { locale } = Astro.props;
+---
+<BlogPage locale={locale} />
