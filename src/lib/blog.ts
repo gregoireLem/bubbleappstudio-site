@@ -11,7 +11,10 @@ for (const { frontmatter: p } of posts) {
   seen.add(key);
 }
 export const postPath = (post: Post) => getLocalizedPath(post.frontmatter.locale, `/blog/${post.frontmatter.slug}`);
-export const postsFor = (locale: Locale) => posts.filter(p => p.frontmatter.locale === locale);
+export const postsFor = (locale: Locale) => posts
+  .filter(p => p.frontmatter.locale === locale)
+  .sort((a, b) => b.frontmatter.published.localeCompare(a.frontmatter.published)
+    || a.frontmatter.title.localeCompare(b.frontmatter.title, locale));
 export function translations(post: Post) {
   return Object.fromEntries(locales.map(locale => {
     const matches = posts.filter(p => p.frontmatter.translationKey === post.frontmatter.translationKey && p.frontmatter.locale === locale);

@@ -41,3 +41,5 @@ Esta alternativa requiere preparar y repartir los personajes, recordar la secuen
 Mafia y hombres lobo comparten equipos secretos, eliminaciones nocturnas, debate y votaciones. Sin embargo, los nombres, poderes y condiciones de victoria pueden variar. Explicad los personajes antes de empezar en lugar de asumir que los juegos son idénticos.
 
 Consultad la [guía de roles](/es/blog/roles-hombres-lobo/) antes de añadir poderes, o [descubrid Hombre lobo Undercover](/es/) para preparar vuestra próxima reunión.
+
+¿Nadie quiere encargarse de la narración? La guía de la [app narrador de hombres lobo](/es/blog/app-narrador-hombres-lobo/) explica cómo preparar el móvil, mantener los roles en secreto y repartir el tiempo de palabra.

@@ -41,3 +41,5 @@ Cette solution demande de préparer les rôles et de gérer la séquence. L’ap
 Mafia et le Loup-garou partagent une structure d’équipes cachées, d’éliminations secrètes, de débats et de votes. Les noms, les pouvoirs et les conditions de victoire peuvent toutefois changer. Présentez les personnages avant de commencer au lieu de supposer que les deux jeux sont identiques.
 
 Consultez le [guide des rôles](/blog/roles-loup-garou/) avant d’ajouter des personnages spéciaux, ou [découvrez Loup-garou Undercover](/) pour préparer la prochaine soirée.
+
+Personne ne souhaite assurer la narration ? Notre guide de l’[application narrateur Loup-garou](/blog/application-narrateur-loup-garou/) détaille la préparation du téléphone, la confidentialité des rôles et l’organisation des débats.

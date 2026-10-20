@@ -41,3 +41,5 @@ The tradeoff is preparation: somebody must distribute roles, remember the sequen
 Werewolf and Mafia share a familiar structure of hidden teams, secret eliminations, discussion, and voting. Names, powers, and victory conditions can vary. If your friends know Mafia, explain the Werewolf roles first instead of assuming the games are identical.
 
 Browse the [roles guide](/en/blog/werewolf-roles-explained/) before adding special characters, or [discover Werewolf Undercover](/en/) to prepare your next game night.
+
+Nobody wants to moderate? Our [Werewolf narrator app guide](/en/blog/werewolf-narrator-app/) explains phone setup, keeping roles private, and making room for everyone in the discussion.
