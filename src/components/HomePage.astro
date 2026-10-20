@@ -5,6 +5,7 @@ import LocalePrompt from "./LocalePrompt.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogCards from "./BlogCards.astro";
 import { blogCopy, blogPaths, postsFor } from "../lib/blog";
+import { getAppStoreScreenshots, screenshotCopy } from "../lib/appStoreScreenshots";
 import "../styles/blog.css";
 import {
   buildAlternateLinks,
@@ -18,6 +19,7 @@ import {
 const { locale } = Astro.props as { locale: Locale };
 const content = homePageContent[locale];
 const meta = localeMeta[locale];
+const screenshots = await getAppStoreScreenshots(locale);
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "MobileApplication",
@@ -74,6 +76,8 @@ const schemaData = {
     <Hero
       client:visible
       content={content}
+      screenshots={screenshots}
+      screenshotCopy={screenshotCopy[locale]}
     />
     <section class="container-base blog-home-section" aria-labelledby="blog-heading">
       <div class="blog-home-heading">

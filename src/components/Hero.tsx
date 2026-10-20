@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import type { HomePageContent } from "../i18n/site";
+import type { AppStoreScreenshot } from "../lib/appStoreScreenshots";
 
 
 const container = {
@@ -44,10 +45,13 @@ function AndroidBadgeIcon() {
 
 type HeroProps = {
   content: HomePageContent;
+  screenshots: AppStoreScreenshot[];
+  screenshotCopy: { heading: string; description: string; hint: string };
 };
 
-export default function Hero({ content }: HeroProps) {
+export default function Hero({ content, screenshots, screenshotCopy }: HeroProps) {
   const carouselRef = useRef<HTMLDivElement | null>(null);
+  const screenshotsRef = useRef<HTMLDivElement | null>(null);
   const baseUrl = import.meta.env.BASE_URL;
   const appStoreUrl = "https://apps.apple.com/app/id6740009341";
   const playStoreUrl =
@@ -66,7 +70,7 @@ export default function Hero({ content }: HeroProps) {
     const amount = node.clientWidth * 0.7;
     node.scrollBy({
       left: direction === "left" ? -amount : amount,
-      behavior: "smooth"
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth"
     });
   };
 
@@ -85,17 +89,18 @@ export default function Hero({ content }: HeroProps) {
         />
       </div>
 
-      <div className="container-base flex min-h-screen items-center justify-center py-20">
+      <div className="container-base py-24 sm:pt-32">
         <motion.div
           className="relative w-full max-w-6xl"
           variants={container}
-          initial="hidden"
+          initial={false}
           animate="show"
         >
-          <div className="mx-auto max-w-2xl text-center">
+          <div className="hero-layout">
+          <div className="hero-copy">
             <motion.div
               variants={item}
-              className="icon-glow mx-auto flex h-32 w-32 items-center justify-center rounded-[32px] border border-white/10 bg-white/5"
+              className="icon-glow hero-icon flex h-20 w-20 items-center justify-center rounded-[24px] border border-white/10 bg-white/5"
             >
               <motion.div
                 animate={{ y: [0, -6, 0] }}
@@ -104,14 +109,16 @@ export default function Hero({ content }: HeroProps) {
                 <img
                   src={`${baseUrl}assets/wolfo.png`}
                   alt={content.iconAlt}
-                  className="h-28 w-28 rounded-[28px] object-cover"
+                  className="h-16 w-16 rounded-[20px] object-cover"
+                  width="64"
+                  height="64"
                 />
               </motion.div>
             </motion.div>
 
             <motion.h1
               variants={item}
-              className="title-glow font-accent mt-8 text-5xl uppercase tracking-[0.2em] text-white sm:text-6xl"
+              className="title-glow font-accent hero-title mt-6 uppercase text-white"
             >
               {content.titleLine1}
               <span className="mt-2 block text-[0.82em] text-[var(--accent-yellow)]">
@@ -131,24 +138,9 @@ export default function Hero({ content }: HeroProps) {
             >
               <strong>{content.intro}</strong>
             </motion.p>
-            <motion.p
-              variants={item}
-              className="mt-4 text-sm leading-relaxed text-slate-400"
-            >
-              {content.body}
-            </motion.p>
-            {content.searchIntentParagraph && (
-              <motion.p
-                variants={item}
-                className="mt-4 text-sm leading-relaxed text-slate-400"
-              >
-                {content.searchIntentParagraph}
-              </motion.p>
-            )}
-
             <motion.div
               variants={item}
-              className="mt-8 flex flex-wrap justify-center gap-3"
+              className="hero-downloads mt-8 flex flex-wrap gap-3"
             >
               <motion.a
                 className="store-badge"
@@ -188,15 +180,67 @@ export default function Hero({ content }: HeroProps) {
 
             <motion.div
               variants={item}
-              className="mt-10 grid gap-4 text-sm text-slate-300 sm:grid-cols-3"
+              className="hero-stats mt-8 grid grid-cols-3 gap-3 text-sm text-slate-300"
             >
               {content.stats.map((stat) => (
                 <div key={stat.label} className="stat-card">
-                  <p className="font-accent text-3xl text-white">{stat.value}</p>
+                  <p className={`font-accent text-3xl text-white ${stat.value.length > 6 ? "stat-value-long" : ""}`}>{stat.value}</p>
                   <p className="mt-1 text-xs uppercase tracking-[0.2em]">{stat.label}</p>
                 </div>
               ))}
             </motion.div>
+          </div>
+          <div className="hero-posters">
+            {screenshots.slice(0, 2).map((shot, index) => (
+              <img
+                key={shot.src}
+                src={shot.src}
+                srcSet={shot.srcSet}
+                sizes="(min-width: 1024px) 250px, (min-width: 640px) 230px, 42vw"
+                width={shot.width}
+                height={shot.height}
+                alt={shot.alt}
+                className={`hero-poster hero-poster-${index + 1}`}
+                loading="eager"
+                fetchPriority={index === 0 ? "high" : "auto"}
+                decoding="async"
+              />
+            ))}
+          </div>
+          </div>
+
+          <section className="app-preview" aria-labelledby="app-preview-heading">
+            <div className="app-preview-heading">
+              <div>
+                <h2 id="app-preview-heading" className="font-accent">{screenshotCopy.heading}</h2>
+                <p>{screenshotCopy.description}</p>
+              </div>
+              <div className="flex gap-2">
+                <button type="button" className="carousel-button" aria-label={`${screenshotCopy.heading} : ${content.carouselLeftLabel}`} aria-controls="app-screenshots" onClick={() => scrollCarousel(screenshotsRef, "left")}>&#8249;</button>
+                <button type="button" className="carousel-button" aria-label={`${screenshotCopy.heading} : ${content.carouselRightLabel}`} aria-controls="app-screenshots" onClick={() => scrollCarousel(screenshotsRef, "right")}>&#8250;</button>
+              </div>
+            </div>
+            <div id="app-screenshots" ref={screenshotsRef} className="app-screenshots" role="region" aria-labelledby="app-preview-heading" tabIndex={0}>
+              {screenshots.map((shot) => (
+                <img
+                  key={shot.src}
+                  src={shot.src}
+                  srcSet={shot.srcSet}
+                  sizes="(min-width: 640px) 260px, 72vw"
+                  width={shot.width}
+                  height={shot.height}
+                  alt={shot.alt}
+                  loading="lazy"
+                  decoding="async"
+                />
+              ))}
+            </div>
+            <p className="app-preview-hint">{screenshotCopy.hint} <span aria-hidden="true">→</span></p>
+          </section>
+
+          <div className="mx-auto mt-12 max-w-3xl text-center text-sm leading-relaxed text-slate-400">
+            <p>{content.body}</p>
+            {content.searchIntentParagraph && <p className="mt-4">{content.searchIntentParagraph}</p>}
           </div>
 
           <motion.div variants={item} className="mt-12 text-left">

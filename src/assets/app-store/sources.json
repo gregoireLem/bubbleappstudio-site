@@ -1,0 +1,125 @@
+{
+  "retrievedAt": "2026-10-20",
+  "appId": "6740009341",
+  "version": "2.64",
+  "source": "Apple iTunes Lookup API and Apple image CDN",
+  "localizationNote": "The Spanish and German App Store sets localize the first poster; screenshots 2–6 contain English copy. These published assets are reused unchanged.",
+  "locales": {
+    "fr": {
+      "country": "fr",
+      "screenshots": [
+        {
+          "file": "fr/01.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/47/19/53/4719532b-2f4f-8c73-4c06-cab3a2b04233/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_1.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "fr/02.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/ec/b5/3fecb5fd-111e-c407-350a-3a2fb9664efe/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_2.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "fr/03.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e4/12/22/e412225d-9168-a431-141f-21c6063738b2/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_3.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "fr/04.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/e1/17/f3e1173e-4216-e19a-6a9f-e84b0808f27c/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_4.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "fr/05.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/5a/ae/455aaee5-35e5-7c21-852d-035a5f8e1040/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_5.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "fr/06.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/04/c9/9e04c92b-cf79-1ba4-003d-7a2a534da035/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_6.jpg/750x1624bb.jpg"
+        }
+      ]
+    },
+    "en": {
+      "country": "us",
+      "screenshots": [
+        {
+          "file": "en/01.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/be/a2/5d/bea25d4f-2fd2-8e3e-24eb-efbf09cb2f4f/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_18.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "en/02.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d6/14/c9/d614c9ff-cc11-c464-d5b7-e3cf4784bc48/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_8.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "en/03.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/d3/96/5ad396e0-3d8d-3233-224a-97ac21d76d4a/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_9.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "en/04.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/f0/96/f7f09630-3251-5887-f44a-b3931a8b4e17/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_10.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "en/05.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/a6/0f/76a60f57-061b-851e-cd14-5ea7409aa14a/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_11.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "en/06.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/fa/37/22fa37b7-57b2-258e-39b5-426b3cd29aa5/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_12.jpg/750x1624bb.jpg"
+        }
+      ]
+    },
+    "es": {
+      "country": "es",
+      "screenshots": [
+        {
+          "file": "es/01.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/1c/5f/251c5f2a-de1c-3e44-94b2-d48882d69214/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_7.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "es/02.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/03/a0/6d03a07e-12b3-1929-c15d-68e7eac6a443/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_8.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "es/03.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/35/68/3e/35683e94-032e-c670-0e39-0c84b1a47eb9/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_9.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "es/04.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/28/40/db284085-b9cc-8f20-7e36-1973cc105ad5/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_10.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "es/05.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/fe/ac/1bfeac75-c801-d636-d20f-85942354d7ed/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_11.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "es/06.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/a6/03/f7a60382-54ec-50db-851b-5af91222776e/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_12.jpg/750x1624bb.jpg"
+        }
+      ]
+    },
+    "de": {
+      "country": "de",
+      "screenshots": [
+        {
+          "file": "de/01.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/cd/13/f8cd13a1-70c9-9809-4645-d8ea8721b3a5/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_13.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "de/02.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/e9/7c/4de97c81-3b7f-a336-14db-8588d39b352d/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_8.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "de/03.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/52/f4/1a/52f41a7c-3e1d-643e-e360-209550c51231/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_9.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "de/04.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/77/45/1b7745b7-c55b-fad7-8121-31626bcbedb2/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_10.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "de/05.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/d4/37/f2d4376c-25ef-06bf-dccc-1a57074f7bfc/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_11.jpg/750x1624bb.jpg"
+        },
+        {
+          "file": "de/06.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/62/c0/8162c068-145a-c66a-6170-a681765a1fdd/LOUP_GAROU__U0028SCRNSHT_STUDIO_U0029_IPHONE_6.5__U2014_12.jpg/750x1624bb.jpg"
+        }
+      ]
+    }
+  }
+}
