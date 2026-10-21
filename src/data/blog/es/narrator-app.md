@@ -12,6 +12,8 @@ published: "2026-10-20"
 
 Hombre lobo Undercover propone este formato presencial: los amigos se reúnen en la misma habitación y la aplicación se encarga de la narración. Estos pasos os ayudarán a preparar la sesión, sobre todo si hay personas que nunca han jugado.
 
+Antes de preparar el móvil, consulta los [enlaces oficiales para descargar Hombres Lobo en Android y iPhone](/es/blog/descargar-hombres-lobo-android-iphone/) y los consejos de instalación.
+
 ## ¿Qué hace una aplicación narrador?
 
 En una partida tradicional, el narrador llama a los personajes durante la noche y acompaña el paso al día. La aplicación ofrece las instrucciones de narración previstas en su versión del juego. Seguid sus indicaciones para repartir los roles y realizar las acciones, sin mezclarlas con reglas de otra edición.

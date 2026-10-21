@@ -12,6 +12,8 @@ Ready for Werewolf, but nobody wants to spend the evening calling out the night 
 
 Werewolf Undercover supports this in-person format: your friends gather in the same room and the app provides narration. Here is how to prepare a smooth game night, especially when some players are new.
 
+Before setting up the phone, use our [official Werewolf download links for Android and iPhone](/en/blog/download-werewolf-android-iphone/) and check the installation advice.
+
 ## What does a Werewolf narrator app do?
 
 In a traditional game, a moderator calls the characters during the night and guides the transition to daytime. An app provides the narration instructions built into its version of the game. Follow its guidance for assigning roles and taking actions instead of combining it with rules from a different edition.

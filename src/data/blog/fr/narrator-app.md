@@ -12,6 +12,8 @@ Vous voulez organiser un Loup-garou, mais personne n’a envie de passer la soir
 
 Loup-garou Undercover propose ce format en présentiel : les amis sont réunis dans la même pièce et l’application assure la narration. Voici comment préparer une partie agréable, surtout lorsque certains découvrent le jeu.
 
+Avant de préparer le téléphone, retrouvez les [liens officiels pour télécharger Loup-garou sur Android et iPhone](/blog/telecharger-loup-garou-android-iphone/) et les vérifications utiles à l’installation.
+
 ## Que fait une application narrateur ?
 
 Dans une partie traditionnelle, le maître du jeu appelle les personnages pendant la nuit et accompagne le passage au jour. L’application prend en charge les consignes de narration prévues par sa version du jeu. Suivez ses indications pour la distribution des rôles et les actions, plutôt que de superposer des règles apprises ailleurs.

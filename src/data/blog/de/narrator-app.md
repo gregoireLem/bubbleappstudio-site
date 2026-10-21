@@ -12,6 +12,8 @@ Ihr möchtet Werwolf spielen, aber niemand will den ganzen Abend die Nachtphasen
 
 Werwolf Undercover ist für dieses gemeinsame Spielen vor Ort gedacht: Die Freunde sitzen im selben Raum und die App übernimmt die Erzählung. Mit diesen Vorbereitungen gelingt der Einstieg auch dann, wenn einige zum ersten Mal dabei sind.
 
+Bevor ihr das Handy vorbereitet, findet ihr hier die [offiziellen Download-Links für Werwolf auf Android und iPhone](/de/blog/werwolf-android-iphone-herunterladen/) sowie Hinweise zur Installation.
+
 ## Was übernimmt eine Werwolf-Erzähler-App?
 
 In einer klassischen Runde ruft die Spielleitung nachts die Figuren auf und begleitet den Wechsel zum Tag. Eine App gibt die Erzähleranweisungen ihrer jeweiligen Spielversion vor. Folgt ihren Hinweisen zur Rollenverteilung und zu den Aktionen, statt zusätzlich Regeln aus einer anderen Ausgabe einzubauen.
