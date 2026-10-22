@@ -30,6 +30,8 @@ In many versions, the Seer checks a player at night to learn information about t
 
 Knowing one player’s alignment does not solve the whole game. Watch how others react to that player and distinguish confirmed information from your own guesses.
 
+For choosing a useful check and deciding when to share your findings, see our [Seer strategy guide](/en/blog/werewolf-seer-role-strategy/), including an example across two nights.
+
 ## Witch and Hunter: know the timing
 
 The Witch commonly has limited-use powers to save a player or eliminate one. Check how many uses you have, whether self-saving is allowed, and when you must decide. Those details can change the outcome of a night.

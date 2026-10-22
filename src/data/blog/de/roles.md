@@ -30,6 +30,8 @@ In vielen Varianten untersucht die Seherin nachts einen Spieler und erhält Info
 
 Ein bekanntes Team löst nicht die ganze Partie. Beobachte Reaktionen und unterscheide bestätigte Informationen von Vermutungen.
 
+Wie du eine sinnvolle Zielperson auswählst und den Zeitpunkt für deine Aussage abwägst, zeigt unser [Strategieleitfaden für die Seherin](/de/blog/werwolf-seherin-strategie/) anhand von zwei Nächten.
+
 ## Hexe und Jäger: auf den Zeitpunkt achten
 
 Die Hexe hat häufig begrenzte Möglichkeiten, jemanden zu retten oder zu eliminieren. Prüfe die Anzahl der Anwendungen, ob Selbstrettung erlaubt ist und wann du entscheiden musst. Diese Details können eine Nacht verändern.

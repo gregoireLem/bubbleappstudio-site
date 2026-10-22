@@ -30,6 +30,8 @@ Dans de nombreuses versions, la Voyante examine un joueur la nuit pour obtenir u
 
 Une identité connue ne résout pas toute la partie. Observez les réactions des autres et séparez vos certitudes de vos suppositions.
 
+Pour choisir une cible et décider quand partager votre information, consultez notre [guide de stratégie de la Voyante](/blog/voyante-loup-garou-strategie/), avec un exemple sur deux nuits.
+
 ## Sorcière et Chasseur : connaître le bon moment
 
 La Sorcière dispose souvent de pouvoirs limités pour sauver ou éliminer un joueur. Vérifiez le nombre d’utilisations, la possibilité de se sauver soi-même et le moment de la décision. Ces détails peuvent changer l’issue de la nuit.

@@ -30,6 +30,8 @@ En muchas versiones, la Vidente investiga a alguien de noche para conocer inform
 
 Conocer un equipo no resuelve toda la partida. Observad cómo reaccionan los demás y separad lo confirmado de las suposiciones.
 
+Para elegir a quién investigar y cuándo compartir los resultados, consulta la [guía de estrategia de la Vidente](/es/blog/vidente-hombres-lobo-estrategia/), con un ejemplo de dos noches.
+
 ## Bruja y Cazador: entender el momento de actuar
 
 La Bruja suele disponer de poderes limitados para salvar o eliminar a alguien. Comprobad cuántos usos hay, si puede salvarse a sí misma y cuándo debe decidir. Son detalles capaces de cambiar una noche.
