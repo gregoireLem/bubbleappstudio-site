@@ -12,6 +12,8 @@ You do not need a Werewolf deck to organize a game night. You need a way to assi
 
 Werewolf Undercover is designed for 5–18 players and replaces the physical cards with an app. It is a practical setup for an apartment hangout, a college game night, or a family gathering where nobody brought a board game.
 
+Planning a Halloween gathering? Explore [five easy Halloween party games for friends](/en/blog/halloween-party-games-friends/), with Werewolf as a main activity and ideas to mix up the evening.
+
 ## Prepare the room before the roles
 
 Arrange seats in a circle and lower any background music so every player can hear the narration. Charge the phone before starting and silence notifications that could interrupt the game. Keep the screen private whenever secret information is shown.

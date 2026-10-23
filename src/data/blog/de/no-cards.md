@@ -12,6 +12,8 @@ Für einen Werwolf-Abend braucht ihr kein Kartenset. Ihr benötigt eine geheime 
 
 Werwolf Undercover ist für 5 bis 18 Spieler ausgelegt und ersetzt die Karten durch eine App. Damit lässt sich auch dann eine Runde vorbereiten, wenn beim Treffen mit Freunden, beim WG-Abend oder beim Familienbesuch niemand ein Brettspiel dabeihat.
 
+Plant ihr einen Halloween-Abend? Entdeckt [fünf einfache Halloween-Spiele für Freunde](/de/blog/halloween-spiele-freunde/), mit Werwolf als Hauptspiel und weiteren Ideen für Abwechslung am Abend.
+
 ## Den Raum vorbereiten
 
 Stellt die Stühle im Kreis auf und dreht Hintergrundmusik leiser, damit alle die Erzählung hören. Ladet das Smartphone vorher auf und schaltet störende Benachrichtigungen stumm. Schützt den Bildschirm vor fremden Blicken, sobald geheime Informationen angezeigt werden.

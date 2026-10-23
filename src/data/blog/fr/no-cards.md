@@ -12,6 +12,8 @@ Pas besoin d’un paquet de cartes pour organiser un Loup-garou. Il faut un moye
 
 Loup-garou Undercover est conçu pour 5 à 18 joueurs et remplace les cartes physiques par une application. C’est une façon de lancer une partie lors d’un dîner entre amis, d’une soirée étudiante ou d’une réunion de famille, même si personne n’a apporté de jeu de société.
 
+Vous préparez le 31 octobre ? Retrouvez [cinq jeux faciles pour Halloween entre amis](/blog/jeux-halloween-entre-amis/), avec le Loup-garou comme activité principale et des idées pour varier la soirée.
+
 ## Préparer la pièce
 
 Placez les sièges en cercle et baissez la musique pour que tout le monde entende la narration. Chargez le téléphone et coupez les notifications susceptibles d’interrompre la partie. Gardez l’écran à l’abri des regards lorsqu’il présente une information secrète.

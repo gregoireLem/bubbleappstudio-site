@@ -12,6 +12,8 @@ No necesitas una baraja de hombres lobo para organizar una noche de juegos. Nece
 
 Hombre lobo Undercover está diseñado para 5–18 jugadores y sustituye las cartas físicas por una aplicación. Puede servir para una cena con amigos, una reunión universitaria o una tarde en familia en la que nadie haya traído un juego de mesa.
 
+¿Preparáis una noche de Halloween? Descubrid [cinco juegos de Halloween para amigos](/es/blog/juegos-halloween-amigos/), con Hombres Lobo como actividad principal y otras ideas para variar durante la noche.
+
 ## Preparar la habitación
 
 Colocad las sillas en círculo y bajad la música para escuchar la narración. Cargad el teléfono y silenciad las notificaciones que puedan interrumpir la partida. Mantened la pantalla fuera de la vista de los demás cuando muestre información secreta.
