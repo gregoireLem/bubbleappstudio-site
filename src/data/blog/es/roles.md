@@ -36,6 +36,8 @@ Para elegir a quién investigar y cuándo compartir los resultados, consulta la 
 
 La Bruja suele disponer de poderes limitados para salvar o eliminar a alguien. Comprobad cuántos usos hay, si puede salvarse a sí misma y cuándo debe decidir. Son detalles capaces de cambiar una noche.
 
+Para valorar la curación y el veneno, consulta la [guía de las pociones de la Bruja](/es/blog/bruja-hombres-lobo-pociones/), con diferencias entre versiones y un ejemplo del coste de elegir mal el objetivo.
+
 El Cazador suele eliminar a otra persona cuando muere, según las reglas de la versión. Pensad en las pistas más sólidas antes de que llegue ese momento. Una acusación dramática no siempre está bien fundamentada.
 
 ## Cupido y Niña pequeña: para más adelante

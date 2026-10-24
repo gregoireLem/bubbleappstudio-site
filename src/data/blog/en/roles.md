@@ -36,6 +36,8 @@ For choosing a useful check and deciding when to share your findings, see our [S
 
 The Witch commonly has limited-use powers to save a player or eliminate one. Check how many uses you have, whether self-saving is allowed, and when you must decide. Those details can change the outcome of a night.
 
+To weigh healing against poison, read our [Witch potion guide](/en/blog/werewolf-witch-role-potions/), with rule differences and a worked example of choosing the wrong target.
+
 The Hunter commonly eliminates another player when they die, subject to the version’s rules. Think about your strongest evidence before that moment arrives. A dramatic accusation is not necessarily a reliable clue.
 
 ## Cupid and Little Girl: introduce them later

@@ -36,6 +36,8 @@ Pour choisir une cible et décider quand partager votre information, consultez n
 
 La Sorcière dispose souvent de pouvoirs limités pour sauver ou éliminer un joueur. Vérifiez le nombre d’utilisations, la possibilité de se sauver soi-même et le moment de la décision. Ces détails peuvent changer l’issue de la nuit.
 
+Pour peser le soin et le poison, lisez notre [guide des potions de la Sorcière](/blog/sorciere-loup-garou-potions-strategie/), avec les différences entre versions et un exemple du coût d’une mauvaise cible.
+
 Le Chasseur élimine couramment un autre joueur lorsqu’il meurt, selon les règles de la version. Réfléchissez à vos meilleurs indices avant ce moment : une accusation spectaculaire n’est pas forcément solide.
 
 ## Cupidon et Petite Fille : à introduire ensuite

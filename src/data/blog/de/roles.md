@@ -36,6 +36,8 @@ Wie du eine sinnvolle Zielperson auswählst und den Zeitpunkt für deine Aussage
 
 Die Hexe hat häufig begrenzte Möglichkeiten, jemanden zu retten oder zu eliminieren. Prüfe die Anzahl der Anwendungen, ob Selbstrettung erlaubt ist und wann du entscheiden musst. Diese Details können eine Nacht verändern.
 
+Unser [Leitfaden zu den Tränken der Hexe](/de/blog/werwolf-hexe-traenke/) hilft dir, Heilung und Gift abzuwägen, und erklärt Regelunterschiede sowie die Folgen eines falschen Ziels anhand eines Beispiels.
+
 Der Jäger darf beim eigenen Tod häufig einen weiteren Spieler eliminieren, abhängig von den geltenden Regeln. Überlege rechtzeitig, welche Hinweise am stärksten sind. Eine dramatische Anschuldigung muss nicht gut begründet sein.
 
 ## Amor und kleines Mädchen: später hinzufügen
