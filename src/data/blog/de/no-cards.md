@@ -42,6 +42,8 @@ Diese Lösung erfordert Vorbereitung: Jemand muss Rollen verteilen, den Ablauf k
 
 Mafia und Werwolf haben geheime Teams, nächtliche Eliminierungen, Diskussionen und Abstimmungen gemeinsam. Namen, Fähigkeiten und Siegbedingungen können sich aber unterscheiden. Erklärt die Figuren vorab, statt von identischen Regeln auszugehen.
 
+Kennen eure Freunde eher das Wortspiel Undercover? Unser Vergleich [Undercover oder Werwolf](/de/blog/undercover-oder-werwolf/) hilft euch bei der Auswahl nach den Hinweisen und Gesprächen, die eurer Gruppe Spaß machen.
+
 Lest den [Rollenüberblick](/de/blog/werwolf-rollen/), bevor ihr zusätzliche Fähigkeiten einführt, oder [entdeckt Werwolf Undercover](/de/) für euren nächsten Spieleabend.
 
 Niemand möchte die Spielleitung übernehmen? Unser Leitfaden zur [Werwolf-Erzähler-App](/de/blog/werwolf-erzaehler-app/) erklärt die Vorbereitung des Handys, den Schutz geheimer Rollen und eine faire Verteilung der Redezeit.

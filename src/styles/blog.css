@@ -44,6 +44,13 @@
 .blog-prose li { margin-bottom: 14px; padding-left: 6px; }
 .blog-prose h2 { color: #fff3ed; font-size: 28px; line-height: 1.3; font-weight: 700; margin: 44px 0 20px; scroll-margin-top: 28px; }
 .blog-prose a { color: var(--accent-yellow); text-underline-offset: 4px; }
+.blog-prose table { width: 100%; border-collapse: collapse; margin: 24px 0; font-size: 16px; line-height: 1.6; }
+.blog-prose th, .blog-prose td { padding: 12px; text-align: left; vertical-align: top; border: 1px solid #ffffff20; }
+.blog-prose th { color: #fff3ed; background: #ffffff08; font-weight: 700; }
+@media (max-width: 600px) {
+  .blog-prose table { table-layout: fixed; font-size: 14px; }
+  .blog-prose th, .blog-prose td { padding: 10px 6px; overflow-wrap: anywhere; }
+}
 .blog-related { margin-top: 64px; }
 .blog-related > h2 { margin-bottom: 28px; }
 .blog-related .blog-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
