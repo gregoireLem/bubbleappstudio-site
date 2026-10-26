@@ -18,6 +18,8 @@ Before setting up the phone, use our [official Werewolf download links for Andro
 
 In a traditional game, a moderator calls the characters during the night and guides the transition to daytime. An app provides the narration instructions built into its version of the game. Follow its guidance for assigning roles and taking actions instead of combining it with rules from a different edition.
 
+Prefer to run a home game yourself? Our [Werewolf moderator script](/en/blog/werewolf-moderator-script/) gives you prompts to read aloud for each phase of a simple two-team variant.
+
 The narrator does not choose your accusations or play for you. Discussion, alliances, and voting still belong to the group. Those decisions are what make one game different from the next.
 
 If the game is new to you, start with our [beginner’s Werewolf rules](/en/blog/how-to-play-werewolf/). To replace the physical deck as well, read about [playing Werewolf without cards](/en/blog/werewolf-game-without-cards/).

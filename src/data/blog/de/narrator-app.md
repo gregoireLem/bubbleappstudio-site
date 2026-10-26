@@ -18,6 +18,8 @@ Bevor ihr das Handy vorbereitet, findet ihr hier die [offiziellen Download-Links
 
 In einer klassischen Runde ruft die Spielleitung nachts die Figuren auf und begleitet den Wechsel zum Tag. Eine App gibt die Erzähleranweisungen ihrer jeweiligen Spielversion vor. Folgt ihren Hinweisen zur Rollenverteilung und zu den Aktionen, statt zusätzlich Regeln aus einer anderen Ausgabe einzubauen.
 
+Möchte jemand aus eurer Gruppe die Spielleitung selbst übernehmen? Unser [Werwolf-Text zum Vorlesen](/de/blog/werwolf-spielleiter-text/) enthält Ansagen für jede Phase einer einfachen Variante mit zwei Teams.
+
 Die Erzählung bestimmt weder eure Anschuldigungen noch eure Entscheidungen. Diskussionen, Bündnisse und Abstimmungen bleiben Sache der Gruppe. Genau dadurch verläuft jede Partie anders.
 
 Für den Einstieg hilft unsere [Anleitung zu den Werwolf-Regeln](/de/blog/werwolf-regeln/). Wenn ihr auch das Kartenset ersetzen möchtet, lest den Leitfaden zum [Werwolfspielen ohne Karten](/de/blog/werwolf-ohne-karten/).

@@ -18,6 +18,8 @@ Avant de préparer le téléphone, retrouvez les [liens officiels pour télécha
 
 Dans une partie traditionnelle, le maître du jeu appelle les personnages pendant la nuit et accompagne le passage au jour. L’application prend en charge les consignes de narration prévues par sa version du jeu. Suivez ses indications pour la distribution des rôles et les actions, plutôt que de superposer des règles apprises ailleurs.
 
+Vous préférez animer vous-même une partie maison ? Notre [texte de narrateur Loup-garou à lire à voix haute](/blog/texte-narrateur-loup-garou/) propose des phrases pour chaque phase d’une variante simple à deux camps.
+
 La narration ne décide pas de vos accusations et ne joue pas à votre place. Les discussions, les alliances et les votes restent entre les mains du groupe. C’est précisément ce qui permet à une partie de changer d’une soirée à l’autre.
 
 Si vous découvrez le principe, commencez par notre [guide des règles du Loup-garou](/blog/regles-loup-garou/). Pour remplacer aussi les cartes, consultez la [préparation d’une partie sans cartes](/blog/loup-garou-sans-cartes/).

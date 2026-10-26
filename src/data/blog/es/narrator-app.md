@@ -18,6 +18,8 @@ Antes de preparar el móvil, consulta los [enlaces oficiales para descargar Homb
 
 En una partida tradicional, el narrador llama a los personajes durante la noche y acompaña el paso al día. La aplicación ofrece las instrucciones de narración previstas en su versión del juego. Seguid sus indicaciones para repartir los roles y realizar las acciones, sin mezclarlas con reglas de otra edición.
 
+¿Preferís que alguien del grupo dirija una partida casera? Nuestro [guion para narrar Hombres Lobo](/es/blog/guion-narrador-hombres-lobo/) ofrece frases para leer en cada fase de una variante sencilla con dos equipos.
+
 La narración no elige vuestras acusaciones ni juega por vosotros. El debate, las alianzas y las votaciones siguen en manos del grupo. Esas decisiones hacen que cada partida sea distinta.
 
 Si necesitáis una introducción, consultad nuestra [guía de reglas de hombres lobo](/es/blog/como-jugar-hombres-lobo/). Para sustituir también la baraja, podéis leer cómo [jugar a hombres lobo sin cartas](/es/blog/hombres-lobo-sin-cartas/).
