@@ -18,6 +18,8 @@ Le Villageois ordinaire n’a généralement pas d’action nocturne. Ses outils
 
 L’absence de pouvoir ne signifie pas un manque d’influence. Les Villageois relient les indices et évaluent la cohérence des récits.
 
+Pour passer d’un soupçon à une question utile, consultez notre [guide pour jouer Villageois](/blog/villageois-loup-garou-strategie/), avec un exemple d’accusation qui change de cible avant le vote.
+
 ## Loup-garou : garder une histoire cohérente
 
 Les loups connaissent généralement leurs partenaires et choisissent une victime la nuit. Le jour, ils cherchent à se fondre dans le village. Pour débuter, participez naturellement et gardez en mémoire vos raisonnements précédents.

@@ -18,6 +18,8 @@ A regular Villager usually has no night action. Your tools are listening, questi
 
 Do not mistake a lack of special powers for a lack of influence. Villagers connect the clues and decide which stories hold together.
 
+For turning a suspicion into a useful question, read our [Villager strategy guide](/en/blog/werewolf-villager-role-strategy/), with a worked example of an accusation changing targets before the vote.
+
 ## Werewolf: keep your story consistent
 
 Werewolves typically know their teammates and choose a victim at night. During the day, they try to blend into the village. A useful beginner approach is to participate naturally and remember your earlier reasoning.

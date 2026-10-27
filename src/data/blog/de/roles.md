@@ -18,6 +18,8 @@ Ein gewöhnlicher Dorfbewohner hat meist keine Nachtaktion. Zuhören, Nachfragen
 
 Ohne Sonderfähigkeit bist du nicht einflusslos. Dorfbewohner verbinden Hinweise und prüfen, welche Geschichten zusammenpassen.
 
+Wie aus einem Verdacht eine hilfreiche Frage wird, zeigt unser [Strategieleitfaden für Dorfbewohner](/de/blog/werwolf-dorfbewohner-strategie/) anhand einer Anschuldigung, die vor der Abstimmung das Ziel wechselt.
+
 ## Werwolf: glaubwürdig bleiben
 
 Wölfe kennen üblicherweise ihre Mitspieler im Team und wählen nachts ein Opfer. Tagsüber versuchen sie, zum Dorf zu gehören. Für den Einstieg hilft es, natürlich mitzureden und frühere Begründungen im Kopf zu behalten.

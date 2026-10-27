@@ -18,6 +18,8 @@ El Aldeano normal no suele actuar de noche. Sus herramientas son escuchar, pregu
 
 No tener poderes no significa no influir. Los aldeanos relacionan las pistas y deciden qué historias tienen sentido.
 
+Para convertir una sospecha en una pregunta útil, consulta la [guía para jugar como Aldeano](/es/blog/aldeano-hombres-lobo-estrategia/), con un ejemplo de una acusación que cambia de objetivo antes de votar.
+
 ## Hombre lobo: mantener una historia coherente
 
 Los lobos suelen conocer a sus compañeros y elegir una víctima de noche. Durante el día intentan pasar por aldeanos. Para empezar, participad con naturalidad y recordad vuestros argumentos anteriores.
