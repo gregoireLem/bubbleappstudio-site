@@ -16,6 +16,8 @@ Avant de préparer le téléphone, retrouvez les [liens officiels pour télécha
 
 ## Que fait une application narrateur ?
 
+Vous cherchez une application pour une boîte de Loup-Garou pour une Nuit ? Notre [comparatif entre le Loup-garou classique et le format pour une nuit](/blog/loup-garou-classique-ou-pour-une-nuit/) explique les différences et comment retrouver la narration adaptée à votre édition.
+
 Dans une partie traditionnelle, le maître du jeu appelle les personnages pendant la nuit et accompagne le passage au jour. L’application prend en charge les consignes de narration prévues par sa version du jeu. Suivez ses indications pour la distribution des rôles et les actions, plutôt que de superposer des règles apprises ailleurs.
 
 Vous préférez animer vous-même une partie maison ? Notre [texte de narrateur Loup-garou à lire à voix haute](/blog/texte-narrateur-loup-garou/) propose des phrases pour chaque phase d’une variante simple à deux camps.

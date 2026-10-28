@@ -12,6 +12,8 @@ Ready for Werewolf, but nobody wants to spend the evening calling out the night 
 
 Werewolf Undercover supports this in-person format: your friends gather in the same room and the app provides narration. Here is how to prepare a smooth game night, especially when some players are new.
 
+Looking for a companion app for a One Night box? Our [One Night vs classic Werewolf comparison](/en/blog/one-night-vs-classic-werewolf/) explains the differences and how to find narration that matches your edition.
+
 Before setting up the phone, use our [official Werewolf download links for Android and iPhone](/en/blog/download-werewolf-android-iphone/) and check the installation advice.
 
 ## What does a Werewolf narrator app do?

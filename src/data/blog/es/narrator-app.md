@@ -12,6 +12,8 @@ published: "2026-10-20"
 
 Hombre lobo Undercover propone este formato presencial: los amigos se reúnen en la misma habitación y la aplicación se encarga de la narración. Estos pasos os ayudarán a preparar la sesión, sobre todo si hay personas que nunca han jugado.
 
+¿Buscas una app para tu caja de One Night? Nuestra [comparación entre Hombres Lobo clásico y One Night](/es/blog/hombres-lobo-clasico-o-one-night/) explica las diferencias y cómo encontrar una narración adecuada para tu edición.
+
 Antes de preparar el móvil, consulta los [enlaces oficiales para descargar Hombres Lobo en Android y iPhone](/es/blog/descargar-hombres-lobo-android-iphone/) y los consejos de instalación.
 
 ## ¿Qué hace una aplicación narrador?
