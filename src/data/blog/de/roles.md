@@ -42,6 +42,8 @@ Unser [Leitfaden zu den Tränken der Hexe](/de/blog/werwolf-hexe-traenke/) hilft
 
 Der Jäger darf beim eigenen Tod häufig einen weiteren Spieler eliminieren, abhängig von den geltenden Regeln. Überlege rechtzeitig, welche Hinweise am stärksten sind. Eine dramatische Anschuldigung muss nicht gut begründet sein.
 
+Unser [Leitfaden zum Jäger](/de/blog/werwolf-jaeger-rolle/) erklärt den Auslöser seiner Fähigkeit, die Vorbereitung der Zielwahl und die Folgen einer falschen Zielwahl.
+
 ## Amor und kleines Mädchen: später hinzufügen
 
 Amor verbindet gewöhnlich zwei Verliebte, deren Schicksale miteinander verknüpft sind. Abhängig von ihren Teams kann ein anderes Siegziel gelten. Erklärt vorab, was beim Tod eines Verliebten passiert.

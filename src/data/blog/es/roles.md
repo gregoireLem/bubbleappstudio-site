@@ -42,6 +42,8 @@ Para valorar la curación y el veneno, consulta la [guía de las pociones de la 
 
 El Cazador suele eliminar a otra persona cuando muere, según las reglas de la versión. Pensad en las pistas más sólidas antes de que llegue ese momento. Una acusación dramática no siempre está bien fundamentada.
 
+La [guía del Cazador](/es/blog/cazador-hombres-lobo/) explica cuándo se activa el poder, cómo preparar el objetivo y qué cambia al elegir a la persona equivocada.
+
 ## Cupido y Niña pequeña: para más adelante
 
 Cupido suele unir a dos enamorados cuyos destinos quedan conectados. Según sus equipos, podrían tener un objetivo de victoria diferente. Explicad qué ocurre cuando uno muere antes de iniciar la partida.

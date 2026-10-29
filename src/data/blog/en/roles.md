@@ -42,6 +42,8 @@ To weigh healing against poison, read our [Witch potion guide](/en/blog/werewolf
 
 The Hunter commonly eliminates another player when they die, subject to the version’s rules. Think about your strongest evidence before that moment arrives. A dramatic accusation is not necessarily a reliable clue.
 
+Our [Hunter role guide](/en/blog/werewolf-hunter-role/) explains when the ability activates, how to prepare a target, and how the wrong shot changes the balance of the game.
+
 ## Cupid and Little Girl: introduce them later
 
 Cupid commonly links two lovers whose fates are connected. Depending on their teams, they may have a different winning objective. Explain what happens when one lover dies before you begin.

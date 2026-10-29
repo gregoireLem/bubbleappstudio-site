@@ -42,6 +42,8 @@ Pour peser le soin et le poison, lisez notre [guide des potions de la Sorcière]
 
 Le Chasseur élimine couramment un autre joueur lorsqu’il meurt, selon les règles de la version. Réfléchissez à vos meilleurs indices avant ce moment : une accusation spectaculaire n’est pas forcément solide.
 
+Notre [guide du Chasseur](/blog/chasseur-loup-garou-role-strategie/) explique quand son pouvoir intervient, comment préparer sa cible et ce que change un tir mal dirigé.
+
 ## Cupidon et Petite Fille : à introduire ensuite
 
 Cupidon lie généralement deux amoureux dont les destins deviennent liés. Selon leurs camps, leur objectif peut différer de celui du village. Expliquez ce qui arrive lorsque l’un meurt avant le début de la partie.
