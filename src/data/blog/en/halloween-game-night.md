@@ -24,6 +24,8 @@ At Bubble App Studio, we make **Werewolf Undercover**, which narrates the game o
 
 **Choose this if** your friends enjoy bluffing and debating. If everyone wants to stay involved right through the final turn, start with one of the games below that has no player elimination.
 
+Making Werewolf your main Halloween game? Our guide to [a Halloween Werewolf night without cards](/en/blog/halloween-werewolf-no-cards/) takes you from checking the sound to starting the first game, with an optional speaker.
+
 ## 2. Monster charades: an easy way to get people laughing
 
 **You need:** paper slips, a bowl and an optional timer. Split into two teams. Ask everyone to write down two situations, then mix the slips in the bowl.

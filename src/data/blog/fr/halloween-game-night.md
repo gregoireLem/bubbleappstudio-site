@@ -24,6 +24,8 @@ Chez Bubble App Studio, nous développons **Loup-garou Undercover**, qui assure 
 
 **À choisir si** vos amis aiment argumenter et bluffer. Si tout le monde veut rester actif jusqu’au dernier instant, commencez plutôt par l’un des jeux sans élimination ci-dessous.
 
+Vous avez choisi le Loup-garou pour le 31 octobre ? Notre guide pour [organiser une soirée Halloween sans cartes avec l’app](/blog/halloween-loup-garou-sans-cartes/) vous accompagne de l’essai sonore à la première partie, avec une enceinte facultative.
+
 ## 2. Les mimes de monstres : pour lancer les rires
 
 **À prévoir :** des papiers, un bol et, si vous le souhaitez, un minuteur. Formez deux équipes et demandez à chacun d’écrire deux situations, puis mélangez les papiers.

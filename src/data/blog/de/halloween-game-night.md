@@ -24,6 +24,8 @@ Bei Bubble App Studio entwickeln wir **Werwolf Undercover**. Die App übernimmt 
 
 **Passt zu euch, wenn** ihr gern blufft und diskutiert. Möchten alle bis zum letzten Zug aktiv dabei sein, beginnt lieber mit einem der folgenden Spiele, bei denen niemand ausscheidet.
 
+Ihr habt euch für Werwolf an Halloween entschieden? Unser Leitfaden für [einen Halloween-Spieleabend ohne Karten mit der App](/de/blog/halloween-werwolf-ohne-karten/) führt euch vom Hörtest bis zur ersten Partie, auf Wunsch mit einem zusätzlichen Lautsprecher.
+
 ## 2. Monster-Pantomime: zum gemeinsamen Lachen
 
 **Ihr braucht:** Zettel, eine Schüssel und auf Wunsch einen Timer. Bildet zwei Teams. Jede Person schreibt zwei Situationen auf, dann mischt ihr die Zettel in der Schüssel.

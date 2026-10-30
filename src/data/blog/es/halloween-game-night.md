@@ -24,6 +24,8 @@ En Bubble App Studio desarrollamos **Hombre lobo Undercover**, que se encarga de
 
 **Elegidlo si** os gusta debatir y fingir inocencia. Si preferís que todos sigan participando hasta el último turno, empezad por uno de los juegos sin eliminación que vienen a continuación.
 
+¿Habéis elegido Hombres Lobo para Halloween? Nuestra guía para [organizar la noche sin cartas con la app](/es/blog/halloween-hombres-lobo-sin-cartas/) os acompaña desde la prueba de sonido hasta la primera partida, con un altavoz opcional.
+
 ## 2. Mímica de monstruos: para empezar con risas
 
 **Necesitáis:** papeles, un recipiente y, si queréis, un temporizador. Formad dos equipos. Cada persona escribe dos situaciones y mezcla los papeles con los demás.
