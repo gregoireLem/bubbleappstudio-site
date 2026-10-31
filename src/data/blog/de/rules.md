@@ -39,3 +39,5 @@ Zwei Wölfe gegen zwei Dorfbewohner bedeuten beispielsweise oft bereits einen Si
 Nutzt die erste Runde zum Lernen. Haltet die Diskussion verständlich, erklärt die Abstimmung und verschiebt komplizierte Kombinationen auf später. Nach dem Aufdecken kann jeder einen bemerkten Hinweis nennen. So wird deutlich, wie Bluff und Schlussfolgerungen zusammenpassen.
 
 Für die Vorbereitung helfen die Anleitung zum [Spielen ohne Karten](/de/blog/werwolf-ohne-karten/) und unser [Überblick über die Rollen](/de/blog/werwolf-rollen/).
+
+Du hast eine Wolfsrolle bekommen? Unsere [Strategietipps für Wölfe](/de/blog/werwolf-strategie-als-wolf/) helfen dir, dich an Gesprächen zu beteiligen und den nächsten Tag vorzubereiten.

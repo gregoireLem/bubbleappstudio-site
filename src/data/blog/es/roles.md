@@ -26,6 +26,8 @@ Los lobos suelen conocer a sus compañeros y elegir una víctima de noche. Duran
 
 Defender siempre a otro lobo puede vincularos ante el grupo. Cambiar de acusación sin explicación también llama la atención. Un engaño resulta más creíble cuando se parece a vuestra forma habitual de conversar.
 
+Para elegir un objetivo nocturno y justificar tus votos sin contradecirte, consulta nuestra [guía de estrategia para jugar como Lobo](/es/blog/hombres-lobo-estrategia-lobo/), con un ejemplo de cómo responder a una acusación contra un compañero.
+
 ## Vidente: información y riesgo
 
 En muchas versiones, la Vidente investiga a alguien de noche para conocer información sobre su identidad o equipo. La información exacta depende de las reglas. Aprovechadla para orientar preguntas, teniendo en cuenta el riesgo de convertiros en objetivo al revelar vuestro rol.

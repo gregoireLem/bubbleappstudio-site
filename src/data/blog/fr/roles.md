@@ -26,6 +26,8 @@ Les loups connaissent généralement leurs partenaires et choisissent une victim
 
 Défendre systématiquement un autre loup peut vous associer dans l’esprit du groupe. Changer d’accusation sans explication peut aussi attirer l’attention. Un bluff crédible ressemble à votre façon habituelle de discuter.
 
+Pour choisir une cible de nuit et défendre vos votes sans vous contredire, lisez notre [guide de stratégie quand vous êtes Loup](/blog/loup-garou-strategie-loup/), avec un exemple de défense d’un partenaire.
+
 ## Voyante : exploiter une information sans tout révéler
 
 Dans de nombreuses versions, la Voyante examine un joueur la nuit pour obtenir une information sur son identité ou son camp. La précision de cette information dépend des règles. Orientez vos questions grâce à ce que vous savez, en tenant compte du risque de devenir une cible si vous annoncez votre rôle.

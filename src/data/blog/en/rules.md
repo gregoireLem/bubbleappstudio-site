@@ -64,3 +64,5 @@ Use the first game to learn. Keep discussion focused, explain voting clearly, an
 Ready to set up? Read [how to play without cards](/en/blog/werewolf-game-without-cards/) or explore the [Werewolf roles guide](/en/blog/werewolf-roles-explained/).
 
 For phone narration, get our app on [the App Store](https://apps.apple.com/app/id6740009341) or [Google Play](https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover), then follow the instructions for your version.
+
+Drawn a wolf role? Our [wolf strategy guide](/en/blog/werewolf-wolf-strategy/) explains how to join discussions, keep your bluff consistent and plan for the next day.

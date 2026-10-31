@@ -26,6 +26,8 @@ Wölfe kennen üblicherweise ihre Mitspieler im Team und wählen nachts ein Opfe
 
 Wer einen anderen Wolf immer verteidigt, kann eine Verbindung verraten. Auch ein unbegründeter Wechsel des Verdachts fällt auf. Ein Bluff wirkt glaubwürdiger, wenn du ähnlich sprichst wie sonst.
 
+Wie du nachts ein Ziel auswählst und deine Stimmen stimmig begründest, zeigt unser [Strategieleitfaden für das Spielen als Wolf](/de/blog/werwolf-strategie-als-wolf/), mit einem Beispiel für den Umgang mit Vorwürfen gegen einen Mitwolf.
+
 ## Seherin: Wissen mit Risiko
 
 In vielen Varianten untersucht die Seherin nachts einen Spieler und erhält Informationen zu dessen Identität oder Team. Was genau sie erfährt, hängt von den Regeln ab. Nutze dieses Wissen für gezielte Fragen, aber bedenke das Risiko, durch eine Offenlegung selbst zum Ziel zu werden.

@@ -39,3 +39,5 @@ Par exemple, deux loups face à deux villageois suffisent souvent à donner la v
 Utilisez la première partie pour apprendre. Gardez les échanges compréhensibles, expliquez clairement le vote et réservez les combinaisons complexes pour plus tard. Après la révélation, proposez à chacun de partager un indice remarqué : ce petit bilan aide à comprendre le lien entre bluff et déduction.
 
 Pour préparer votre soirée, découvrez [comment jouer sans cartes](/blog/loup-garou-sans-cartes/) et notre [guide des rôles du Loup-garou](/blog/roles-loup-garou/).
+
+Vous avez reçu le rôle de Loup ? Nos [conseils de bluff côté loups](/blog/loup-garou-strategie-loup/) expliquent comment participer aux débats et préparer le jour suivant.

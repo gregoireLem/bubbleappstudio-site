@@ -39,3 +39,5 @@ Por ejemplo, dos lobos frente a dos aldeanos suelen significar victoria para los
 Usad la primera partida para aprender. Mantened el debate claro, explicad cómo se vota y dejad las combinaciones complejas para después. Al terminar, compartid una pista que cada persona haya notado. Este pequeño repaso ayuda a entender cómo se relacionan el engaño y la deducción.
 
 Preparad la siguiente partida con la [guía para jugar sin cartas](/es/blog/hombres-lobo-sin-cartas/) y la [explicación de los roles](/es/blog/roles-hombres-lobo/).
+
+Si te ha tocado ser Lobo, nuestros [consejos de estrategia para la manada](/es/blog/hombres-lobo-estrategia-lobo/) te ayudarán a participar en el debate y preparar el día siguiente.

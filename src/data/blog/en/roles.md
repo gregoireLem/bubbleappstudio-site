@@ -26,6 +26,8 @@ Werewolves typically know their teammates and choose a victim at night. During t
 
 Blindly defending another wolf can link you together. So can switching an accusation without explanation. Bluffing works best when your contributions sound like the way you normally talk.
 
+For choosing a night target and explaining your votes consistently, read our [strategy guide for playing as a wolf](/en/blog/werewolf-wolf-strategy/), with an example of responding to accusations against a teammate.
+
 ## Seer: information with a risk
 
 In many versions, the Seer checks a player at night to learn information about their identity or alignment. The exact information depends on the rules. Use what you learn to guide your questions, but consider the risk of becoming a target if you reveal your role.
