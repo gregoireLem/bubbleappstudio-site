@@ -66,3 +66,5 @@ Ready to set up? Read [how to play without cards](/en/blog/werewolf-game-without
 For phone narration, get our app on [the App Store](https://apps.apple.com/app/id6740009341) or [Google Play](https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover), then follow the instructions for your version.
 
 Drawn a wolf role? Our [wolf strategy guide](/en/blog/werewolf-wolf-strategy/) explains how to join discussions, keep your bluff consistent and plan for the next day.
+
+To prepare your role calls, read our [Werewolf night order guide](/en/blog/werewolf-night-role-order/). It separates first-night steps from later nights and explains how to track choices before announcing their outcome.

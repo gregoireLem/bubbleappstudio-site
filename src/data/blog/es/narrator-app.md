@@ -26,6 +26,8 @@ La narración no elige vuestras acusaciones ni juega por vosotros. El debate, la
 
 Si necesitáis una introducción, consultad nuestra [guía de reglas de hombres lobo](/es/blog/como-jugar-hombres-lobo/). Para sustituir también la baraja, podéis leer cómo [jugar a hombres lobo sin cartas](/es/blog/hombres-lobo-sin-cartas/).
 
+Para preparar las llamadas, consulta la [guía del orden de los roles durante la noche](/es/blog/orden-noche-hombres-lobo/). Distingue la primera noche de las siguientes y explica cómo registrar las elecciones antes de anunciar su resultado.
+
 ## Preparar el móvil antes de repartir los roles
 
 Comprobad estos detalles antes de la primera noche:

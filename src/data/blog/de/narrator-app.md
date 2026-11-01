@@ -26,6 +26,8 @@ Die Erzählung bestimmt weder eure Anschuldigungen noch eure Entscheidungen. Dis
 
 Für den Einstieg hilft unsere [Anleitung zu den Werwolf-Regeln](/de/blog/werwolf-regeln/). Wenn ihr auch das Kartenset ersetzen möchtet, lest den Leitfaden zum [Werwolfspielen ohne Karten](/de/blog/werwolf-ohne-karten/).
 
+Für die Vorbereitung der Aufrufe hilft unser [Leitfaden zur Reihenfolge in der Werwolf-Nacht](/de/blog/werwolf-reihenfolge-nacht/). Er trennt die erste Nacht von späteren Nächten und zeigt, wie ihr Entscheidungen vor der Ergebnisansage festhaltet.
+
 ## Das Handy vor der Rollenverteilung vorbereiten
 
 Prüft vor der ersten Nacht diese Punkte:

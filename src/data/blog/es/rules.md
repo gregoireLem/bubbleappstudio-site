@@ -41,3 +41,5 @@ Usad la primera partida para aprender. Mantened el debate claro, explicad cómo 
 Preparad la siguiente partida con la [guía para jugar sin cartas](/es/blog/hombres-lobo-sin-cartas/) y la [explicación de los roles](/es/blog/roles-hombres-lobo/).
 
 Si te ha tocado ser Lobo, nuestros [consejos de estrategia para la manada](/es/blog/hombres-lobo-estrategia-lobo/) te ayudarán a participar en el debate y preparar el día siguiente.
+
+Para preparar las llamadas, consulta la [guía del orden de los roles durante la noche](/es/blog/orden-noche-hombres-lobo/). Distingue la primera noche de las siguientes y explica cómo registrar las elecciones antes de anunciar su resultado.

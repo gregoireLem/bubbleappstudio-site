@@ -26,6 +26,8 @@ The narrator does not choose your accusations or play for you. Discussion, allia
 
 If the game is new to you, start with our [beginner’s Werewolf rules](/en/blog/how-to-play-werewolf/). To replace the physical deck as well, read about [playing Werewolf without cards](/en/blog/werewolf-game-without-cards/).
 
+To prepare your role calls, read our [Werewolf night order guide](/en/blog/werewolf-night-role-order/). It separates first-night steps from later nights and explains how to track choices before announcing their outcome.
+
 ## Prepare the phone before assigning roles
 
 Check these details before the first night:

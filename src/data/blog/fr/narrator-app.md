@@ -26,6 +26,8 @@ La narration ne décide pas de vos accusations et ne joue pas à votre place. Le
 
 Si vous découvrez le principe, commencez par notre [guide des règles du Loup-garou](/blog/regles-loup-garou/). Pour remplacer aussi les cartes, consultez la [préparation d’une partie sans cartes](/blog/loup-garou-sans-cartes/).
 
+Pour préparer les appels du meneur, consultez notre [guide de l’ordre des rôles pendant la nuit](/blog/ordre-roles-nuit-loup-garou/). Il distingue la première nuit des suivantes et explique comment suivre les choix sans annoncer trop tôt leur résultat.
+
 ## Préparer le téléphone avant de distribuer les rôles
 
 Vérifiez ces points avant de lancer la première nuit :
