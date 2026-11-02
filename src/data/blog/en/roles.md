@@ -57,3 +57,5 @@ The Little Girl commonly gathers information by secretly watching during the wol
 Start with the core teams and a small number of special roles. Add complexity after players understand a full night-and-day cycle. Avoid combining several unfamiliar powers in a first round: it becomes harder to tell whether an unexpected result is a clue or a misunderstood rule.
 
 Review the [basic rules](/en/blog/how-to-play-werewolf/) with your group, then use the [card-free setup guide](/en/blog/werewolf-game-without-cards/) to get everyone seated and ready.
+
+For counting players, allowing for a moderator and choosing powers, read our [Werewolf group setup guide](/en/blog/werewolf-group-role-setup/), including an example for ten people.

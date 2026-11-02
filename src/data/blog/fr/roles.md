@@ -57,3 +57,5 @@ La Petite Fille peut, dans les règles classiques, observer discrètement les lo
 Commencez avec les équipes principales et peu de pouvoirs spéciaux. Ajoutez de la complexité quand tout le monde comprend un cycle complet. Plusieurs pouvoirs inconnus rendent difficile la distinction entre un vrai indice et une règle mal comprise.
 
 Relisez les [règles de base](/blog/regles-loup-garou/), puis préparez votre groupe avec le [guide du jeu sans cartes](/blog/loup-garou-sans-cartes/).
+
+Pour compter les joueurs, prévoir le meneur et sélectionner les pouvoirs, consultez notre [guide de composition du Loup-garou](/blog/composition-roles-loup-garou/), avec un exemple pour dix personnes.

@@ -26,6 +26,8 @@ Abrid la aplicación, configurad el grupo y seguid las instrucciones de roles y 
 
 Antes de empezar, explicad los equipos, cuándo se permite hablar y cómo funciona la votación. Nuestra [guía de reglas](/es/blog/como-jugar-hombres-lobo/) recorre una ronda habitual. Si vuestra variante funciona de otra manera, seguid las indicaciones de la aplicación.
 
+Para contar a los jugadores, prever al narrador y elegir los poderes, consulta nuestra [guía para repartir los roles de Hombres Lobo](/es/blog/reparto-roles-hombres-lobo/), con un ejemplo para diez personas.
+
 ## Mantener el secreto
 
 Sin cartas también se pueden revelar personajes por accidente: mirando por encima de un hombro, reaccionando a la pantalla o susurrando de noche. Dad a cada jugador tiempo y privacidad para leer su rol.

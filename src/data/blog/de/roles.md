@@ -57,3 +57,5 @@ Das kleine Mädchen kann in klassischen Varianten während der Wolfsphase heimli
 Beginnt mit den Hauptteams und wenigen Sonderfähigkeiten. Fügt erst weitere hinzu, wenn alle einen vollständigen Wechsel zwischen Nacht und Tag verstehen. Mehrere unbekannte Kräfte erschweren es, einen echten Hinweis von einem Missverständnis zu unterscheiden.
 
 Wiederholt die [Grundregeln](/de/blog/werwolf-regeln/) und bereitet die Runde mit der Anleitung zum [Werwolf ohne Karten](/de/blog/werwolf-ohne-karten/) vor.
+
+Zum Zählen der Spielenden, Einplanen der Spielleitung und Auswählen der Fähigkeiten hilft unser [Leitfaden zur Werwolf-Rollenverteilung](/de/blog/werwolf-rollen-gruppengroesse/) mit einem Beispiel für zehn Personen.

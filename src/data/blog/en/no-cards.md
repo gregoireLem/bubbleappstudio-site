@@ -26,6 +26,8 @@ Open the app, configure your group, and follow the on-screen instructions for ro
 
 Before the first night, explain three things: which team each role belongs to, when players may talk, and how the village votes. If you need a refresher, our [beginner’s rules guide](/en/blog/how-to-play-werewolf/) walks through a typical round. Use the rules shown in your app whenever a variant differs.
 
+For counting players, allowing for a moderator and choosing powers, read our [Werewolf group setup guide](/en/blog/werewolf-group-role-setup/), including an example for ten people.
+
 ## Keep information secret
 
 Physical cards are not the only way to reveal a role accidentally. Looking over someone’s shoulder, reacting to the screen, or whispering during the night can all expose information. Give each player the time and privacy needed to read their role.

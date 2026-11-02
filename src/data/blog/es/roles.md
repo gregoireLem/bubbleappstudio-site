@@ -57,3 +57,5 @@ La Niña pequeña puede, en versiones clásicas, observar discretamente durante 
 Empezad con los equipos principales y pocos poderes. Añadid complejidad cuando todos comprendan un ciclo de noche y día. Combinar varias habilidades desconocidas dificulta distinguir una pista de una regla mal entendida.
 
 Repasad las [reglas básicas](/es/blog/como-jugar-hombres-lobo/) y utilizad la [guía sin cartas](/es/blog/hombres-lobo-sin-cartas/) para preparar al grupo.
+
+Para contar a los jugadores, prever al narrador y elegir los poderes, consulta nuestra [guía para repartir los roles de Hombres Lobo](/es/blog/reparto-roles-hombres-lobo/), con un ejemplo para diez personas.

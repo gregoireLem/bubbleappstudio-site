@@ -26,6 +26,8 @@ Ouvrez l’application, configurez votre groupe et suivez les instructions de di
 
 Avant de commencer, expliquez les équipes, les moments où il est permis de parler et le déroulement du vote. Notre [guide des règles](/blog/regles-loup-garou/) présente un tour classique. Lorsqu’une variante diffère, les indications de votre application font référence.
 
+Pour compter les joueurs, prévoir le meneur et sélectionner les pouvoirs, consultez notre [guide de composition du Loup-garou](/blog/composition-roles-loup-garou/), avec un exemple pour dix personnes.
+
 ## Protéger les informations secrètes
 
 Même sans cartes, un rôle peut être révélé par accident : un regard par-dessus l’épaule, une réaction à l’écran ou un chuchotement pendant la nuit. Donnez à chaque joueur le temps et l’intimité nécessaires pour découvrir son personnage.

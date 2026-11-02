@@ -26,6 +26,8 @@ Erklärt, dass ihr gemeinsam vor Ort spielt. Das Handy gibt die Struktur vor; di
 
 Erklärt vor dem Start die Teams, wann gesprochen werden darf und wie die Abstimmung funktioniert. Unsere [Regelanleitung](/de/blog/werwolf-regeln/) führt durch einen üblichen Ablauf. Weicht eure Variante davon ab, gelten die Hinweise in der App.
 
+Zum Zählen der Spielenden, Einplanen der Spielleitung und Auswählen der Fähigkeiten hilft unser [Leitfaden zur Werwolf-Rollenverteilung](/de/blog/werwolf-rollen-gruppengroesse/) mit einem Beispiel für zehn Personen.
+
 ## Geheime Informationen schützen
 
 Auch ohne Karten lassen sich Rollen versehentlich verraten: durch einen Blick über die Schulter, eine Reaktion auf den Bildschirm oder Flüstern in der Nacht. Gebt jedem genug Zeit und Privatsphäre, um seine Rolle zu lesen.
