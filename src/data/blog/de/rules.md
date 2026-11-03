@@ -43,3 +43,5 @@ Für die Vorbereitung helfen die Anleitung zum [Spielen ohne Karten](/de/blog/we
 Du hast eine Wolfsrolle bekommen? Unsere [Strategietipps für Wölfe](/de/blog/werwolf-strategie-als-wolf/) helfen dir, dich an Gesprächen zu beteiligen und den nächsten Tag vorzubereiten.
 
 Für die Vorbereitung der Aufrufe hilft unser [Leitfaden zur Reihenfolge in der Werwolf-Nacht](/de/blog/werwolf-reihenfolge-nacht/). Er trennt die erste Nacht von späteren Nächten und zeigt, wie ihr Entscheidungen vor der Ergebnisansage festhaltet.
+
+Spielen einige zum ersten Mal mit? Unser [Leitfaden für einen Werwolf-Abend mit Anfängern](/de/blog/werwolf-spieleabend-anfaenger/) erklärt eine Probeabstimmung und faire Redezeit, ohne Rollen zu verraten.

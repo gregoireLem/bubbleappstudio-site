@@ -51,3 +51,5 @@ Plant einen flexiblen Zeitblock statt einer Pause von wenigen Minuten. Erklärun
 Neue Kollegen begrüßen, Abteilungen zusammenbringen oder einen Teamtag gesellig ergänzen: All das sind Anlässe für ein gemeinsames Spiel. Werwolf gibt Raum für Gespräche und Lachen. Dabei kann man die gewohnte berufliche Rolle kurz verlassen und die eigene Spielrolle geheim halten.
 
 [Entdeckt Werwolf Undercover](/de/) für euer Team oder nutzt die Anleitung zum [Spielen ohne Karten](/de/blog/werwolf-ohne-karten/), um den Raum vorzubereiten.
+
+Spielen einige zum ersten Mal mit? Unser [Leitfaden für einen Werwolf-Abend mit Anfängern](/de/blog/werwolf-spieleabend-anfaenger/) erklärt eine Probeabstimmung und faire Redezeit, ohne Rollen zu verraten.

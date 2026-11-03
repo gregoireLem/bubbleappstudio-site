@@ -68,3 +68,5 @@ For phone narration, get our app on [the App Store](https://apps.apple.com/app/i
 Drawn a wolf role? Our [wolf strategy guide](/en/blog/werewolf-wolf-strategy/) explains how to join discussions, keep your bluff consistent and plan for the next day.
 
 To prepare your role calls, read our [Werewolf night order guide](/en/blog/werewolf-night-role-order/). It separates first-night steps from later nights and explains how to track choices before announcing their outcome.
+
+Welcoming people who have never played? Our [guide to hosting Werewolf for first-time players](/en/blog/host-werewolf-first-time-players/) includes a practice vote and ways to share speaking time without exposing roles.

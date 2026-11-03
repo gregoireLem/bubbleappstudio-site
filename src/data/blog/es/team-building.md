@@ -51,3 +51,5 @@ Reservad un tiempo flexible en lugar de una pausa de pocos minutos. Explicar las
 Dar la bienvenida a nuevos compañeros, reunir departamentos o añadir un momento social a una jornada de equipo son ocasiones para compartir una partida. Hombres lobo ofrece un contexto lúdico para conversar y reír, salir del papel habitual en el trabajo y mantener en secreto el personaje del juego.
 
 [Descubrid Hombre lobo Undercover](/es/) para reunir al equipo o consultad la [guía para jugar sin cartas](/es/blog/hombres-lobo-sin-cartas/) para preparar la sala.
+
+¿Hay personas que nunca han jugado? La [guía para organizar Hombres Lobo con principiantes](/es/blog/organizar-hombres-lobo-principiantes/) propone un ensayo de votación y formas de repartir la palabra sin descubrir los roles.

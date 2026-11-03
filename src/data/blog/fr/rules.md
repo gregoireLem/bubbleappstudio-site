@@ -43,3 +43,5 @@ Pour préparer votre soirée, découvrez [comment jouer sans cartes](/blog/loup-
 Vous avez reçu le rôle de Loup ? Nos [conseils de bluff côté loups](/blog/loup-garou-strategie-loup/) expliquent comment participer aux débats et préparer le jour suivant.
 
 Pour préparer les appels du meneur, consultez notre [guide de l’ordre des rôles pendant la nuit](/blog/ordre-roles-nuit-loup-garou/). Il distingue la première nuit des suivantes et explique comment suivre les choix sans annoncer trop tôt leur résultat.
+
+Vous accueillez des personnes qui découvrent le jeu ? Notre [guide pour animer une première partie de Loup-garou](/blog/loup-garou-debutants-premiere-partie/) propose un essai de vote et des façons de partager la parole sans révéler de rôle.

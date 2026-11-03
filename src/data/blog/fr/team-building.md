@@ -51,3 +51,5 @@ Réservez une plage souple plutôt qu’une pause de quelques minutes : les expl
 Accueil de nouveaux collègues, rencontre entre services ou moment convivial pendant un séminaire : le Loup-garou fournit un prétexte simple pour échanger et rire ensemble. Chacun peut sortir un peu de son rôle habituel, tout en gardant celui du jeu secret.
 
 [Découvrez Loup-garou Undercover](/) pour réunir votre équipe, ou consultez notre [guide pour jouer sans cartes](/blog/loup-garou-sans-cartes/) afin de préparer la salle.
+
+Vous accueillez des personnes qui découvrent le jeu ? Notre [guide pour animer une première partie de Loup-garou](/blog/loup-garou-debutants-premiere-partie/) propose un essai de vote et des façons de partager la parole sans révéler de rôle.

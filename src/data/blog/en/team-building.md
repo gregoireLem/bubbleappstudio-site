@@ -51,3 +51,5 @@ Allow a flexible block of time rather than a brief meeting break. Explaining the
 Welcoming new coworkers, bringing departments together, or adding a social activity to an offsite all give you a reason to try a shared game. Werewolf offers a playful setting for conversation and laughter, where people can step outside their usual workplace role while keeping their game role secret.
 
 [Discover Werewolf Undercover](/en/) to bring your team together, or use our [guide to playing without cards](/en/blog/werewolf-game-without-cards/) to prepare the room.
+
+Welcoming people who have never played? Our [guide to hosting Werewolf for first-time players](/en/blog/host-werewolf-first-time-players/) includes a practice vote and ways to share speaking time without exposing roles.
