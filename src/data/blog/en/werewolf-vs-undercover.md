@@ -55,3 +55,5 @@ Both games can appeal to people who enjoy suspicion and discussion. When you swi
 For a Werewolf game around a phone, our app provides narration for a group playing together in person. Find it on [the App Store](https://apps.apple.com/app/id6740009341) or [Google Play](https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover), then use our [phone narrator guide](/en/blog/werewolf-narrator-app/). Check your version’s options before setting up.
 
 If you mainly need an activity without a deck, read our guide to [Werewolf without cards](/en/blog/werewolf-game-without-cards/). For more variety on October 31, our [Halloween games for friends](/en/blog/halloween-party-games-friends/) also include charades, drawing and a shared ghost story.
+
+For an adults’ night in, our guide to [party game apps for an evening with drinks](/en/blog/party-game-apps-night-in-drinks/) also compares prompts, quizzes and hidden roles, including the devices each format needs.

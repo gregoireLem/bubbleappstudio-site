@@ -67,3 +67,5 @@ Before game night, check your device’s store listing for compatibility and in-
 Avoid asking aloud who just used a power. Check the instructions available in the app without exposing secret information. If the group can no longer continue fairly, starting a new game with newly assigned roles is often better than guessing.
 
 After the game, identify what caused the confusion: volume, a role explanation, or speaking time. Fixing one practical issue can make the next round much easier to follow.
+
+Still choosing an activity for an adults’ night in? Our guide to [party game apps for an evening with drinks](/en/blog/party-game-apps-night-in-drinks/) compares prompts, quizzes and hidden roles before you set up the narration.

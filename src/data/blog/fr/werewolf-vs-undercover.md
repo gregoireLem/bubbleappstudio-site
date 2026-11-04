@@ -55,3 +55,5 @@ Le goût des soupçons et de la discussion peut se retrouver dans les deux jeux.
 Pour lancer un Loup-garou autour d’un téléphone, notre application propose une narration pour le groupe réuni sur place. Retrouvez-la sur [l’App Store](https://apps.apple.com/app/id6740009341) ou [Google Play](https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover), puis suivez le [guide du narrateur sur téléphone](/blog/application-narrateur-loup-garou/). Vérifiez les options de votre version avant de préparer la partie.
 
 Si vous cherchez surtout une activité sans paquet de cartes, consultez la [préparation du Loup-garou sans cartes](/blog/loup-garou-sans-cartes/). Pour varier les activités du 31 octobre, notre sélection de [jeux d’Halloween entre amis](/blog/jeux-halloween-entre-amis/) propose aussi des mimes, des dessins et une histoire collective.
+
+Pour choisir une activité lors d’une soirée entre adultes, notre guide des [applications de jeux pour une soirée avec alcool](/blog/jeux-soiree-alcool-applications/) compare aussi les formats à consignes, les quiz et le bluff, avec le matériel à prévoir.

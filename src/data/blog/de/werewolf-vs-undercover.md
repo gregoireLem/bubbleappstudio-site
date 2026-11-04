@@ -55,3 +55,5 @@ Beide Spiele können Menschen ansprechen, die Verdächtigungen und Diskussionen 
 Für eine Werwolfrunde um ein Telefon bietet unsere App eine Erzählfunktion für die Gruppe vor Ort. Ihr findet sie im [App Store](https://apps.apple.com/app/id6740009341) und bei [Google Play](https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover). Nutzt anschließend unseren [Leitfaden zur Erzähler-App](/de/blog/werwolf-erzaehler-app/) und prüft vor der Vorbereitung die Optionen eurer Version.
 
 Wenn ihr vor allem ohne Kartenspiel auskommen möchtet, lest den Leitfaden zu [Werwolf ohne Karten](/de/blog/werwolf-ohne-karten/). Für Abwechslung am 31. Oktober enthält unsere Auswahl an [Halloween-Spielen für Freunde](/de/blog/halloween-spiele-freunde/) auch Pantomime, Zeichnen und eine gemeinsame Geschichte.
+
+Für einen Abend unter Erwachsenen vergleicht unser Leitfaden zu [Spiele-Apps für einen Abend mit Drinks](/de/blog/spiele-apps-abend-drinks/) auch Aufgaben, Quiz und geheime Rollen sowie die jeweils benötigten Geräte.

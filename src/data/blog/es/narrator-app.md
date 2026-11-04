@@ -67,3 +67,5 @@ Antes de la reunión, consultad la compatibilidad y las condiciones de las compr
 Evitad preguntar en voz alta quién acaba de usar un poder. Revisad las instrucciones disponibles en la aplicación sin mostrar información secreta. Si ya no es posible continuar de forma justa, suele ser mejor empezar otra partida y repartir de nuevo los roles que intentar adivinar lo sucedido.
 
 Al terminar, identificad el origen de la confusión: volumen, explicación de un personaje o reparto del tiempo de palabra. Ajustar uno de esos detalles puede hacer mucho más fácil la siguiente partida.
+
+¿Todavía estáis eligiendo actividad para una reunión entre adultos? La guía de [apps para una noche de copas con amigos](/es/blog/apps-juegos-noche-copas-amigos/) compara propuestas, concursos y roles ocultos antes de preparar la narración.

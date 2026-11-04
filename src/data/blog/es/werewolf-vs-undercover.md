@@ -55,3 +55,5 @@ Ambos juegos pueden atraer a quienes disfrutan de las sospechas y los debates. A
 Para una partida de Hombres Lobo alrededor de un teléfono, nuestra aplicación ofrece narración para el grupo reunido en persona. Está en [App Store](https://apps.apple.com/app/id6740009341) y [Google Play](https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover). Después, consultad la [guía del narrador en el móvil](/es/blog/app-narrador-hombres-lobo/). Comprobad las opciones de vuestra versión antes de preparar la partida.
 
 Si buscáis sobre todo una actividad sin baraja, leed cómo organizar [Hombres Lobo sin cartas](/es/blog/hombres-lobo-sin-cartas/). Para variar la noche del 31 de octubre, nuestros [juegos de Halloween con amigos](/es/blog/juegos-halloween-amigos/) incluyen también mímica, dibujos y una historia colectiva.
+
+Si preparas una reunión entre adultos, nuestra guía de [apps de juegos para una noche de copas](/es/blog/apps-juegos-noche-copas-amigos/) compara también propuestas, concursos y roles ocultos, con el material que requiere cada formato.

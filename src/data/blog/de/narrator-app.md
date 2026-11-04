@@ -67,3 +67,5 @@ Prüft vor dem Spieleabend die Gerätekompatibilität und die Angaben zu In-App-
 Fragt nicht laut, wer gerade eine Fähigkeit eingesetzt hat. Prüft die verfügbaren Hinweise in der App, ohne geheime Informationen offenzulegen. Lässt sich die Runde nicht mehr fair fortsetzen, ist ein Neustart mit neu verteilten Rollen oft sinnvoller als Vermutungen über den Ablauf.
 
 Besprecht nach der Partie, was zur Verwirrung geführt hat: Lautstärke, eine unklare Fähigkeit oder die Redezeit. Schon eine kleine Anpassung kann die nächste Runde deutlich verständlicher machen.
+
+Ihr sucht noch ein Format für euren Abend unter Erwachsenen? Unser Leitfaden zu [Spiele-Apps für einen Abend mit Drinks](/de/blog/spiele-apps-abend-drinks/) vergleicht Aufgaben, Quiz und geheime Rollen, bevor ihr die Erzählstimme vorbereitet.

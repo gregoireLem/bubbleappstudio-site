@@ -67,3 +67,5 @@ Avant votre soirée, vérifiez sur la fiche du store la compatibilité de votre 
 Évitez de demander à haute voix qui vient d’utiliser un pouvoir. Consultez les instructions disponibles dans l’application sans exposer d’information secrète. Si le groupe ne peut plus continuer équitablement, une nouvelle partie avec des rôles redistribués est souvent préférable à des suppositions.
 
 Après la partie, prenez un moment pour identifier ce qui a posé problème : volume, explication d’un rôle ou temps de parole. Ajuster un seul de ces points suffit parfois à rendre la prochaine partie beaucoup plus fluide.
+
+Vous préparez une soirée entre adultes et hésitez encore sur le format ? Notre sélection d’[applications pour une soirée avec alcool](/blog/jeux-soiree-alcool-applications/) aide à choisir entre consignes, quiz et rôles secrets avant de préparer la narration.
