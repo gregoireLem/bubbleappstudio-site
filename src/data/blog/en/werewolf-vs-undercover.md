@@ -12,6 +12,8 @@ Looking for a game like Undercover to play with friends? **Werewolf is worth con
 
 Here, Undercover means [Yanstar Studio’s word game](https://apps.apple.com/us/app/undercover-word-party-game/id946882449). Werewolf Undercover is our Werewolf app, published by Bubble App Studio. They are separate apps. This guide offers our suggestions for choosing an in-person activity.
 
+Are your friends more familiar with Mafia? Our [Mafia vs Werewolf guide](/en/blog/mafia-vs-werewolf/) explains how to switch without mixing up versions.
+
 ## The differences that matter at the table
 
 | Your preference | Undercover | Werewolf |

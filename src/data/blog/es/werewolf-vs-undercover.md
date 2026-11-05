@@ -12,6 +12,8 @@ published: "2026-10-25"
 
 Aquí, Undercover se refiere al [juego de palabras de Yanstar Studio](https://apps.apple.com/us/app/undercover-word-party-game/id946882449). Hombre lobo Undercover es nuestra aplicación de Hombres Lobo, publicada por Bubble App Studio. Son aplicaciones distintas. Esta guía recoge nuestras sugerencias para elegir una actividad presencial.
 
+¿Vuestros amigos conocen mejor Mafia? La comparación entre [Mafia y Hombres Lobo](/es/blog/mafia-o-hombres-lobo/) explica cómo cambiar de juego sin mezclar variantes.
+
 ## Las diferencias que importan en la mesa
 
 | Vuestra preferencia | Undercover | Hombres Lobo |

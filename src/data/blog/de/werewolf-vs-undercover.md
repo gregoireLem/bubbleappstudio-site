@@ -12,6 +12,8 @@ Ihr sucht ein Spiel wie Undercover für einen Abend mit Freunden? **Werwolf komm
 
 Mit Undercover meinen wir hier das [Wortspiel von Yanstar Studio](https://apps.apple.com/us/app/undercover-word-party-game/id946882449). Werwolf Undercover ist unsere Werwolf-App von Bubble App Studio. Es handelt sich um zwei verschiedene Apps. Dieser Leitfaden enthält unsere Vorschläge für eine Spielrunde vor Ort.
 
+Kennen eure Freunde eher Mafia? Der Vergleich [Mafia oder Werwolf](/de/blog/mafia-oder-werwolf/) zeigt, wie ihr wechseln könnt, ohne verschiedene Regeln zu vermischen.
+
 ## Die wichtigen Unterschiede am Tisch
 
 | Eure Vorliebe | Undercover | Werwolf |

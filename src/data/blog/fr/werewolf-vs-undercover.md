@@ -12,6 +12,8 @@ Vous cherchez un jeu comme Undercover pour une soirée entre amis ? **Le Loup-ga
 
 Ici, Undercover désigne le [jeu de mots de Yanstar Studio](https://apps.apple.com/us/app/undercover-word-party-game/id946882449). Loup-garou Undercover est notre application de Loup-garou, publiée par Bubble App Studio. Ce sont deux applications distinctes. Ce guide présente nos conseils pour choisir une activité en présentiel.
 
+Vos amis connaissent plutôt Mafia ? Le guide [Mafia ou Loup-garou](/blog/mafia-ou-loup-garou/) explique comment passer de ce jeu au Loup-garou sans mélanger les variantes.
+
 ## Les différences qui comptent autour de la table
 
 | Votre préférence | Undercover | Loup-garou |

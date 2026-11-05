@@ -44,6 +44,8 @@ The tradeoff is preparation: somebody must distribute roles, remember the sequen
 
 Werewolf and Mafia share a familiar structure of hidden teams, secret eliminations, discussion, and voting. Names, powers, and victory conditions can vary. If your friends know Mafia, explain the Werewolf roles first instead of assuming the games are identical.
 
+To prepare that switch, our [Mafia vs Werewolf guide](/en/blog/mafia-vs-werewolf/) covers the rules to check together, including an example of revealing a role after elimination.
+
 Are your friends more familiar with Undercover, the word game? Our [Undercover vs Werewolf comparison](/en/blog/undercover-vs-werewolf/) helps you choose based on the clues and discussions your group enjoys.
 
 Browse the [roles guide](/en/blog/werewolf-roles-explained/) before adding special characters, or [discover Werewolf Undercover](/en/) to prepare your next game night.
