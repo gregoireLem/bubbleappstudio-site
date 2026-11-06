@@ -52,6 +52,8 @@ Amor verbindet gewöhnlich zwei Verliebte, deren Schicksale miteinander verknüp
 
 Das kleine Mädchen kann in klassischen Varianten während der Wolfsphase heimlich beobachten und geht dabei ein Risiko ein. Folgt bei dieser besonderen Rolle den genauen Anweisungen eurer Ausgabe.
 
+Unser [Guide zum kleinen Mädchen](/de/blog/werwolf-kleines-maedchen/) erklärt, wie ihr klare Beobachtungen von Vermutungen trennt, mit einem Beispiel für das Gespräch nach der Nacht.
+
 ## Welche Rollen eignen sich für Anfänger?
 
 Beginnt mit den Hauptteams und wenigen Sonderfähigkeiten. Fügt erst weitere hinzu, wenn alle einen vollständigen Wechsel zwischen Nacht und Tag verstehen. Mehrere unbekannte Kräfte erschweren es, einen echten Hinweis von einem Missverständnis zu unterscheiden.

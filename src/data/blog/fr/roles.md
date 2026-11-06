@@ -52,6 +52,8 @@ Cupidon lie généralement deux amoureux dont les destins deviennent liés. Selo
 
 La Petite Fille peut, dans les règles classiques, observer discrètement les loups pendant leur phase, avec un risque. Suivez précisément les instructions de votre édition pour ce rôle particulier.
 
+Pour distinguer une observation claire d’un simple soupçon, consultez notre [guide de la Petite Fille](/blog/petite-fille-loup-garou/), avec un exemple de discussion après la nuit.
+
 ## Quels rôles choisir pour débuter ?
 
 Commencez avec les équipes principales et peu de pouvoirs spéciaux. Ajoutez de la complexité quand tout le monde comprend un cycle complet. Plusieurs pouvoirs inconnus rendent difficile la distinction entre un vrai indice et une règle mal comprise.

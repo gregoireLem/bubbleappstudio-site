@@ -27,6 +27,8 @@ By comparison, [Stellar Factory’s rules](https://playwerewolf.co/pages/rules) 
 
 Use our [Werewolf role guide](/en/blog/werewolf-roles-explained/) to understand a power before adding it.
 
+The Little Girl also needs a clear instruction about when watching is allowed. Our [guide to that role](/en/blog/werewolf-little-girl-role/) covers this point and how to use an observation in the discussion.
+
 ## First night: separate one-off calls from recurring ones
 
 In Le Pacte, Cupid and the lovers’ recognition appear in specific positions during the first night. If you include them, consult that full sequence rather than placing their names wherever convenient at the top of your list.

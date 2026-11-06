@@ -27,6 +27,8 @@ Le [livret officiel du Pacte, page 24](https://cdn.svc.asmodee.net/production-as
 
 Pour comprendre un pouvoir avant de l’intégrer, utilisez le [guide des rôles](/blog/roles-loup-garou/).
 
+La Petite Fille demande aussi une consigne précise sur le moment où elle peut observer. Notre [guide de ce rôle](/blog/petite-fille-loup-garou/) détaille ce point et la manière d’utiliser ses observations au débat.
+
 ## Première nuit : séparer les appels uniques des appels récurrents
 
 Dans le Pacte, Cupidon et la reconnaissance des amoureux figurent dans la première nuit, avec des emplacements précis. Si vous jouez avec eux, consultez cette séquence complète : ajouter leurs noms au hasard en début de liste n’est pas une méthode fiable.

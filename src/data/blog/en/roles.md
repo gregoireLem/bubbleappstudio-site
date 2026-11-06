@@ -52,6 +52,8 @@ Cupid commonly links two lovers whose fates are connected. Depending on their te
 
 The Little Girl commonly gathers information by secretly watching during the wolves’ phase, at a risk. Follow your edition’s exact instructions for this unusual role rather than improvising.
 
+Our [Little Girl guide](/en/blog/werewolf-little-girl-role/) explains how to separate a clear observation from a suspicion, with an example of the discussion after night.
+
 ## Which roles should beginners use?
 
 Start with the core teams and a small number of special roles. Add complexity after players understand a full night-and-day cycle. Avoid combining several unfamiliar powers in a first round: it becomes harder to tell whether an unexpected result is a clue or a misunderstood rule.

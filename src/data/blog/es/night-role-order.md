@@ -27,6 +27,8 @@ En cambio, [Stellar Factory](https://playwerewolf.co/pages/rules) utiliza Lobos 
 
 Nuestra [guía de roles](/es/blog/roles-hombres-lobo/) te ayudará a entender un poder antes de incorporarlo.
 
+La Niña también necesita una indicación clara sobre cuándo puede observar. Nuestra [guía de este personaje](/es/blog/nina-hombres-lobo/) trata ese punto y cómo aprovechar lo visto durante el debate.
+
 ## Primera noche: distinguir las acciones únicas de las habituales
 
 En Le Pacte, Cupido y el reconocimiento de los enamorados ocupan lugares concretos en la primera noche. Si los incluyes, consulta la secuencia completa: añadir sus nombres al principio de la lista sin comprobar el orden no es suficiente.

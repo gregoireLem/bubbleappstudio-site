@@ -52,6 +52,8 @@ Cupido suele unir a dos enamorados cuyos destinos quedan conectados. Según sus 
 
 La Niña pequeña puede, en versiones clásicas, observar discretamente durante la fase de los lobos, corriendo un riesgo. Seguid las instrucciones exactas de vuestra edición para este personaje especial.
 
+La [guía de la Niña](/es/blog/nina-hombres-lobo/) explica cómo separar una observación clara de una sospecha, con un ejemplo de debate tras la noche.
+
 ## Elegir roles para principiantes
 
 Empezad con los equipos principales y pocos poderes. Añadid complejidad cuando todos comprendan un ciclo de noche y día. Combinar varias habilidades desconocidas dificulta distinguir una pista de una regla mal entendida.

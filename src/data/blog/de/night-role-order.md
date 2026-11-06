@@ -27,6 +27,8 @@ Zum Vergleich: [Stellar Factory](https://playwerewolf.co/pages/rules) verwendet 
 
 Unser [Überblick über die Rollen](/de/blog/werwolf-rollen/) hilft euch, eine Fähigkeit vor ihrem Einsatz zu verstehen.
 
+Auch das kleine Mädchen braucht eine klare Anweisung, wann es beobachten darf. Unser [Guide zu dieser Rolle](/de/blog/werwolf-kleines-maedchen/) erklärt diesen Punkt und den Umgang mit Beobachtungen in der Diskussion.
+
 ## Erste Nacht: einmalige und wiederkehrende Aufrufe trennen
 
 In Le Pacte haben Amor und das Kennenlernen der Verliebten feste Plätze in der ersten Nacht. Wenn ihr mit ihnen spielt, lest die vollständige Abfolge nach. Ihre Namen einfach irgendwo an den Anfang der Liste zu setzen, reicht nicht aus.
