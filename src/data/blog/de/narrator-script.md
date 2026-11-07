@@ -12,6 +12,8 @@ Für die Leitung einer Werwolfrunde brauchst du **eine klare Ansage pro Phase un
 
 Dieses eigene Skript von Bubble App Studio ist für eine Hausrunde mit gewöhnlichen Dorfbewohnern und Werwölfen gedacht. Dazu kommt eine Spielleitung ohne Teamzugehörigkeit. Es ist weder ein Auszug aus einem Verlagsregelheft noch der Text unserer App. Zusätzliche Fähigkeiten brauchen eigene Ansagen zu Reihenfolge und Wirkung.
 
+Für etwas Humor zwischen den Phasen findest du hier [12 lustige Sprüche für die Spielleitung](/de/blog/werwolf-erzaehler-text-lustig/). Sie ergänzen die Ansagen, ohne geheime Rollen zu verraten.
+
 ## Dein Blatt für die Spielleitung vorbereiten
 
 Setzt euch in einen Kreis. Bereite eine Rolle pro Spieler vor, mit mindestens einem Werwolf und anfangs mehr Dorfbewohnern als Werwölfen. Verteile die Rollen geheim. Zeichne einen Sitzplan mit Namen. Markiere die Werwölfe, wenn sie erstmals die Augen öffnen, und notiere später, wer ausgeschieden ist.

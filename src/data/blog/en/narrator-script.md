@@ -12,6 +12,8 @@ To moderate Werewolf, prepare **one clear prompt for each phase and a private pl
 
 This original Bubble App Studio script is for a home game with ordinary Villagers and Werewolves only, plus a moderator who belongs to neither team. It does not reproduce a publisher’s rulebook or our app’s dialogue. Adding special powers requires additional prompts for their timing and effects.
 
+For a little humour between phases, try our [12 funny narrator lines](/en/blog/funny-werewolf-narrator-lines/). They add flavour around the instructions without giving away secret roles.
+
 ## Prepare your moderator sheet
 
 Seat everyone in a circle. Prepare one role per player, with at least one Werewolf and more Villagers than Werewolves at the start. Deal the roles privately. Draw a seating plan with names; mark the Werewolves when they first open their eyes, then record eliminations as they happen.

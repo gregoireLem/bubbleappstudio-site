@@ -12,6 +12,8 @@ Pour narrer un Loup-garou, préparez **une phrase pour lancer chaque phase et un
 
 Ce script original de Bubble App Studio est prévu pour une partie maison avec seulement des Villageois ordinaires et des Loups, plus un narrateur hors des deux camps. Il ne reproduit ni un livret d’éditeur ni les répliques de notre application. Si vous ajoutez des pouvoirs, leur ordre et leurs effets nécessitent d’autres consignes.
 
+Pour ajouter une touche d’humour entre les phases, piochez dans nos [12 phrases drôles pour le narrateur](/blog/texte-narrateur-loup-garou-drole/). Elles complètent les consignes sans donner d’indices sur les rôles.
+
 ## Préparer la fiche du narrateur
 
 Installez tout le monde en cercle. Préparez un rôle par joueur, avec au moins un Loup et davantage de Villageois que de Loups au départ. Distribuez les rôles secrètement. Dessinez un plan des sièges avec les prénoms ; vous y noterez les Loups lors de leur premier réveil, puis les éliminations.

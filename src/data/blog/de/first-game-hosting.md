@@ -10,6 +10,8 @@ published: "2026-11-03"
 ---
 Wenn du **Werwolf mit Anfängern organisierst**, überlege vor allem, wie alle in die Diskussion finden. Erkläre das Ziel, zeige die Abstimmung vor der Rollenverteilung und ermögliche Fragen, ohne dass jemand seine Figur verraten muss. Hier geht es um den Einstieg und die Gesprächsleitung. Für Fähigkeiten und Siegbedingungen gelten die [Regeln eurer Partie](/de/blog/werwolf-regeln/).
 
+Sobald die Anweisungen klar sind, kannst du eine Begrüßung aus unseren [lustigen Erzähler-Sprüchen](/de/blog/werwolf-erzaehler-text-lustig/) auswählen. Halte Erklärungen und Rollenaufrufe von den Witzen getrennt.
+
 ## Vor der Rollenverteilung: den Ablauf ausprobieren
 
 Stellt die Stühle so auf, dass alle einander sehen und hören können. Frage, wer zum ersten Mal spielt, ohne diese Personen den ganzen Abend darauf festzulegen. Wer zunächst nur zuschauen möchte, sollte das vor dem Zählen der Rollen entscheiden können.
