@@ -33,6 +33,8 @@ La Petite Fille demande aussi une consigne précise sur le moment où elle peut 
 
 Dans le Pacte, Cupidon et la reconnaissance des amoureux figurent dans la première nuit, avec des emplacements précis. Si vous jouez avec eux, consultez cette séquence complète : ajouter leurs noms au hasard en début de liste n’est pas une méthode fiable.
 
+Notre [guide de Cupidon et des amoureux](/blog/cupidon-amoureux-loup-garou/) détaille le lien à noter sur votre fiche et les vérifications à faire lors d’une élimination.
+
 Préparez deux listes privées : **« première nuit »** et **« nuits suivantes »**. Entourez les étapes qui ne servent qu’au départ. Cela évite de redemander un choix déjà fixé ou d’oublier une reconnaissance.
 
 Ne supposez pas non plus que la première nuit se déroule sans victime. Notre [script maison à deux camps](/blog/texte-narrateur-loup-garou/) fait ce choix explicitement ; il ne faut pas le transférer automatiquement à une autre règle.

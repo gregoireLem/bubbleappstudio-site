@@ -50,6 +50,8 @@ Unser [Leitfaden zum Jäger](/de/blog/werwolf-jaeger-rolle/) erklärt den Auslö
 
 Amor verbindet gewöhnlich zwei Verliebte, deren Schicksale miteinander verknüpft sind. Abhängig von ihren Teams kann ein anderes Siegziel gelten. Erklärt vorab, was beim Tod eines Verliebten passiert.
 
+Mehr zur Wahl des Paars und seinem Siegziel findest du im [Leitfaden für Amor und die Verliebten](/de/blog/werwolf-amor-verliebte/), mit einem Beispiel zur Verteidigung im Gespräch.
+
 Das kleine Mädchen kann in klassischen Varianten während der Wolfsphase heimlich beobachten und geht dabei ein Risiko ein. Folgt bei dieser besonderen Rolle den genauen Anweisungen eurer Ausgabe.
 
 Unser [Guide zum kleinen Mädchen](/de/blog/werwolf-kleines-maedchen/) erklärt, wie ihr klare Beobachtungen von Vermutungen trennt, mit einem Beispiel für das Gespräch nach der Nacht.

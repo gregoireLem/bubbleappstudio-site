@@ -50,6 +50,8 @@ Notre [guide du Chasseur](/blog/chasseur-loup-garou-role-strategie/) explique qu
 
 Cupidon lie généralement deux amoureux dont les destins deviennent liés. Selon leurs camps, leur objectif peut différer de celui du village. Expliquez ce qui arrive lorsque l’un meurt avant le début de la partie.
 
+Pour comprendre le choix du duo et son objectif, lisez notre [guide de Cupidon et des amoureux](/blog/cupidon-amoureux-loup-garou/), avec un exemple de défense pendant le débat.
+
 La Petite Fille peut, dans les règles classiques, observer discrètement les loups pendant leur phase, avec un risque. Suivez précisément les instructions de votre édition pour ce rôle particulier.
 
 Pour distinguer une observation claire d’un simple soupçon, consultez notre [guide de la Petite Fille](/blog/petite-fille-loup-garou/), avec un exemple de discussion après la nuit.

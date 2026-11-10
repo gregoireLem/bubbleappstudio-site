@@ -3,14 +3,28 @@ translationKey: roles
 locale: en
 slug: werewolf-roles-explained
 title: "Werewolf Roles Explained: Villager, Seer, Witch and More"
-description: "Understand the main Werewolf roles, their common abilities, and beginner strategies. Learn which characters to introduce at your next game night."
+description: "A quick guide to seven common Werewolf roles, their abilities and the rules to check, with practical advice on which characters to introduce to beginners."
 category: Roles & strategy
 image: /assets/roles/seer.png
 published: "2026-09-15"
 ---
-A Werewolf role gives you a team, an objective, and sometimes a special action. Learning those differences makes discussion more interesting: players may know different things, and not everyone who seems secretive is a wolf.
+**Villagers, Werewolves and the Seer form a simple starting set of Werewolf roles.** Other familiar characters include the Witch, Hunter, Cupid and Little Girl. A role tells you your objective and any special action; it does not necessarily tell you who everyone else is.
 
 The roles below appear on the Werewolf Undercover site. This guide describes common Werewolf conventions, not a complete specification of every app setting. Abilities, timing, and win conditions vary by version; always read the role instructions in your game.
+
+## Seven common Werewolf roles at a glance
+
+- **Villager:** uses discussion and the daytime vote; normally has no night action.
+- **Werewolf:** works with the wolf team to choose a night victim and hide during discussion.
+- **Seer:** checks a player at night; the rules determine whether the result reveals a role or an alignment.
+- **Witch:** has limited powers to save or eliminate a player; check uses and timing.
+- **Hunter:** can take another player with them when eliminated, according to the edition's rules.
+- **Cupid:** links two lovers; their shared fate can also affect their winning objective.
+- **Little Girl:** may secretly observe the wolves during an authorised phase, with a risk of discovery.
+
+These are seven common characters, not a universal list for every Werewolf game. [Andrew Plotkin's rules](https://eblong.com/zarf/werewolf.html) use the Villager, Werewolf and Seer as the basic set; the [Le Pacte rulebook, in French](https://cdn.svc.asmodee.net/production-asmodeeca/uploads/2023/07/WerewolvesThePact_FR_Rules.pdf) describes the additional characters and their particular rules. Read on for how to play each role.
+
+Before the first night, check three things privately: **Whose side am I on? When do I act? What information am I allowed to receive?** For example, a Seer who learns that someone is not a wolf has not necessarily learned their exact character. Keeping those two claims separate makes the next discussion clearer.
 
 ## Villager: turn conversation into evidence
 
@@ -49,6 +63,8 @@ Our [Hunter role guide](/en/blog/werewolf-hunter-role/) explains when the abilit
 ## Cupid and Little Girl: introduce them later
 
 Cupid commonly links two lovers whose fates are connected. Depending on their teams, they may have a different winning objective. Explain what happens when one lover dies before you begin.
+
+For choosing the pair and understanding their objective, read our [Cupid and lovers guide](/en/blog/werewolf-cupid-lovers/), including an example of defending a partner during discussion.
 
 The Little Girl commonly gathers information by secretly watching during the wolves’ phase, at a risk. Follow your edition’s exact instructions for this unusual role rather than improvising.
 

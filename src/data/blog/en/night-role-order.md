@@ -33,6 +33,8 @@ The Little Girl also needs a clear instruction about when watching is allowed. O
 
 In Le Pacte, Cupid and the lovers’ recognition appear in specific positions during the first night. If you include them, consult that full sequence rather than placing their names wherever convenient at the top of your list.
 
+Our [Cupid and lovers guide](/en/blog/werewolf-cupid-lovers/) explains the bond to record privately and what to check when someone is eliminated.
+
 Prepare two private lists: **“first night”** and **“later nights”**. Circle steps that happen only at the start. This makes it easier to avoid repeating a choice that has already been made or missing a recognition step.
 
 Do not assume the first night has no victim. Our [two-team house-rule script](/en/blog/werewolf-moderator-script/) deliberately uses that arrangement; it should not automatically carry over to a different ruleset.

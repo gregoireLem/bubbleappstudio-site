@@ -33,6 +33,8 @@ Auch das kleine Mädchen braucht eine klare Anweisung, wann es beobachten darf. 
 
 In Le Pacte haben Amor und das Kennenlernen der Verliebten feste Plätze in der ersten Nacht. Wenn ihr mit ihnen spielt, lest die vollständige Abfolge nach. Ihre Namen einfach irgendwo an den Anfang der Liste zu setzen, reicht nicht aus.
 
+Unser [Leitfaden für Amor und die Verliebten](/de/blog/werwolf-amor-verliebte/) erklärt, welche Verbindung du privat notierst und was du beim Ausscheiden prüfen musst.
+
 Bereitet zwei verdeckte Listen vor: **„erste Nacht“** und **„weitere Nächte“**. Markiert die Schritte, die nur zu Beginn stattfinden. So vergesst ihr keine Erkennungsphase und fragt keine bereits getroffene Wahl erneut ab.
 
 Geht auch nicht automatisch davon aus, dass es in der ersten Nacht kein Opfer gibt. Unser [Spielleitertext für eine Hausregel mit zwei Teams](/de/blog/werwolf-spielleiter-text/) legt das ausdrücklich fest. Für andere Regeln gilt diese Entscheidung nicht automatisch.

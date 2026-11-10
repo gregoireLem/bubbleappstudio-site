@@ -50,6 +50,8 @@ La [guía del Cazador](/es/blog/cazador-hombres-lobo/) explica cuándo se activa
 
 Cupido suele unir a dos enamorados cuyos destinos quedan conectados. Según sus equipos, podrían tener un objetivo de victoria diferente. Explicad qué ocurre cuando uno muere antes de iniciar la partida.
 
+Para entender la elección de la pareja y su objetivo, consulta la [guía de Cupido y los enamorados](/es/blog/cupido-enamorados-hombres-lobo/), con un ejemplo de defensa durante el debate.
+
 La Niña pequeña puede, en versiones clásicas, observar discretamente durante la fase de los lobos, corriendo un riesgo. Seguid las instrucciones exactas de vuestra edición para este personaje especial.
 
 La [guía de la Niña](/es/blog/nina-hombres-lobo/) explica cómo separar una observación clara de una sospecha, con un ejemplo de debate tras la noche.

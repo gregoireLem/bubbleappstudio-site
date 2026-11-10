@@ -33,6 +33,8 @@ La Niña también necesita una indicación clara sobre cuándo puede observar. N
 
 En Le Pacte, Cupido y el reconocimiento de los enamorados ocupan lugares concretos en la primera noche. Si los incluyes, consulta la secuencia completa: añadir sus nombres al principio de la lista sin comprobar el orden no es suficiente.
 
+La [guía de Cupido y los enamorados](/es/blog/cupido-enamorados-hombres-lobo/) explica qué vínculo anotar en privado y qué comprobar cuando alguien es eliminado.
+
 Prepara dos listas privadas: **«primera noche»** y **«noches siguientes»**. Rodea los pasos que solo ocurren al comienzo. Así evitarás repetir una decisión ya tomada u olvidar un reconocimiento.
 
 Tampoco des por hecho que la primera noche no tiene víctima. Nuestro [guion casero para dos bandos](/es/blog/guion-narrador-hombres-lobo/) adopta esa opción expresamente; no conviene trasladarla sin más a otro reglamento.
