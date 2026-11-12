@@ -6,7 +6,7 @@ title: "Cupidon au Loup-garou : comment jouer les amoureux ?"
 description: "Comprenez le choix de Cupidon, le lien entre les amoureux et l’objectif d’un couple mixte. Avec un exemple et les points à vérifier avant la partie."
 category: Rôles et stratégie
 image: /assets/roles/cupid.png
-published: "2026-11-10"
+published: "2026-11-12"
 ---
 **Cupidon choisit deux amoureux ; être amoureux ajoute un lien à leur rôle.** La conséquence essentielle est qu’une élimination peut en entraîner deux. Selon les camps du duo, l’objectif de victoire peut aussi changer. Il faut donc comprendre à la fois son personnage et son lien avant de voter.
 

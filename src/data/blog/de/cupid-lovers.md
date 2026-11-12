@@ -6,7 +6,7 @@ title: "Amor bei Werwolf: So spielen die Verliebten"
 description: "Verstehe Amors Wahl, das gemeinsame Schicksal der Verliebten und das Siegziel eines gemischten Paars. Mit einem Beispiel und wichtigen Regelfragen."
 category: Rollen und Strategie
 image: /assets/roles/cupid.png
-published: "2026-11-10"
+published: "2026-11-12"
 ---
 **Amor wählt zwei Verliebte aus; ihre Verbindung kommt zur jeweiligen Rolle hinzu.** Entscheidend ist, dass aus einem Ausscheiden zwei werden können. Je nach Teamzugehörigkeit kann sich auch das Siegziel des Paars ändern. Verstehe deshalb vor der Abstimmung sowohl deine Figur als auch eure Verbindung.
 

@@ -6,7 +6,7 @@ title: "Cupido en Hombres Lobo: cómo juegan los enamorados"
 description: "Entiende la elección de Cupido, el destino compartido de los enamorados y la victoria de una pareja mixta, con un ejemplo y dudas que resolver antes de jugar."
 category: Roles y estrategia
 image: /assets/roles/cupid.png
-published: "2026-11-10"
+published: "2026-11-12"
 ---
 **Cupido elige a dos enamorados; enamorarse añade un vínculo al rol de cada jugador.** La consecuencia clave es que una eliminación puede provocar dos. Según los bandos de la pareja, también puede cambiar el objetivo de victoria. Conviene entender tanto el personaje como el vínculo antes de votar.
 

@@ -6,7 +6,7 @@ title: "Cupid in Werewolf: How the Lovers Role Works"
 description: "Understand Cupid’s choice, the lovers’ shared fate and a mixed couple’s winning objective. Includes a discussion example and checks for your game’s rules."
 category: Roles and strategy
 image: /assets/roles/cupid.png
-published: "2026-11-10"
+published: "2026-11-12"
 ---
 **Cupid chooses two lovers; becoming a lover adds a bond to a player’s role.** The crucial consequence is that one elimination can cause two. Depending on the couple’s teams, their winning objective may change too. Understand both your character and your bond before voting.
 
