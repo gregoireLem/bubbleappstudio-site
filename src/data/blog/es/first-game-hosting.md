@@ -20,6 +20,8 @@ Presenta los dos bandos y el ciclo de noche, debate y votación. Explica solo lo
 
 Haz después un **ensayo de votación sin roles repartidos y sin consecuencias**. Por ejemplo, elegid un nombre ficticio para el pueblo con el gesto o procedimiento que usaréis en la partida. Avisa de que no se elimina a nadie. El objetivo es entender cuándo una decisión queda cerrada, no poner a prueba la capacidad de engañar.
 
+Si la primera partida coincide con la comida de Navidad, pregunta quién tiene ganas de jugar al farol. En esta [selección de juegos de sobremesa en familia](/es/blog/juegos-navidad-en-familia/) encontrarás también dos opciones para cuando aún se están retirando los platos.
+
 ## Dar un punto de partida al primer debate
 
 El primer día puede haber poca información pública. No prometas pistas que las reglas no hayan proporcionado. Propón una ronda inicial voluntaria: cada persona puede hacer una pregunta, compartir una observación o decir «todavía no tengo una opinión».

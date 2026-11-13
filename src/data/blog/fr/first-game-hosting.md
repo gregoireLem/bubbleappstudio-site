@@ -20,6 +20,8 @@ Présentez les deux camps, puis le cycle nuit, discussion et vote. Expliquez seu
 
 Faites ensuite un **essai de vote sans enjeu et sans rôles distribués**. Par exemple, demandez au groupe de choisir un nom fictif pour le village, en montrant le geste ou la procédure que vous utiliserez. Précisez que cet essai n’élimine personne. L’objectif est que chacun sache quand son choix devient définitif, pas de tester son bluff.
 
+Si vous accueillez la famille à Noël, commencez par demander qui a envie de bluffer. Notre [sélection de jeux pour le repas de Noël](/blog/jeux-noel-en-famille/) propose aussi deux jeux auxquels on peut se joindre entre deux plats.
+
 ## Donner un point de départ au premier débat
 
 Au premier jour, il peut y avoir peu d’informations publiques. Inutile de promettre un indice que les règles n’ont pas donné. Proposez plutôt un court tour de parole facultatif : une question, une observation ou simplement « je n’ai pas encore d’avis ».

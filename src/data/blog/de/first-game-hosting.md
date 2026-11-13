@@ -20,6 +20,8 @@ Erkläre die beiden Teams und den Wechsel zwischen Nacht, Diskussion und Abstimm
 
 Macht anschließend eine **Probeabstimmung ohne verteilte Rollen und ohne Folgen**. Wählt zum Beispiel einen erfundenen Dorfnamen mit dem Zeichen oder Verfahren, das ihr später verwenden werdet. Sage ausdrücklich, dass niemand ausscheidet. Es geht darum, wann eine Entscheidung feststeht, nicht um einen ersten Blufftest.
 
+Steht euer erstes Spiel beim Weihnachtsessen an, fragt vorab, wer Lust aufs Bluffen hat. Unsere [Spielideen für Weihnachten mit der Familie](/de/blog/weihnachtsspiele-familie/) eignen sich auch für die Zeit, in der noch Geschirr abgeräumt wird.
+
 ## Der ersten Diskussion einen Anfang geben
 
 Am ersten Tag gibt es möglicherweise nur wenige öffentliche Informationen. Versprich keine Hinweise, die das Spiel nicht geliefert hat. Biete eine freiwillige Einstiegsrunde an: Jede Person kann eine Frage stellen, etwas Beobachtetes nennen oder sagen: „Ich habe noch keine Meinung.“

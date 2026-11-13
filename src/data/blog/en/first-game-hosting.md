@@ -20,6 +20,8 @@ Introduce the two teams and the cycle of night, discussion and voting. Explain o
 
 Next, run a **practice vote with no roles assigned and nothing at stake**. For example, have the group choose a fictional village name using the gesture or procedure they will use in the game. Make clear that nobody is eliminated. The point is to show when a choice becomes final, not to test anyone’s bluffing.
 
+Hosting over the holidays? Our [Christmas family games guide](/en/blog/christmas-family-games/) has two games people can dip into while dinner is being cleared, plus a way to introduce Werewolf once everyone settles in.
+
 ## Give the first discussion somewhere to start
 
 On the first day, there may be little public information. Do not promise a clue that the rules have not provided. Offer an optional opening round: each person can ask a question, share an observation or say “I don’t have a view yet.”
