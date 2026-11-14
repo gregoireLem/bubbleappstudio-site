@@ -28,6 +28,8 @@ Défendre systématiquement un autre loup peut vous associer dans l’esprit du 
 
 Pour choisir une cible de nuit et défendre vos votes sans vous contredire, lisez notre [guide de stratégie quand vous êtes Loup](/blog/loup-garou-strategie-loup/), avec un exemple de défense d’un partenaire.
 
+Si votre partie inclut le Garde, la meute peut rencontrer un obstacle la nuit. Notre [guide du Garde](/blog/garde-loup-garou-qui-proteger/) explique comment choisir qui protéger et ce que sa survie permet de déduire.
+
 ## Voyante : exploiter une information sans tout révéler
 
 Dans de nombreuses versions, la Voyante examine un joueur la nuit pour obtenir une information sur son identité ou son camp. La précision de cette information dépend des règles. Orientez vos questions grâce à ce que vous savez, en tenant compte du risque de devenir une cible si vous annoncez votre rôle.

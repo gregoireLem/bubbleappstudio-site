@@ -28,6 +28,8 @@ Wer einen anderen Wolf immer verteidigt, kann eine Verbindung verraten. Auch ein
 
 Wie du nachts ein Ziel auswählst und deine Stimmen stimmig begründest, zeigt unser [Strategieleitfaden für das Spielen als Wolf](/de/blog/werwolf-strategie-als-wolf/), mit einem Beispiel für den Umgang mit Vorwürfen gegen einen Mitwolf.
 
+Spielt ihr mit dem Wächter, kann das nächtliche Opfer der Wölfe unter Schutz stehen. Im [Leitfaden zum Wächter](/de/blog/werwolf-waechter-wen-schuetzen/) erfährst du, wie du die letzte Abstimmung für diese Entscheidung nutzen kannst.
+
 ## Seherin: Wissen mit Risiko
 
 In vielen Varianten untersucht die Seherin nachts einen Spieler und erhält Informationen zu dessen Identität oder Team. Was genau sie erfährt, hängt von den Regeln ab. Nutze dieses Wissen für gezielte Fragen, aber bedenke das Risiko, durch eine Offenlegung selbst zum Ziel zu werden.

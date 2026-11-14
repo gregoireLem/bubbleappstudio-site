@@ -28,6 +28,8 @@ Defender siempre a otro lobo puede vincularos ante el grupo. Cambiar de acusaci�
 
 Para elegir un objetivo nocturno y justificar tus votos sin contradecirte, consulta nuestra [guía de estrategia para jugar como Lobo](/es/blog/hombres-lobo-estrategia-lobo/), con un ejemplo de cómo responder a una acusación contra un compañero.
 
+Si en vuestra partida hay un guardia, la manada puede encontrarse con que su objetivo está protegido. La [guía del guardia](/es/blog/guardia-hombres-lobo-a-quien-proteger/) explica cómo se ve esa decisión desde el otro bando.
+
 ## Vidente: información y riesgo
 
 En muchas versiones, la Vidente investiga a alguien de noche para conocer información sobre su identidad o equipo. La información exacta depende de las reglas. Aprovechadla para orientar preguntas, teniendo en cuenta el riesgo de convertiros en objetivo al revelar vuestro rol.
