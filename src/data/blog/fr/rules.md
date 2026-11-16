@@ -16,6 +16,8 @@ Installez les joueurs en cercle pour que chacun puisse entendre les autres. Dans
 
 Expliquez les équipes et les conditions de victoire avant la distribution secrète des rôles. Chacun doit découvrir son personnage à l’abri des regards. Convenez du temps de discussion, du traitement des égalités et de la révélation éventuelle des rôles après élimination. Ces points changent selon les versions : dans l’application, suivez les indications affichées.
 
+Si quelqu’un doit partir à heure fixe, notre guide sur [la durée d’une partie de Loup-garou](/blog/duree-partie-loup-garou/) vous aide à décider si vous avez le temps de jouer.
+
 ## La nuit : agir en secret
 
 Le narrateur annonce la nuit et tout le monde ferme les yeux. Les loups sont appelés à agir et choisissent une victime sans parler. Selon les personnages présents, la Voyante ou d’autres rôles interviennent à leur tour. N’ouvrez les yeux que lorsque votre rôle est appelé et évitez les bruits qui pourraient trahir une action.

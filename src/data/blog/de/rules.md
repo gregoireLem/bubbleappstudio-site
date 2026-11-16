@@ -16,6 +16,8 @@ Setzt euch im Kreis zusammen, damit alle einander hören können. Für eine klas
 
 Erklärt Teams und Siegbedingungen, bevor die geheimen Rollen verteilt werden. Jeder muss seine Figur unbemerkt kennenlernen können. Vereinbart die Diskussionsdauer, den Umgang mit Gleichständen und ob ausgeschiedene Rollen aufgedeckt werden. Diese Regeln unterscheiden sich je nach Version; folgt in der App den dortigen Anweisungen.
 
+Muss jemand pünktlich los, hilft euch unser Beispiel zur Frage [„Wie lange dauert eine Runde Werwolf?“](/de/blog/wie-lange-dauert-eine-runde-werwolf/) bei der Planung.
+
 ## Die Nacht: geheime Aktionen
 
 Die Spielleitung kündigt die Nacht an, und alle schließen die Augen. Die Wölfe werden aufgerufen und wählen schweigend ein Opfer. Je nach Rollen können auch die Seherin und andere Figuren an die Reihe kommen. Öffnet die Augen nur bei eurem eigenen Aufruf und vermeidet verräterische Geräusche.

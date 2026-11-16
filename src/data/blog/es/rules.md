@@ -26,6 +26,8 @@ Sentad al grupo en círculo para que todos puedan escucharse. Elegid un narrador
 
 Explicad los equipos y las condiciones de victoria antes de repartir los roles en secreto. Cada persona debe conocer su personaje sin que nadie más lo vea. Acordad cuánto durará el debate, cómo resolveréis los empates y si se revelan los roles al eliminar a alguien. Estos detalles cambian entre versiones; en la aplicación, seguid sus instrucciones.
 
+Si alguien tiene hora de salida, consulta [cuánto dura una partida de Hombres Lobo](/es/blog/cuanto-dura-una-partida-de-hombres-lobo/) antes de repartir los papeles.
+
 ## La noche: acciones secretas
 
 El narrador anuncia la noche y todos cierran los ojos. Los lobos actúan cuando son llamados y eligen una víctima sin hablar. Según los personajes presentes, la Vidente u otros roles también tendrán su turno. Abrid los ojos solo cuando os corresponda y evitad ruidos que revelen información.

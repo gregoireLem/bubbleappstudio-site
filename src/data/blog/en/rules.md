@@ -28,6 +28,8 @@ Explain the teams and winning conditions before revealing any secret roles. Ever
 
 If you are moderating a homemade game with only Villagers and Werewolves, our [read-aloud moderator script](/en/blog/werewolf-moderator-script/) provides a complete set of prompts and explicit house rules.
 
+Working around someone’s last bus? See [how long a game of Werewolf takes](/en/blog/how-long-does-werewolf-take/) for a way to budget setup, discussion and voting time.
+
 ## Night: secret actions
 
 The moderator announces night and everyone closes their eyes. The werewolves are called to act and choose a victim without speaking. Depending on the roles in play, a character such as the Seer may also take an action when called. Only open your eyes on your own turn, and avoid noises that give other players information.
