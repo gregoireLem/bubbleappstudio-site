@@ -2,19 +2,19 @@
 translationKey: seer-strategy
 locale: de
 slug: werwolf-seherin-strategie
-title: "Seherin bei Werwolf: wen prüfen und wann die Rolle verraten?"
-description: "Erfahre, was die Seherin bei Werwolf sieht, wen du nachts prüfen solltest und wann du dein Wissen teilst. Mit einem Beispiel über zwei Nächte."
+title: "Was macht die Seherin bei Werwolf?"
+description: "Die Seherin prüft nachts eine Person. Erfahre, ob du ihre Karte oder nur ihr Team siehst und wie du das Ergebnis am nächsten Tag im Dorf nutzen kannst."
 category: Rollen und Strategie
 image: /assets/roles/seer.png
 published: "2026-10-22"
 ---
-Die Seherin gehört üblicherweise zum Dorf und erhält nachts geheime Informationen über einen Mitspieler. Damit kann sie dem Dorf helfen, bei der Abstimmung bessere Entscheidungen zu treffen. Die Herausforderung: eine sinnvolle Person für die Prüfung auswählen und das Wissen teilen, ohne zu früh zum Ziel der Wölfe zu werden.
+**Als Seherin wachst du nachts auf und wählst heimlich eine Person, über die du etwas erfahren möchtest.** Im Grundspiel *Die Werwölfe von Düsterwald* darfst du ihre Rollenkarte sehen. Bei *Ultimate Werewolf* erfährst du, ob sie ein Werwolf ist. Am nächsten Tag kannst du dieses Wissen nutzen, wenn das Dorf über die Verdächtigen spricht.
 
 Dieser Leitfaden behandelt gemeinsame Runden vor Ort mit mehreren Nächten. Er ergänzt unseren [Überblick über die Werwolf-Rollen](/de/blog/werwolf-rollen/). Die Beispiele setzen verlässliche Ergebnisse und unveränderte Rollen voraus. Passt die Tipps an, wenn eure Variante Fähigkeiten enthält, die daran etwas ändern.
 
-## Was erfährt die Seherin genau?
+## Siehst du die Rollenkarte oder erfährst du nur, ob jemand ein Wolf ist?
 
-Das hängt vom Spiel ab. Für Die Werwölfe von Düsterwald beschreibt [Asmodee den Blick auf die Karte eines Mitspielers](https://www.asmodee.fr/les-roles-des-loups-garous-de-thiercelieux-que-vous-allez-adorer/). Bei Ultimate Werewolf erklärt [Bezier Games, dass die Seherin erfährt, ob jemand ein Werwolf ist](https://beziergames.com/products/ultimate-werewolf). Eine genaue Rolle und die Auskunft „Wolf oder kein Wolf“ sind unterschiedliche Informationen.
+Angenommen, du prüfst Anna und sie ist die Hexe. Zeigt dir die Spielleitung ihre Karte, kennst du danach Annas Rolle. Bekommst du nur die Antwort „kein Wolf“, weißt du weiterhin nicht, ob sie die Hexe ist. Diese beiden Arten der Auskunft beschreiben die Verlage für [Die Werwölfe von Düsterwald](https://www.asmodee.fr/les-roles-des-loups-garous-de-thiercelieux-que-vous-allez-adorer/) und [Ultimate Werewolf](https://beziergames.com/products/ultimate-werewolf).
 
 Klärt vorab, was das Ergebnis bedeutet, wann die Seherin handelt und ob ihr im Gespräch eure Rolle behaupten dürft. Spielt ihr mit einer App, gilt deren Rollenbeschreibung. Aus „kein Wolf“ wird nicht automatisch „gewöhnlicher Dorfbewohner“, wenn das Spiel diese Genauigkeit nicht bietet.
 

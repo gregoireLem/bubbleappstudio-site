@@ -46,6 +46,8 @@ Stellt euch vor, Lena verdächtigt Ben und wiederholt anschließend genau Pauls 
 
 Wenn der Wirt in der Rollenauswahl eurer Version enthalten ist, besteht seine Aufgabe darin, nachts ein Glas vor eine ausgewählte Person zu stellen, für das Erwachen des Dorfes. Prüft seine Verfügbarkeit, bevor ihr den Abend um diese Rolle herum plant. Für eine Werwolf-Partie ist sie nicht erforderlich.
 
+Für Silvester zeigt euch die [Anleitung zum Wirt](/de/blog/werwolf-wirt-silvester/), wie sein Zug vom nächtlichen Aufruf bis zum Erwachen des Dorfes abläuft.
+
 Sprecht die Teilnahme vorher ab: Im Glas kann ein alkoholfreies Getränk sein, und jede Person darf aussetzen. Zusätzliche Regeln über Trinktempo, Mengen oder das Leeren des Glases braucht ihr dafür nicht.
 
 ## Den Abend vorbereiten, ohne Regeln anzuhäufen

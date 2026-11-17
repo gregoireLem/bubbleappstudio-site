@@ -46,6 +46,8 @@ Imaginez qu’Inès accuse Malik, puis reprenne exactement l’argument de Sam. 
 
 Si le Tavernier figure dans la sélection de rôles de votre version, son principe est de déposer la nuit un verre devant le joueur choisi, pour le réveil du village. Vérifiez sa présence avant de construire la soirée autour de lui. Il n’est pas nécessaire pour jouer au Loup-garou.
 
+Pour le réveillon, voici [une nuit dans la peau du Tavernier](/blog/tavernier-loup-garou-nouvel-an/), du choix du joueur au réveil du village.
+
 Accordez-vous simplement sur la participation : le verre peut contenir une boisson sans alcool et chacun peut passer. Ce rôle n’a pas besoin d’une règle de vitesse, de quantité ou d’une obligation de finir son verre pour trouver sa place dans la soirée.
 
 ## Préparer la soirée sans multiplier les règles

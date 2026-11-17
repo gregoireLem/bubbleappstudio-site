@@ -46,6 +46,8 @@ Picture this: Maya accuses Leo, then repeats exactly what Alex just said. Leo as
 
 If the Innkeeper appears in your version’s role selection, the role’s idea is to place a glass in front of a chosen player during the night, ready for the village to wake. Check that the role is available before planning around it. You do not need it to play Werewolf.
 
+For a New Year’s Eve game, [walk through the Innkeeper’s turn](/en/blog/werewolf-innkeeper-new-years-eve/) from the night call to the morning toast.
+
 Agree on participation beforehand: the glass can hold a non-alcoholic drink, and anyone can pass. There is no need to add a speed challenge, a required quantity or a rule about finishing a drink.
 
 ## Set up the evening without piling on rules

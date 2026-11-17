@@ -46,6 +46,8 @@ Imagina que Lucía acusa a Marcos y después repite exactamente el argumento de 
 
 Si el Tabernero aparece en la selección de roles de vuestra versión, su propuesta consiste en colocar un vaso ante el jugador elegido durante la noche, para el despertar de la aldea. Comprobad que esté disponible antes de organizar la sesión alrededor de ese papel. No es necesario para jugar a Hombres Lobo.
 
+Para Nochevieja, la [guía del Tabernero](/es/blog/tabernero-hombres-lobo-nochevieja/) cuenta qué pasa desde que se despierta el personaje hasta el brindis de la aldea.
+
 Acordad la participación de antemano: el vaso puede llevar una bebida sin alcohol y cualquiera puede pasar. No hace falta añadir pruebas de velocidad, cantidades obligatorias ni la obligación de terminar la bebida.
 
 ## Preparar la noche sin acumular reglas
