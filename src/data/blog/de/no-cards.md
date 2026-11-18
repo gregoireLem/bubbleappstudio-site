@@ -14,6 +14,8 @@ Werwolf Undercover ist für 5 bis 18 Spieler ausgelegt und ersetzt die Karten du
 
 Plant ihr einen Halloween-Abend? Entdeckt [fünf einfache Halloween-Spiele für Freunde](/de/blog/halloween-spiele-freunde/), mit Werwolf als Hauptspiel und weiteren Ideen für Abwechslung am Abend.
 
+Fahrt ihr an einen Ort ohne Empfang? So könnt ihr [Werwolf ohne Internet vorbereiten](/de/blog/werwolf-ohne-internet/): mit einem Handytest vor der Abfahrt und Papierrollen als Ersatz.
+
 ## Den Raum vorbereiten
 
 Stellt die Stühle im Kreis auf und dreht Hintergrundmusik leiser, damit alle die Erzählung hören. Ladet das Smartphone vorher auf und schaltet störende Benachrichtigungen stumm. Schützt den Bildschirm vor fremden Blicken, sobald geheime Informationen angezeigt werden.

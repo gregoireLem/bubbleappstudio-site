@@ -14,6 +14,8 @@ Werewolf Undercover is designed for 5–18 players and replaces the physical car
 
 Planning a Halloween gathering? Explore [five easy Halloween party games for friends](/en/blog/halloween-party-games-friends/), with Werewolf as a main activity and ideas to mix up the evening.
 
+Heading somewhere with no signal? Here is how to [prepare an offline Werewolf game](/en/blog/play-werewolf-offline/), with a phone test before you leave and a paper-role backup.
+
 ## Prepare the room before the roles
 
 Arrange seats in a circle and lower any background music so every player can hear the narration. Charge the phone before starting and silence notifications that could interrupt the game. Keep the screen private whenever secret information is shown.

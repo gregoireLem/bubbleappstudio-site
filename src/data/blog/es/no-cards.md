@@ -14,6 +14,8 @@ Hombre lobo Undercover está diseñado para 5–18 jugadores y sustituye las car
 
 ¿Preparáis una noche de Halloween? Descubrid [cinco juegos de Halloween para amigos](/es/blog/juegos-halloween-amigos/), con Hombres Lobo como actividad principal y otras ideas para variar durante la noche.
 
+¿Vais a un lugar sin cobertura? Así podéis [preparar una partida de Hombres Lobo sin Internet](/es/blog/jugar-hombres-lobo-sin-internet/), con una prueba del móvil antes de salir y una alternativa en papel.
+
 ## Preparar la habitación
 
 Colocad las sillas en círculo y bajad la música para escuchar la narración. Cargad el teléfono y silenciad las notificaciones que puedan interrumpir la partida. Mantened la pantalla fuera de la vista de los demás cuando muestre información secreta.
