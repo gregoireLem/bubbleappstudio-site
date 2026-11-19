@@ -12,6 +12,8 @@ published: "2026-11-01"
 
 This guide helps a moderator organise role calls. For the full day-and-night cycle, see [how to play Werewolf](/en/blog/how-to-play-werewolf/).
 
+In Le Pacte, the Thief’s opening choice can give that player a different character. Our [guide to the Thief’s two spare cards](/en/blog/werewolf-thief-two-cards/) explains what the moderator should record before continuing the night.
+
 ## An example with clear limits
 
 The [official French rulebook for Le Pacte, page 24](https://cdn.svc.asmodee.net/production-asmodeeca/uploads/2023/07/WerewolvesThePact_FR_Rules.pdf) puts the Seer before the Werewolves and the Witch after them. This checklist includes only those three active roles. It is neither the complete Le Pacte sequence nor an order to impose on our app.

@@ -12,6 +12,8 @@ published: "2026-11-01"
 
 Ce guide aide le meneur à organiser les appels. Pour revoir le cycle complet, consultez les [règles du Loup-garou](/blog/regles-loup-garou/).
 
+Dans Le Pacte, le choix initial du Voleur peut lui donner un autre personnage. Le [guide du Voleur et des deux cartes du centre](/blog/voleur-loup-garou-cartes/) explique ce que le meneur doit noter avant de poursuivre les appels.
+
 ## Un exemple d’ordre, avec son périmètre
 
 Le [livret officiel du Pacte, page 24](https://cdn.svc.asmodee.net/production-asmodeeca/uploads/2023/07/WerewolvesThePact_FR_Rules.pdf) place la Voyante avant les Loups et la Sorcière après eux. Le tableau ci-dessous retient seulement ces trois rôles actifs ; ce n’est ni la liste complète du Pacte ni une séquence à imposer à notre application.

@@ -12,6 +12,8 @@ published: "2026-11-01"
 
 Dieser Leitfaden hilft der Spielleitung, die Aufrufe vorzubereiten. Den gesamten Wechsel zwischen Tag und Nacht erklären unsere [Werwolf-Regeln](/de/blog/werwolf-regeln/).
 
+In Le Pacte kann die erste Auswahl des Diebs seine Rolle verändern. Unser [Guide zum Dieb und den zwei übrigen Karten](/de/blog/werwolf-dieb-zwei-karten/) erklärt, was die Spielleitung vor den weiteren Aufrufen festhalten sollte.
+
 ## Ein Beispiel mit klaren Grenzen
 
 Die [offizielle französische Anleitung zu Le Pacte, Seite 24](https://cdn.svc.asmodee.net/production-asmodeeca/uploads/2023/07/WerewolvesThePact_FR_Rules.pdf) ruft die Seherin vor den Wölfen und die Hexe danach auf. Diese Tabelle berücksichtigt nur diese drei aktiven Rollen. Sie bildet weder den vollständigen Ablauf von Le Pacte noch eine verbindliche Reihenfolge für unsere App ab.

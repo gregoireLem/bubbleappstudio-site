@@ -12,6 +12,8 @@ published: "2026-11-01"
 
 Esta guía ayuda a organizar las llamadas del narrador. Para repasar el ciclo completo, consulta [cómo jugar a Hombres Lobo](/es/blog/como-jugar-hombres-lobo/).
 
+En El Pacto, la elección inicial del Ladrón puede cambiar su personaje. La [guía del Ladrón y las dos cartas del centro](/es/blog/ladron-hombres-lobo-dos-cartas/) explica qué debe anotar quien narra antes de continuar.
+
 ## Un ejemplo con límites claros
 
 El [reglamento oficial francés de Le Pacte, página 24](https://cdn.svc.asmodee.net/production-asmodeeca/uploads/2023/07/WerewolvesThePact_FR_Rules.pdf) sitúa a la Vidente antes de los Lobos y a la Bruja después. Esta tabla solo recoge esos tres roles activos: no es la secuencia completa de Le Pacte ni un orden que debas imponer a nuestra aplicación.
