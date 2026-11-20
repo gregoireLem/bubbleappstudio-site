@@ -14,6 +14,8 @@ Este guion original de Bubble App Studio está pensado para una partida casera c
 
 Para añadir humor entre fases, prueba nuestras [12 frases divertidas para el narrador](/es/blog/frases-divertidas-narrador-hombres-lobo/). Complementan las instrucciones sin dar pistas sobre los roles.
 
+Para tener a mano personajes y resultados, utiliza nuestra [hoja del narrador para imprimir](/es/blog/hoja-narrador-hombres-lobo-imprimir/). Este PDF en blanco complementa el guion con un registro privado de participantes y rondas.
+
 ## Preparar la hoja del narrador
 
 Sentad al grupo en círculo. Prepara un rol por jugador, con al menos un Lobo y más Aldeanos que Lobos al principio. Reparte los roles en secreto. Dibuja un plano de los asientos con los nombres; anota quiénes son los Lobos cuando abran los ojos por primera vez y registra después las eliminaciones.

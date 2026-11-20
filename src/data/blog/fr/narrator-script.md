@@ -14,6 +14,8 @@ Ce script original de Bubble App Studio est prévu pour une partie maison avec s
 
 Pour ajouter une touche d’humour entre les phases, piochez dans nos [12 phrases drôles pour le narrateur](/blog/texte-narrateur-loup-garou-drole/). Elles complètent les consignes sans donner d’indices sur les rôles.
 
+Pour garder les identités et les résultats à portée de main, utilisez notre [fiche du meneur à imprimer](/blog/fiche-meneur-loup-garou-imprimer/). Ce PDF vierge complète le texte à lire avec un suivi privé des joueurs et des tours.
+
 ## Préparer la fiche du narrateur
 
 Installez tout le monde en cercle. Préparez un rôle par joueur, avec au moins un Loup et davantage de Villageois que de Loups au départ. Distribuez les rôles secrètement. Dessinez un plan des sièges avec les prénoms ; vous y noterez les Loups lors de leur premier réveil, puis les éliminations.

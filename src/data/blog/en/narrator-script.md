@@ -14,6 +14,8 @@ This original Bubble App Studio script is for a home game with ordinary Villager
 
 For a little humour between phases, try our [12 funny narrator lines](/en/blog/funny-werewolf-narrator-lines/). They add flavour around the instructions without giving away secret roles.
 
+Keep identities and outcomes in one place with our [printable moderator sheet](/en/blog/printable-werewolf-moderator-sheet/). The blank PDF complements this read-aloud script with private player and round notes.
+
 ## Prepare your moderator sheet
 
 Seat everyone in a circle. Prepare one role per player, with at least one Werewolf and more Villagers than Werewolves at the start. Deal the roles privately. Draw a seating plan with names; mark the Werewolves when they first open their eyes, then record eliminations as they happen.
