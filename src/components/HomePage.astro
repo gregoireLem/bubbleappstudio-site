@@ -5,6 +5,7 @@ import LocalePrompt from "./LocalePrompt.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogCards from "./BlogCards.astro";
 import { blogCopy, blogPaths, postsFor } from "../lib/blog";
+import featuredBlog from "../data/featured-blog.json";
 import { getAppStoreScreenshots, screenshotCopy } from "../lib/appStoreScreenshots";
 import "../styles/blog.css";
 import {
@@ -19,6 +20,12 @@ import {
 const { locale } = Astro.props as { locale: Locale };
 const content = homePageContent[locale];
 const meta = localeMeta[locale];
+const localizedPosts = postsFor(locale);
+const featuredPosts = featuredBlog[locale].map(key => {
+  const post = localizedPosts.find(post => post.frontmatter.translationKey === key);
+  if (!post) throw new Error(`Missing featured blog post: ${locale}/${key}`);
+  return post;
+});
 const screenshots = await getAppStoreScreenshots(locale);
 const schemaData = {
   "@context": "https://schema.org",
@@ -84,7 +91,7 @@ const schemaData = {
         <div><p class="blog-eyebrow">{blogCopy[locale].label}</p><h2 id="blog-heading">{blogCopy[locale].title}</h2></div>
         <a href={blogPaths[locale]}>{blogCopy[locale].all} <span aria-hidden="true">↗</span></a>
       </div>
-      <BlogCards posts={postsFor(locale)} locale={locale} />
+      <BlogCards posts={featuredPosts} locale={locale} />
     </section>
   </main>
   <footer class="blog-footer container-base">

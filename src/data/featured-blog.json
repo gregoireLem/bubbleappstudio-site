@@ -1,0 +1,22 @@
+{
+  "fr": [
+    "narrator-app",
+    "android-iphone-install",
+    "narrator-script"
+  ],
+  "en": [
+    "no-cards",
+    "roles",
+    "rules"
+  ],
+  "es": [
+    "rules",
+    "android-iphone-install",
+    "narrator-script"
+  ],
+  "de": [
+    "narrator-script",
+    "team-building",
+    "rules"
+  ]
+}
