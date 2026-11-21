@@ -79,3 +79,5 @@ Start with the core teams and a small number of special roles. Add complexity af
 Review the [basic rules](/en/blog/how-to-play-werewolf/) with your group, then use the [card-free setup guide](/en/blog/werewolf-game-without-cards/) to get everyone seated and ready.
 
 For counting players, allowing for a moderator and choosing powers, read our [Werewolf group setup guide](/en/blog/werewolf-group-role-setup/), including an example for ten people.
+
+For a later game with a character who can change teams, read our [Wild Child and role model guide](/en/blog/werewolf-wild-child-role-model/). It uses the Pact rules as its reference and includes an example of handling the transition during discussion.

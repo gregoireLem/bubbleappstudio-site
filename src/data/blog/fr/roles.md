@@ -65,3 +65,5 @@ Commencez avec les équipes principales et peu de pouvoirs spéciaux. Ajoutez de
 Relisez les [règles de base](/blog/regles-loup-garou/), puis préparez votre groupe avec le [guide du jeu sans cartes](/blog/loup-garou-sans-cartes/).
 
 Pour compter les joueurs, prévoir le meneur et sélectionner les pouvoirs, consultez notre [guide de composition du Loup-garou](/blog/composition-roles-loup-garou/), avec un exemple pour dix personnes.
+
+Pour introduire ensuite un personnage dont le camp peut évoluer, découvrez le [guide de l’Enfant sauvage et de son modèle](/blog/enfant-sauvage-loup-garou-modele/). Il prend le Pacte comme repère et propose un exemple pour suivre la transition pendant les débats.

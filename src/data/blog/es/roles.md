@@ -65,3 +65,5 @@ Empezad con los equipos principales y pocos poderes. Añadid complejidad cuando 
 Repasad las [reglas básicas](/es/blog/como-jugar-hombres-lobo/) y utilizad la [guía sin cartas](/es/blog/hombres-lobo-sin-cartas/) para preparar al grupo.
 
 Para contar a los jugadores, prever al narrador y elegir los poderes, consulta nuestra [guía para repartir los roles de Hombres Lobo](/es/blog/reparto-roles-hombres-lobo/), con un ejemplo para diez personas.
+
+Si más adelante queréis probar un personaje que puede cambiar de bando, leed la [guía del Niño salvaje y su modelo](/es/blog/nino-salvaje-hombres-lobo-modelo/). Toma el Pacto como referencia e incluye un ejemplo para afrontar la transición durante el debate.

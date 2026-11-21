@@ -65,3 +65,5 @@ Beginnt mit den Hauptteams und wenigen Sonderfähigkeiten. Fügt erst weitere hi
 Wiederholt die [Grundregeln](/de/blog/werwolf-regeln/) und bereitet die Runde mit der Anleitung zum [Werwolf ohne Karten](/de/blog/werwolf-ohne-karten/) vor.
 
 Zum Zählen der Spielenden, Einplanen der Spielleitung und Auswählen der Fähigkeiten hilft unser [Leitfaden zur Werwolf-Rollenverteilung](/de/blog/werwolf-rollen-gruppengroesse/) mit einem Beispiel für zehn Personen.
+
+Für eine spätere Partie mit einer Rolle, die das Team wechseln kann, lies unseren [Guide zum wilden Kind und seinem Vorbild](/de/blog/werwolf-wildes-kind-vorbild/). Er orientiert sich an den Pakt-Regeln und zeigt an einem Beispiel, wie du den Wechsel im Gespräch berücksichtigst.
