@@ -44,6 +44,8 @@ Hablar resulta especialmente útil si van a expulsarte en la votación, si un lo
 
 En el ejemplo, podrías decir: «Soy la Vidente. Primera noche, Ana: no es lobo. Segunda noche, Clara: lobo. Propongo votar a Clara». No añadas «por tanto, Bruno es inocente». Respeta las reglas de la mesa sobre mostrar cartas o pantallas secretas, incluso cuando quieras respaldar tu explicación.
 
+Para distinguir un anuncio permitido de una prueba mostrada a la mesa, lee [¿Puedes revelar tu rol en Hombres Lobo?](/es/blog/revelar-rol-hombres-lobo/). También explica qué conviene comprobar sobre las revelaciones tras una eliminación.
+
 ## Tres errores que puedes evitar
 
 No consideres inocente a alguien solo porque te crea. Evita acusar a toda la mesa a la vez: explica primero tu resultado y después tu propuesta de voto. Tampoco des por hecho que revelar tu rol garantiza protección; comprueba qué poderes hay y cuáles son sus límites.

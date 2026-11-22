@@ -44,6 +44,8 @@ Eine Aussage wird besonders wertvoll, wenn du kurz davor bist, herausgewählt zu
 
 Im Beispiel wäre eine klare Aussage: „Ich bin die Seherin. Erste Nacht, Anna: kein Wolf. Zweite Nacht, Clara: Wolf. Ich schlage vor, Clara zu wählen.“ Ergänze nicht „also ist Ben unschuldig“. Haltet euch auch dann an eure Regeln zu geheimen Karten und Bildschirmen, wenn du deine Aussage belegen möchtest.
 
+Den Unterschied zwischen einer erlaubten Behauptung und dem Vorzeigen eines Beweises erklärt [Darf man bei Werwolf seine Rolle verraten?](/de/blog/werwolf-rolle-verraten/). Dort findest du auch Hinweise zum Aufdecken nach dem Ausscheiden.
+
 ## Drei Fehler, die du vermeiden kannst
 
 Halte jemanden nicht allein deshalb für unschuldig, weil er dir glaubt. Beschuldige nicht die ganze Runde auf einmal: Nenne zuerst dein Ergebnis und dann deinen Vorschlag für die Abstimmung. Gehe außerdem nicht davon aus, nach einer Offenlegung automatisch geschützt zu sein. Prüft, welche Fähigkeiten vorhanden sind und welche Grenzen sie haben.

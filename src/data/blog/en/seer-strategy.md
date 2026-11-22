@@ -44,6 +44,8 @@ Speaking up becomes especially useful when you are about to be voted out, when a
 
 In the example, a clear claim would be: “I am the Seer. Night one, Ana: not a wolf. Night two, Clara: wolf. I suggest voting for Clara.” Do not add “so Ben must be innocent.” Respect your table’s rules about showing secret cards or screens, even when you want to support your claim.
 
+For the difference between making a permitted claim and showing proof to the table, read [Can you reveal your role in Werewolf?](/en/blog/can-you-reveal-your-role-in-werewolf/). It also covers what to check about reveals after elimination.
+
 ## Three mistakes to avoid
 
 Do not assume someone is innocent just because they believe you. Avoid accusing the whole table at once: explain your result first, then your proposed vote. Finally, do not assume that revealing your role guarantees protection. Check which powers are in play and what their limits are.

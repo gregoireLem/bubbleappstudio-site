@@ -44,6 +44,8 @@ Parler devient particulièrement utile si le vote menace de vous éliminer, si u
 
 Dans l’exemple précédent, une annonce claire serait : « Je suis la Voyante. Première nuit, Ana : non-loup. Deuxième nuit, Clara : loup. Je propose de voter Clara. » N’ajoutez pas « donc Benoît est innocent ». Respectez les règles de la table sur les cartes et les écrans secrets, même pour appuyer votre récit.
 
+Pour distinguer une annonce autorisée d’une preuve montrée à la table, consultez le guide [Peut-on révéler son rôle au Loup-garou ?](/blog/reveler-son-role-loup-garou/). Il précise aussi les points à vérifier après une élimination.
+
 ## Trois erreurs à éviter
 
 Ne confondez pas une personne qui vous croit avec une personne innocente. N’accusez pas tout le groupe d’un seul coup : exposez d’abord votre résultat, puis votre proposition de vote. Enfin, ne comptez pas sur une protection automatique parce que vous vous êtes révélé ; les pouvoirs présents et leurs limites doivent être vérifiés.
