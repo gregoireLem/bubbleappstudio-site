@@ -42,9 +42,9 @@ Haced acusaciones concretas. «Cambiaste tu voto después de escuchar a Álex» 
 
 ## Cuándo se gana
 
-En una versión habitual, el pueblo gana cuando todos los lobos han sido eliminados. Los lobos ganan cuando igualan o superan en número a los aldeanos restantes. Algunos personajes añaden objetivos especiales: comprobad las condiciones antes de empezar.
+El pueblo busca eliminar a los lobos. Para la victoria de los lobos, comprobad vuestra edición: Stellar Factory utiliza la igualdad numérica, mientras que el objetivo general del Pacto es eliminar a los demás habitantes. Algunos personajes añaden condiciones especiales.
 
-Por ejemplo, dos lobos frente a dos aldeanos suelen significar victoria para los lobos. No deis por hecho que habrá otra votación si las reglas no la contemplan.
+La guía de [condiciones de victoria en Hombres Lobo](/es/blog/condiciones-victoria-hombres-lobo/) compara el caso de dos lobos frente a dos aldeanos y explica qué revisar antes de anunciar el resultado.
 
 ## Ejemplo: qué pasa después de una votación
 

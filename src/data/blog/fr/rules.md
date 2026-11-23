@@ -32,9 +32,9 @@ Appuyez vos accusations sur un fait précis. « Tu as changé ton vote après l�
 
 ## Quand la partie se termine-t-elle ?
 
-Dans une version courante, le village gagne lorsque tous les loups sont éliminés. Les loups gagnent lorsqu’ils sont aussi nombreux ou plus nombreux que les villageois restants. Certains rôles ajoutent des conditions particulières : vérifiez celles de votre partie avant de commencer.
+Le village cherche à éliminer les loups. Pour la victoire des loups, vérifiez votre édition : Stellar Factory utilise l’égalité des effectifs, tandis que l’objectif général du Pacte est d’éliminer les autres habitants. Certains rôles ajoutent des conditions particulières.
 
-Par exemple, deux loups face à deux villageois suffisent souvent à donner la victoire aux loups. Ne supposez pas qu’un vote supplémentaire aura lieu si les règles ne le prévoient pas.
+Notre guide des [conditions de victoire au Loup-garou](/blog/conditions-victoire-loup-garou/) compare le cas de deux loups face à deux villageois et les vérifications à faire avant d’annoncer le résultat.
 
 ## Aider les nouveaux joueurs
 

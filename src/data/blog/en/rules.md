@@ -44,9 +44,9 @@ Make accusations specific. “You changed your vote after Jordan spoke” gives 
 
 ## How do you win?
 
-In a common version, the village wins when all werewolves are eliminated. The wolves win when they equal or outnumber the remaining villagers. Special roles can introduce additional conditions, so confirm the conditions for your chosen version at the start.
+The village aims to eliminate the wolves. For the wolves’ victory, check your edition: Stellar Factory uses equal numbers, whereas the Pact’s general objective is to eliminate the other inhabitants. Special roles may add different conditions.
 
-For example, if two wolves and two villagers remain, parity ends many standard games in a wolf victory. Do not assume the group gets another vote unless your rules say so.
+Our [Werewolf win conditions guide](/en/blog/werewolf-win-conditions/) compares two wolves against two villagers and explains what to check before announcing the result.
 
 ## A sample round: see how the numbers change
 

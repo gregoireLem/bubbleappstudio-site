@@ -32,9 +32,9 @@ Begründet Verdacht mit Beobachtungen. „Du hast nach Alex’ Beitrag deine Sti
 
 ## Wann gewinnt ein Team?
 
-In einer verbreiteten Variante gewinnt das Dorf, sobald alle Wölfe ausgeschieden sind. Die Wölfe gewinnen, wenn sie mindestens so zahlreich sind wie die übrigen Dorfbewohner. Sonderrollen können eigene Bedingungen hinzufügen. Klärt deshalb die Regeln eurer Version vor dem Start.
+Das Dorf will die Wölfe ausschalten. Prüft für den Wolfssieg eure Ausgabe: Bei Stellar Factory reicht die gleiche Anzahl, während das allgemeine Pakt-Ziel verlangt, die übrigen Einwohner auszuschalten. Sonderrollen können eigene Bedingungen hinzufügen.
 
-Zwei Wölfe gegen zwei Dorfbewohner bedeuten beispielsweise oft bereits einen Sieg der Wölfe. Geht nicht automatisch von einer weiteren Abstimmung aus.
+Unser [Leitfaden zu den Werwolf-Siegbedingungen](/de/blog/werwolf-siegbedingungen/) vergleicht zwei Wölfe gegen zwei Dorfbewohner und erklärt die Prüfungen vor der Ergebnisansage.
 
 ## Neue Spieler einbeziehen
 
