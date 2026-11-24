@@ -12,6 +12,8 @@ Wenn du **Werwolf mit Anfängern organisierst**, überlege vor allem, wie alle i
 
 Sobald die Anweisungen klar sind, kannst du eine Begrüßung aus unseren [lustigen Erzähler-Sprüchen](/de/blog/werwolf-erzaehler-text-lustig/) auswählen. Halte Erklärungen und Rollenaufrufe von den Witzen getrennt.
 
+Plant auch das frühe Ausscheiden ein: Unser Ratgeber für [ausgeschiedene Werwolf-Spieler](/de/blog/werwolf-ausgeschieden-was-tun/) bietet Ideen zum Zuschauen ohne Hinweise und für eine Pause bis zur nächsten Partie.
+
 ## Vor der Rollenverteilung: den Ablauf ausprobieren
 
 Stellt die Stühle so auf, dass alle einander sehen und hören können. Frage, wer zum ersten Mal spielt, ohne diese Personen den ganzen Abend darauf festzulegen. Wer zunächst nur zuschauen möchte, sollte das vor dem Zählen der Rollen entscheiden können.

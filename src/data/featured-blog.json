@@ -7,7 +7,7 @@
   "en": [
     "no-cards",
     "roles",
-    "rules"
+    "narrator-script"
   ],
   "es": [
     "rules",
@@ -17,6 +17,6 @@
   "de": [
     "narrator-script",
     "team-building",
-    "rules"
+    "funny-narrator-lines"
   ]
 }

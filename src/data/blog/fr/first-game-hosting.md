@@ -12,6 +12,8 @@ Pour **organiser un Loup-garou avec des débutants**, préparez surtout leur pre
 
 Une fois les consignes comprises, vous pouvez choisir une réplique parmi nos [phrases drôles de narrateur](/blog/texte-narrateur-loup-garou-drole/) pour accueillir le village. Gardez les explications et les appels des rôles bien distincts des plaisanteries.
 
+Prévoyez aussi ce qui se passe après une sortie : notre guide pour [les joueurs éliminés au Loup-garou](/blog/loup-garou-joueurs-elimines-attente/) propose des façons de suivre la partie sans donner d’indices, ou de faire une pause jusqu’à la suivante.
+
 ## Avant les rôles : montrer ce que les joueurs feront
 
 Installez le groupe de façon à ce que chacun voie et entende les autres. Demandez qui découvre le jeu, sans transformer la réponse en étiquette pour toute la soirée. Une personne peut préférer observer la première partie ; décidez-le avant de compter les rôles.

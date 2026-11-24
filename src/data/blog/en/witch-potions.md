@@ -2,13 +2,15 @@
 translationKey: witch-potions
 locale: en
 slug: werewolf-witch-role-potions
-title: "Witch in Werewolf: When to Use Your Potions"
-description: "Learn how to play the Witch in Werewolf: healing, poison, rule differences and a worked example to help you weigh each potion decision."
+title: "What Does the Witch Do in Werewolf? Potions and Strategy"
+description: "The Witch can save the wolves’ victim or poison a player. Learn how the two potions work, which rules vary and when a decision can change the game."
 category: Roles & strategy
 image: /assets/roles/witch.png
 published: "2026-10-24"
 ---
-To play the Witch well in Werewolf, separate two questions: **who would you rather keep in the game, and who do you have enough evidence to act against?** Answering one does not automatically answer the other. Focus on what your choice will mean for the next discussion and vote.
+**The Witch has two potions: one to save the wolves’ victim and one to eliminate a player. Each can be used once in the version described below.** Your edition determines the timing and whether you can use both during the same night.
+
+Playing the role means separating two questions: who would you rather keep in the game, and who do you have enough evidence to act against? Answering one does not automatically answer the other.
 
 This guide is about decisions in a face-to-face game. Exact rules depend on your edition or app. Check them before roles are dealt so that a rules question during the night does not reveal your character.
 
@@ -17,6 +19,18 @@ This guide is about decisions in a face-to-face game. Exact rules depend on your
 In the version [described by Asmodee](https://www.asmodee.fr/les-roles-des-loups-garous-de-thiercelieux-que-vous-allez-adorer/), the Witch has two single-use potions: save the wolves’ victim or eliminate someone. Self-healing and using both in one night are allowed.
 
 That last rule varies: [Wolfy allows only one potion per night](https://help.wolfy.net/fr/article/jouer-la-sorciere-1vt9r64/). Do not carry a rule from one game into another without checking. For Werewolf Undercover, read the instructions shown for your game; the examples below do not specify its settings.
+
+| Choice | In the Asmodee version described above | What to remember |
+| --- | --- | --- |
+| Healing | Save the player targeted by the wolves, including yourself. | The potion is then spent for the game. |
+| Poison | Eliminate a chosen player. | This is a separate, single-use resource. |
+| Wait | Use neither potion. | You keep your remaining options but accept the night’s other consequences. |
+
+**Do potions refill every night?** No: each of these two potions is available once for the whole game in this version. Using healing does not spend poison, or vice versa.
+
+**Can the Witch save herself?** Yes in the cited Asmodee description. Check your own rules before relying on that option.
+
+**Can the Witch use both at once?** Yes in that description, but not under the cited Wolfy rule. Agree on the version before anyone receives a secret role.
 
 ## Three checks before you act
 

@@ -12,6 +12,8 @@ Para **organizar Hombres Lobo con principiantes**, prepara sobre todo su partici
 
 Cuando las instrucciones estén claras, puedes elegir una bienvenida entre nuestras [frases divertidas para narrar](/es/blog/frases-divertidas-narrador-hombres-lobo/). Mantén las explicaciones y las llamadas a los roles separadas de las bromas.
 
+Prepara también qué hacer tras una salida: nuestra guía para [jugadores eliminados en Hombres Lobo](/es/blog/hombres-lobo-jugadores-eliminados-que-hacer/) propone observar sin dar pistas o descansar hasta el siguiente reparto.
+
 ## Antes de repartir, muestra qué hará cada participante
 
 Coloca los asientos para que todos puedan verse y escucharse. Pregunta quién juega por primera vez, sin recordárselo durante toda la noche. Alguien puede preferir observar la primera partida: conviene decidirlo antes de contar los roles.

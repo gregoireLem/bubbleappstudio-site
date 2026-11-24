@@ -12,6 +12,8 @@ When **hosting Werewolf for first-time players**, plan how they will join the co
 
 Once the instructions are clear, choose a welcome from our [funny narrator lines](/en/blog/funny-werewolf-narrator-lines/). Keep explanations and role calls separate from the jokes.
 
+Plan for early exits too: our guide for [eliminated Werewolf players](/en/blog/werewolf-eliminated-players-what-to-do/) offers ways to follow the game without giving hints, or take a break until the next deal.
+
 ## Before dealing roles, show players what they will do
 
 Arrange seats so everyone can see and hear each other. Ask who is new without treating that answer as their identity for the whole evening. Someone may prefer to watch the first game; settle that before counting player roles.
