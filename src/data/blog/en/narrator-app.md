@@ -3,7 +3,7 @@ translationKey: narrator-app
 locale: en
 slug: werewolf-narrator-app
 title: "Werewolf Narrator App: How to Let Everyone Join the Game"
-description: "Use a Werewolf narrator app for an in-person game night. Set up your phone, protect secret roles, and help new players follow the discussion and voting."
+description: "Use a Werewolf narrator app for a Mafia-style game night with friends in the same room. Prepare the phone, keep roles private and let everyone join the debate."
 category: Hosting a game
 image: /assets/roles/seer.png
 published: "2026-10-20"
@@ -12,9 +12,17 @@ Ready for Werewolf, but nobody wants to spend the evening calling out the night 
 
 Werewolf Undercover supports this in-person format: your friends gather in the same room and the app provides narration. Here is how to prepare a smooth game night, especially when some players are new.
 
-Looking for a companion app for a One Night box? Our [One Night vs classic Werewolf comparison](/en/blog/one-night-vs-classic-werewolf/) explains the differences and how to find narration that matches your edition.
+Looking for a companion app for a One Night box instead? Our [One Night vs classic Werewolf comparison](/en/blog/one-night-vs-classic-werewolf/) explains the differences and how to find narration that matches your edition.
 
 Before setting up the phone, use our [official Werewolf download links for Android and iPhone](/en/blog/download-werewolf-android-iphone/) and check the installation advice.
+
+## Looking for a Mafia narrator app?
+
+If your group knows Mafia and wants a phone to run the narration, Werewolf Undercover offers a Werewolf-themed game for that kind of evening. On the [US App Store](https://apps.apple.com/us/app/werewolf-mafia-impostor-game/id6740009341), it is listed as **Werewolf – Mafia Impostor Game**. Use the roles and instructions included in the app; do not expect it to narrate any custom Mafia ruleset.
+
+Before assigning any secret roles, explain the wolf and village teams, then introduce the powers selected for this game. Walk through a sample night call together while nobody has a character to conceal. Our [Mafia vs Werewolf comparison](/en/blog/mafia-vs-werewolf/) covers the differences to check before dealing.
+
+For example, if your friends remember a Detective who learns an exact identity, check what the information role in tonight’s game actually reveals. Settle that before the first night, so nobody has to expose a secret screen to ask for help.
 
 ## What does a Werewolf narrator app do?
 

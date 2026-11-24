@@ -2,15 +2,21 @@
 translationKey: mafia-vs-werewolf
 locale: en
 slug: mafia-vs-werewolf
-title: "Mafia vs Werewolf: What Changes When You Switch?"
-description: "Know Mafia and want to try Werewolf? Compare the games, check role reveals and voting rules, and help your group switch without mixing up versions."
+title: "Mafia vs Werewolf: What’s the Difference?"
+description: "Mafia and Werewolf share hidden teams, night actions and daytime votes. Compare the rules that vary and introduce your Mafia group to a phone-narrated game."
 category: Choosing a game
 image: /assets/roles/wolf.png
 published: "2026-11-05"
 ---
-**Mafia and Werewolf belong to the same family of hidden-team games.** In [Andrew Plotkin’s Werewolf](https://eblong.com/zarf/werewolf.html), adapted from Mafia, secret night actions alternate with discussion and voting. Friends who know Mafia will recognize the basic idea, but they may not know the rules of the version you are playing.
+**Werewolf is a Mafia-style party game with a werewolf theme.** Both center on a hidden minority trying to survive a larger group’s discussion and votes. In [Andrew Plotkin’s Werewolf](https://eblong.com/zarf/werewolf.html), adapted from Mafia, secret night actions alternate with daytime debate. The important differences at your table come from the particular roles and rules you choose.
 
 For tonight, start with the game you can explain clearly. The theme can help people get interested; powers, voting procedures and revealed information determine what they actually need to learn.
+
+## Are Mafia and Werewolf the same game?
+
+They share the same basic idea, but that does not make every Mafia ruleset interchangeable with every Werewolf edition. A group that knows Mafia already understands the tension: some players know their teammates, while the others have to work out whom to trust.
+
+In Werewolf, explain the wolf team and village team first. Then read the actual role instructions. If a friend calls the Seer a “Detective,” check what information that character receives in this version. Finding out whether someone is a wolf is different from learning their exact role. Familiar names help introduce the game; they should not replace the rules.
 
 ## What changes when you move from Mafia to Werewolf?
 
@@ -50,6 +56,8 @@ To check that everyone understands, try a pretend vote before anybody has a char
 ## Playing Werewolf with an app
 
 Werewolf Undercover provides narration for a group playing together in person. Find it on the [App Store](https://apps.apple.com/app/id6740009341) or [Google Play](https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover), then follow the roles and instructions in your version.
+
+For a Mafia group trying this format, introduce it as: “We’re playing a Werewolf version tonight. The phone narrates, and we’ll use its characters and rules.” That sets expectations before anyone receives a secret role. Our [phone narrator guide for a Mafia-style game night](/en/blog/werewolf-narrator-app/) explains the setup and what the group still handles during discussion.
 
 Our guide to [Werewolf without cards](/en/blog/werewolf-game-without-cards/) covers phone setup and keeping roles private. If some friends are completely new, the [first-time hosting guide](/en/blog/host-werewolf-first-time-players/) helps you welcome them without overwhelming them with powers.
 
