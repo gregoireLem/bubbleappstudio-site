@@ -47,6 +47,8 @@ Trennt in beiden Fällen das, was die Gruppe gesehen hat, von dem, was jemand er
 
 Probiert eine Abstimmung ohne verteilte Rollen aus, um das Verständnis zu prüfen: „Zwei Personen haben gleich viele Stimmen. Was passiert nach unseren Regeln?“ Eine gemeinsame Antwort hilft mehr als ein langer Überblick über alle denkbaren Varianten.
 
+Unser [Leitfaden zu Abstimmungen und Gleichständen](/de/blog/mafia-werwolf-abstimmung-mehrheit-gleichstand/) vertieft diese Absprache mit einem Beispiel zu drei von sieben Stimmen und einer verständlichen Auszählung.
+
 ## Werwolf mit einer App spielen
 
 Werwolf Undercover bietet eine Erzählfunktion für eine Gruppe, die gemeinsam vor Ort spielt. Ihr findet die App im [App Store](https://apps.apple.com/app/id6740009341) oder bei [Google Play](https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover). Folgt den Rollen und Anweisungen eurer Version.

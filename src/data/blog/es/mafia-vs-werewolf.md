@@ -47,6 +47,8 @@ En ambos casos, separad lo que el grupo ha visto de lo que alguien ha contado. A
 
 Para comprobar que todos lo entienden, proponed una votación de prueba sin personajes asignados: «Dos personas reciben el mismo número de votos. ¿Qué pasa según nuestras reglas?». Una respuesta compartida ayuda más que un repaso interminable de variantes.
 
+Nuestra [guía de votaciones y empates](/es/blog/votacion-mafia-hombres-lobo-mayoria-empates/) desarrolla este acuerdo con un ejemplo de tres votos de siete y una forma clara de hacer el recuento.
+
 ## Jugar a Hombres Lobo con una aplicación
 
 Hombre lobo Undercover ofrece narración para un grupo reunido en persona. Encontraréis la aplicación en la [App Store](https://apps.apple.com/app/id6740009341) y en [Google Play](https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover). Seguid los roles y las indicaciones de vuestra versión.

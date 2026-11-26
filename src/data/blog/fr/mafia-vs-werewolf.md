@@ -47,6 +47,8 @@ Dans les deux cas, le bon réflexe est de distinguer ce que le groupe a vu de ce
 
 Pour vérifier que tout le monde suit, proposez un vote fictif sans personnages attribués : « Deux personnes ont autant de voix. Que fait-on avec notre règle ? » Une réponse commune vaut mieux qu’un long rappel de toutes les variantes possibles.
 
+Pour détailler cet accord, notre [guide du vote et des égalités](/blog/vote-loup-garou-mafia-majorite-egalite/) compare un résultat de trois voix sur sept et propose une méthode de comptage claire.
+
 ## Jouer au Loup-garou avec une application
 
 Loup-garou Undercover propose une narration pour un groupe réuni en présentiel. Retrouvez l’application sur [l’App Store](https://apps.apple.com/app/id6740009341) ou [Google Play](https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover), puis suivez les rôles et les indications de votre version.

@@ -53,6 +53,8 @@ Either way, separate what the group has actually seen from what a player has sai
 
 To check that everyone understands, try a pretend vote before anybody has a character: “Two people have the same number of votes. What do our rules say happens next?” A shared answer is more useful than a long tour of every possible variant.
 
+For the details, our [Mafia and Werewolf voting guide](/en/blog/mafia-werewolf-voting-rules-ties/) works through three votes out of seven, tied votes and a clear way to count.
+
 ## Playing Werewolf with an app
 
 Werewolf Undercover provides narration for a group playing together in person. Find it on the [App Store](https://apps.apple.com/app/id6740009341) or [Google Play](https://play.google.com/store/apps/details?id=xyz.bubbleappstudio.werewolfundercover), then follow the roles and instructions in your version.
