@@ -42,6 +42,8 @@ Oui. Écrivez les rôles sur des papiers identiques et choisissez un narrateur p
 
 Cette solution demande de préparer les rôles et de gérer la séquence. L’application offre une alternative guidée lorsque votre groupe préfère utiliser un téléphone.
 
+Vous avez tout de même un jeu de 52 cartes dans un tiroir ? Notre guide pour [jouer au Loup-garou ou à Mafia avec des cartes classiques](/blog/loup-garou-mafia-jeu-cartes-classique/) propose une légende précise et les vérifications avant de distribuer les rôles.
+
 ## Et si vos amis connaissent Mafia ?
 
 Mafia et le Loup-garou partagent une structure d’équipes cachées, d’éliminations secrètes, de débats et de votes. Les noms, les pouvoirs et les conditions de victoire peuvent toutefois changer. Présentez les personnages avant de commencer au lieu de supposer que les deux jeux sont identiques.

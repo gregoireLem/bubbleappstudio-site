@@ -42,6 +42,8 @@ Ja. Schreibt Rollen auf gleichartige Zettel und bestimmt eine Spielleitung. Falt
 
 Diese Lösung erfordert Vorbereitung: Jemand muss Rollen verteilen, den Ablauf kennen und die Runde leiten. Eine App bietet eine geführte Alternative, wenn eure Gruppe lieber das Smartphone verwendet.
 
+Habt ihr noch ein normales Kartenspiel zu Hause? Unser Guide zu [Mafia oder Werwolf mit normalen Spielkarten](/de/blog/mafia-werwolf-mit-normalen-spielkarten/) zeigt eine konkrete Rollenzuordnung und die Prüfungen vor dem Austeilen.
+
 ## Wenn eure Freunde Mafia kennen
 
 Mafia und Werwolf haben geheime Teams, nächtliche Eliminierungen, Diskussionen und Abstimmungen gemeinsam. Namen, Fähigkeiten und Siegbedingungen können sich aber unterscheiden. Erklärt die Figuren vorab, statt von identischen Regeln auszugehen.

@@ -42,6 +42,8 @@ Yes. For a homemade version, write roles on identical slips of paper and ask a m
 
 The tradeoff is preparation: somebody must distribute roles, remember the sequence, and manage the game. An app provides a guided alternative when your group prefers to use a phone.
 
+Found a regular deck in a drawer? Our guide to [playing Mafia or Werewolf with ordinary playing cards](/en/blog/play-mafia-werewolf-with-playing-cards/) includes a specific card-to-role key and checks to make before dealing.
+
 ## Is this the same as Mafia without cards?
 
 Werewolf and Mafia share a familiar structure of hidden teams, secret eliminations, discussion, and voting. Names, powers, and victory conditions can vary. If your friends know Mafia, explain the Werewolf roles first instead of assuming the games are identical.

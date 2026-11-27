@@ -42,6 +42,8 @@ También es posible escribir los roles en papeles idénticos y elegir un narrado
 
 Esta alternativa requiere preparar y repartir los personajes, recordar la secuencia y dirigir la partida. La aplicación ofrece una opción guiada para los grupos que prefieren usar el móvil.
 
+¿Tenéis una baraja francesa en casa? Nuestra guía para [jugar a Mafia o Hombres Lobo con una baraja de 52 cartas](/es/blog/jugar-mafia-hombres-lobo-baraja-francesa/) propone una equivalencia precisa entre cartas y roles y las comprobaciones antes del reparto.
+
 ## Si tus amigos conocen Mafia
 
 Mafia y hombres lobo comparten equipos secretos, eliminaciones nocturnas, debate y votaciones. Sin embargo, los nombres, poderes y condiciones de victoria pueden variar. Explicad los personajes antes de empezar en lugar de asumir que los juegos son idénticos.
