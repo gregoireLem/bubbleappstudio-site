@@ -27,6 +27,8 @@ Here is our suggested card-to-role key using a standard 52-card deck. It is a co
 
 **That makes nine cards.** Set aside the other 43 cards from the 52-card deck, plus any jokers, before dealing. The moderator does not need a tenth role card.
 
+Before assigning the queen of hearts, read our [Doctor role guide for Mafia and Werewolf](/en/blog/mafia-werewolf-doctor-role/): being allowed to choose yourself and being allowed to do so on consecutive nights are different questions.
+
 ## Explain the key before shuffling
 
 Lay out the nine cards face up and explain the mapping. Use full card names: “king of hearts,” not just “king.” In this example, the king of spades represents nobody because it is not in the selected deck.

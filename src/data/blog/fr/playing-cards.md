@@ -27,6 +27,8 @@ Voici notre proposition de correspondance avec un jeu français de 52 cartes. Ce
 
 **Total : neuf cartes.** Il reste 43 cartes inutilisées dans un jeu de 52 cartes, auxquelles s’ajoutent les éventuels jokers. Rangez-les à part avant la distribution. Le meneur n’a pas besoin d’une dixième carte de rôle.
 
+Avant d’attribuer la dame de cœur, consultez notre [guide du Médecin à Mafia et au Loup-garou](/blog/medecin-mafia-loup-garou-regles/) : pouvoir se choisir et pouvoir se choisir deux nuits de suite sont deux questions différentes.
+
 ## Préparez la légende avant de mélanger
 
 Posez les neuf cartes face visible et expliquez la correspondance. Dites les noms complets : « roi de cœur », pas simplement « roi ». Dans cet exemple, le roi de pique ne remplace aucun personnage puisqu’il n’est pas dans la sélection.

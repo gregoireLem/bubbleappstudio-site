@@ -27,6 +27,8 @@ Hier ist unser Vorschlag für ein französisches Blatt mit 52 Karten. Die Zuordn
 
 **Insgesamt sind es neun Karten.** Legt die übrigen 43 Karten des 52er-Blatts sowie gegebenenfalls vorhandene Joker vor dem Austeilen beiseite. Die Spielleitung benötigt keine zehnte Rollenkarte.
 
+Lest vor der Zuordnung der Herz-Dame unseren [Leitfaden zum Arzt bei Mafia und Werwolf](/de/blog/arzt-mafia-werwolf-regeln/): Ob Selbstheilung erlaubt ist und ob sie in aufeinanderfolgenden Nächten erlaubt ist, sind zwei verschiedene Fragen.
+
 ## Erklärt die Zuordnung vor dem Mischen
 
 Legt die neun Karten offen hin und erklärt, wofür sie stehen. Nennt die Karten vollständig: „Herz-König“, nicht nur „König“. Der Pik-König steht in diesem Beispiel für niemanden, weil er nicht zur Auswahl gehört.

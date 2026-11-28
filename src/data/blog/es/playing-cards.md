@@ -27,6 +27,8 @@ Esta es nuestra propuesta con una baraja francesa de 52 cartas, la de corazones,
 
 **Son nueve cartas en total.** Apartad las otras 43 de la baraja de 52, además de los comodines que pueda contener, antes de repartir. El narrador no necesita una décima carta de rol.
 
+Antes de asignar la reina de corazones, consultad nuestra [guía del Médico en Mafia y Hombres Lobo](/es/blog/medico-mafia-hombres-lobo-reglas/): poder elegirse a uno mismo y poder hacerlo dos noches seguidas son preguntas distintas.
+
 ## Explicad las equivalencias antes de barajar
 
 Poned las nueve cartas boca arriba y explicad qué representa cada una. Decid los nombres completos: «rey de corazones», no solo «rey». En este ejemplo, el rey de picas no representa a nadie porque no forma parte de la selección.
